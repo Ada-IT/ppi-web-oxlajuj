@@ -10,10 +10,10 @@ const CarouselComponent = () => {
 
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} className="w-100">
-            <Carousel.Item>
+            <Carousel.Item >
                 <img
                     className="d-block w-100"
-                    src="./images/1.jpg?text=First slide&bg=373940"
+                    src="./images/1.jpg?text=First slide&bg=black"
                     alt="First slide"
                 />
 
@@ -25,7 +25,7 @@ const CarouselComponent = () => {
             <Carousel.Item >
                 <img
                     className="d-block w-100"
-                    src="./images/2.jpg?text=First slide&bg=282c34"
+                    src="./images/2.jpg?text=First slide&bg=black"
                     alt="Second slide"
                 />
 
@@ -37,7 +37,7 @@ const CarouselComponent = () => {
             <Carousel.Item >
                 <img
                     className="d-block w-100"
-                    src="./images/3.jpg?text=First slide&bg=20232a"
+                    src="./images/3.jpg?text=First slide&bg=black"
                     alt="Third slide"
                 />
 
