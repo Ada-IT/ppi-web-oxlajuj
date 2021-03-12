@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
-
+import styles from "../../styles/Carrousel.module.css"
 const CarouselComponent = () => {
 
     const [index, setIndex] = useState(0);
@@ -10,19 +10,20 @@ const CarouselComponent = () => {
     };
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item>
+        <Carousel activeIndex={index} onSelect={handleSelect} className="w-100">
+            <Carousel.Item   >
                 <img
                     className="d-block w-100"
                     src="./images/1.jpg?text=First slide&bg=373940"
                     alt="First slide"
                 />
+
                 <Carousel.Caption>
                     <h3>First slide label</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item >
                 <img
                     className="d-block w-100"
                     src="./images/2.jpg?text=First slide&bg=282c34"
@@ -34,7 +35,7 @@ const CarouselComponent = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item >
                 <img
                     className="d-block w-100"
                     src="./images/3.jpg?text=First slide&bg=20232a"
@@ -48,7 +49,7 @@ const CarouselComponent = () => {
           </p>
                 </Carousel.Caption>
             </Carousel.Item>
-        </Carousel>
+        </Carousel >
     );
 }
 
