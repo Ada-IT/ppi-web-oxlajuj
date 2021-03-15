@@ -7,7 +7,7 @@ import Image from "react-bootstrap/Image";
 import { MapFill, Whatsapp, Mailbox } from "react-bootstrap-icons";
 import Header from "../containers/header/Header";
 
-const Contacto = () => {
+const Contact = () => {
   return (
     <>
       <Header />
@@ -92,4 +92,4 @@ const Contacto = () => {
   );
 };
 
-export default Contacto;
+export default Contact;

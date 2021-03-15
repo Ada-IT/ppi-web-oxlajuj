@@ -1,7 +1,7 @@
 import Header from "../containers/header/Header";
 
-const Publicaciones = () => {
+const Team = () => {
   return <Header />;
 };
 
-export default Publicaciones;
+export default Team;

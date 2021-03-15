@@ -1,7 +1,7 @@
 import Header from "../containers/header/header";
 
-const Investigacion = () => {
+const Investigation = () => {
   return <Header />;
 };
 
-export default Investigacion;
+export default Investigation;

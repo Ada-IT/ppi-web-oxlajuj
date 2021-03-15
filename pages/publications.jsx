@@ -1,6 +1,7 @@
 import Header from "../containers/header/Header";
-const QuienesSomos = () => {
+
+const Publications = () => {
   return <Header />;
 };
 
-export default QuienesSomos;
+export default Publications;

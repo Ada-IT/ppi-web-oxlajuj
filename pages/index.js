@@ -1,5 +1,5 @@
 import Header from "../containers/header/Header";
-import Carrusel from "../components/carrusel/Carrusel";
+import Carousel from "../components/carousel/Carousel";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <div className={styles.container}>
-        <Carrusel></Carrusel>
+        <Carousel />
       </div>
     </>
   );

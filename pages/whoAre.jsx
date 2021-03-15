@@ -1,7 +1,6 @@
 import Header from "../containers/header/Header";
-
-const Equipo = () => {
+const WhoAre = () => {
   return <Header />;
 };
 
-export default Equipo;
+export default WhoAre;
