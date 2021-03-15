@@ -6,9 +6,9 @@ const NavbarComponent = () => {
     <>
       <Navbar expand='lg'>
         <Link href='/'>
-          <div class='collapse navbar-collapse' id='navbarTogglerDemo01'>
+          <a className='navbar-brand'>
             <img style={{ width: "250px" }} src='./images/logo.png' />
-          </div>
+          </a>
         </Link>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
