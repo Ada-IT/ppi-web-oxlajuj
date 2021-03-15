@@ -1,3 +1,7 @@
-const Publicaciones = () => {};
+import Header from "../containers/header/Header";
 
-export default Publicaciones;
+const Publications = () => {
+  return <Header />;
+};
+
+export default Publications;

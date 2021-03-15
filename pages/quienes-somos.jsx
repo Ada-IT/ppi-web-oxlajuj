@@ -1,3 +1,6 @@
-const QuienesSomos = () => {};
+import Header from "../containers/header/Header";
+const WhoAre = () => {
+  return <Header />;
+};
 
-export default QuienesSomos;
+export default WhoAre;

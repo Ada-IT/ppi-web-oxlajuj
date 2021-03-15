@@ -1,3 +1,7 @@
-const Proyectos = () => {};
+import Header from "../containers/Header/header";
 
-export default Proyectos;
+const Projects = () => {
+  return <Header />;
+};
+
+export default Projects;
