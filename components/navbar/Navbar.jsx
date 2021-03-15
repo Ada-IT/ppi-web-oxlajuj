@@ -13,26 +13,26 @@ const NavbarComponent = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'></Nav>
-          <Nav inline>
+          <Nav>
             <Link href='/'>
-              <a class='nav-link active' aria-current='page'>
+              <a className='nav-link active' aria-current='page'>
                 Home
               </a>
             </Link>
             <Link href='/quienes-somos'>
-              <a class='nav-link'>Quienes Somos?</a>
+              <a className='nav-link'>Quienes Somos?</a>
             </Link>
             <Link href='/proyectos'>
-              <a class='nav-link'>Proyectos</a>
+              <a className='nav-link'>Proyectos</a>
             </Link>
             <Link href='/investigacion'>
-              <a class='nav-link'>Investigación</a>
+              <a className='nav-link'>Investigación</a>
             </Link>
             <Link href='/publicaciones'>
-              <a class='nav-link'>Publicaciones</a>
+              <a className='nav-link'>Publicaciones</a>
             </Link>
             <Link href='/contacto'>
-              <a class='nav-link'>Contacto</a>
+              <a className='nav-link'>Contacto</a>
             </Link>
           </Nav>
         </Navbar.Collapse>
