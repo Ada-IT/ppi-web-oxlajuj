@@ -1,5 +1,8 @@
 import Header from "../containers/header/Header";
 import Carousel from "../components/carousel/Carousel";
+import Card from "../components/card/Card";
+import { Container, Row } from "react-bootstrap"
+import Col from "react-bootstrap/Col";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -9,6 +12,22 @@ export default function Home() {
       <div className={styles.container}>
         <Carousel />
       </div>
+      <Row >
+        <Row  >
+          <Col> <Card /></Col>
+          <Col> <Card /></Col>
+          <Col> <Card /></Col>
+          <Col> <Card /></Col>
+        </Row>
+        <Row  >
+          <Col> <Card /></Col>
+          <Col> <Card /></Col>
+          <Col> <Card /></Col>
+          <Col> <Card /></Col>
+        </Row>
+
+      </Row>
+
     </>
   );
 }
