@@ -29,7 +29,7 @@ const Contacto = () => {
                         <MapaContacto />
                     </Col>
                 </Row>                
-            </Container>
+            </Container>            
             <Footer />
         </>
     );
