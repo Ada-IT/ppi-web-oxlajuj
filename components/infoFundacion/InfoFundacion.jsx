@@ -23,7 +23,7 @@ const InfoFundacion = () => {
                         <Envelope color='purple' size={35} />
                     </Col>
                     <Col xs="9" sm="9" md="9" lg="9">
-                        <p>mail</p>
+                        <p>Mail</p>
                     </Col>
                 </Row>
                 <Row className={style.infoFund}>

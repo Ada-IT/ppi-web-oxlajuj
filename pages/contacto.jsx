@@ -7,15 +7,13 @@ import MapaContacto from "../components/mapaContacto/MapaContacto";
 import InfoFundacion from "../components/infoFundacion/InfoFundacion";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Hero from "../components/hero/Hero";
 
 const Contacto = () => {
     return (
         < >
             <Headers />
-            <div className={style.contentImage}>
-                <Image src='./images/contact-bg.jpg' fluid style={{ height: 300 }} />
-                <h1 className={style.textImage}>Contacto</h1>
-            </div>
+            <Hero />            
             <Container className="infoContainer" style={{ marginTop: 25 }}>
                 <Row>
                     <Col xs="12" sm="4" md="4" lg="4">
