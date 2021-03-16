@@ -10,7 +10,7 @@ const InfoFundacion = () => {
             <Col>
                 <Row className={style.infoFund}>
                     <Col xs="3" sm="3" md="3" lg="3">
-                        <MapFill color='purple' size={35} />
+                        <MapFill color='#48133b' size={35} />
 
                     </Col>
                     <Col xs="9" sm="9" md="9" lg="9">
@@ -20,7 +20,7 @@ const InfoFundacion = () => {
                 </Row>
                 <Row className={style.infoFund}>
                     <Col xs="3" sm="3" md="3" lg="3">
-                        <Envelope color='purple' size={35} />
+                        <Envelope color='#48133b' size={35} />
                     </Col>
                     <Col xs="9" sm="9" md="9" lg="9">
                         <p>Mail</p>
@@ -28,7 +28,7 @@ const InfoFundacion = () => {
                 </Row>
                 <Row className={style.infoFund}>
                     <Col xs="3" sm="3" md="3" lg="3">
-                        <Whatsapp color='purple' size={35} />
+                        <Whatsapp color='#48133b' size={35} />
                     </Col>
                     <Col xs="9" sm="9" md="9" lg="9">
                         <p>WhatsApp</p>
