@@ -1,7 +1,7 @@
 import style from "./Footer.module.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { MapFill, Whatsapp, Mailbox, Envelope } from "react-bootstrap-icons";
+import { MapFill, Whatsapp, Envelope } from "react-bootstrap-icons";
 import Container from "react-bootstrap/Container";
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         <Container className={style.backFooter} fluid>
             <Row  >
                 <Col>
-                    <Row></Row>
+                    <Row><img style={{ width: "250px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' /></Row>
                     <Row className={style.infoFooterConten}>
                         <Row className={style.infoFundConten}>
                             <Col>
