@@ -10,7 +10,7 @@ const TopHeader = () => {
               MAIL:
               <a href='#'>
                 <span
-                  class='__cf_email__'
+                  className='__cf_email__'
                   data-cfemail='a9cac6c7ddc8cadde9c6dcdbcac1c8dbc0ddd087cac6c4'
                 >
                   fundacionoxlaju@gmail.com
