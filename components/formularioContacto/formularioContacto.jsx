@@ -1,4 +1,4 @@
-import style from "../../styles/FormularioContacto.module.css"; 
+import style from "./formularioContacto.module.css"; 
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
@@ -9,28 +9,28 @@ const FormularioContacto = () => {
         <Col>
             <Form>
                 <Form.Group controlId='formGroupName'>
-                    <Form.Label className={style.prueba}>Nombre</Form.Label>
+                    <Form.Label className={style.titleForm}>Nombre</Form.Label>
                     <Form.Control
                         type='text'
                         placeholder='Ingrese aqui su nombre completo.'
                     />
                 </Form.Group>
                 <Form.Group controlId='formGroupEmail'>
-                    <Form.Label>Direccion de mail</Form.Label>
+                    <Form.Label className={style.titleForm}>Direccion de mail</Form.Label>
                     <Form.Control type='email' placeholder='nombre@email.com' />
                 </Form.Group>
                 <Form.Group controlId='formGroupPhone'>
-                    <Form.Label>Teléfono</Form.Label>
+                    <Form.Label className={style.titleForm}>Teléfono</Form.Label>
                     <Form.Control
                         type='text'
                         placeholder='Ingrese aqui su número de teléfono.'
                     />
                 </Form.Group>
                 <Form.Group controlId='form.ControlTextarea1'>
-                    <Form.Label>Mensaje</Form.Label>
+                    <Form.Label className={style.titleForm}>Mensaje</Form.Label>
                     <Form.Control as='textarea' rows={3} />
                 </Form.Group>
-                <Button variant='primary' type='submit'>
+                <Button className={style.botEnviar}variant='primary' type='submit'>
                     Enviar
                 </Button>
             </Form>

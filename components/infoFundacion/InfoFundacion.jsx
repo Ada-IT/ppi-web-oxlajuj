@@ -2,13 +2,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import { MapFill, Whatsapp, Mailbox, Envelope } from "react-bootstrap-icons";
-import style from "../../styles/InfoFundacion.module.css";
+import style from "./InfoFundacion.module.css";
 
 const InfoFundacion = () => {
     return (
-        <Row style={{ marginTop: 50 }}>
+        <Row className={style.infoFundConten}>
             <Col>
-                <Row style={{ marginTop: 50 }}>
+                <Row className={style.infoFund}>
                     <Col xs="3" sm="3" md="3" lg="3">
                         <MapFill color='purple' size={35} />
 
@@ -18,7 +18,7 @@ const InfoFundacion = () => {
 
                     </Col>
                 </Row>
-                <Row style={{ marginTop: 50 }}>
+                <Row className={style.infoFund}>
                     <Col xs="3" sm="3" md="3" lg="3">
                         <Envelope color='purple' size={35} />
                     </Col>
@@ -26,7 +26,7 @@ const InfoFundacion = () => {
                         <p>mail</p>
                     </Col>
                 </Row>
-                <Row style={{ marginTop: 50 }}>
+                <Row className={style.infoFund}>
                     <Col xs="3" sm="3" md="3" lg="3">
                         <Whatsapp color='purple' size={35} />
                     </Col>
