@@ -1,20 +1,32 @@
 import Container from "react-bootstrap/Container";
-import Image from "react-bootstrap/Image";
+import { Row, Col } from "react-bootstrap";
 import FormularioContacto from "../components/formularioContacto/formularioContacto";
-import Headers from "../containers/header/Header";
+import Header from "../containers/header/Header";
 import MapaContacto from "../components/mapaContacto/MapaContacto";
 import InfoFundacion from "../components/infoFundacion/InfoFundacion";
+import Hero from "../components/hero/Hero";
 
 const Contacto = () => {
   return (
-    <Container>
-      <Headers />
-      <Image src='./images/contact-bg.jpg' fluid />
-      <br />
-      <InfoFundacion />
-      <FormularioContacto></FormularioContacto>
-      <MapaContacto />
-    </Container>
+    <>
+      <Header />
+      <Hero />
+      <Container className='infoContainer' style={{ marginTop: 25 }}>
+        <Row>
+          <Col xs='12' sm='4' md='4' lg='4'>
+            <InfoFundacion />
+          </Col>
+          <Col xs='12' sm='8' md='8' lg='8'>
+            <FormularioContacto />
+          </Col>
+        </Row>
+        <Row style={{ marginTop: 25 }}>
+          <Col>
+            <MapaContacto />
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 };
 export default Contacto;
