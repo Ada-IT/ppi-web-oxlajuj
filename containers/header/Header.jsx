@@ -4,7 +4,7 @@ import TopHeader from "../../components/top-header/TopHeader";
 const Header = () => {
   return (
     <>
-      <TopHeader />
+      <TopHeader  />
       <Navbar />
     </>
   );

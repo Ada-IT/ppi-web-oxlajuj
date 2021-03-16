@@ -1,11 +1,14 @@
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
-const FormularioContacto = () => { 
+const MapaContacto = () => { 
     return(
-        <div class='mapouter'>
+        <Row>
+            <Col>
             <div class='gmap_canvas'>
                 <iframe
-                    width='600'
-                    height='500'
+                    width='100%'
+                    height='300'
                     id='gmap_canvas'
                     src='https://maps.google.com/maps?q=guatemala&t=&z=13&ie=UTF8&iwloc=&output=embed'
                     frameborder='0'
@@ -15,8 +18,9 @@ const FormularioContacto = () => {
                 ></iframe>
                 <a href='https://www.whatismyip-address.com'></a>
             </div>
-        </div>
+            </Col>
+        </Row>
     )
 };
 
-export default FormularioContacto;
+export default MapaContacto;

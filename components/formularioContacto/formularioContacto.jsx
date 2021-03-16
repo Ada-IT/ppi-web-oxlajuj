@@ -23,7 +23,7 @@ const FormularioContacto = () => {
                     <Form.Label>Teléfono</Form.Label>
                     <Form.Control
                         type='text'
-                        placeholder='Ingrese aqui su numeero de teléfono.'
+                        placeholder='Ingrese aqui su número de teléfono.'
                     />
                 </Form.Group>
                 <Form.Group controlId='form.ControlTextarea1'>
