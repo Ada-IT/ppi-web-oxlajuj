@@ -8,6 +8,7 @@ import InfoFundacion from "../components/infoFundacion/InfoFundacion";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Hero from "../components/hero/Hero";
+import Footer from "../components/footer/Footer";
 
 const Contacto = () => {
     return (
@@ -28,7 +29,9 @@ const Contacto = () => {
                         <MapaContacto />
                     </Col>
                 </Row>
+                
             </Container>
+            <Footer />
         </>
     );
 }
