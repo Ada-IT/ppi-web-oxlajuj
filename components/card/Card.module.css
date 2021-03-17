@@ -5,8 +5,12 @@
     justify-content: center;
     flex-wrap: wrap;
     box-sizing: border-box; 
-    padding: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
     text-align: center;
+    box-shadow: 1px 1px 9px -2px rgba(172, 172, 172, 0.75);
+-webkit-box-shadow: 1px 1px 9px -2px  rgba(172, 172, 172, 0.75);
+-moz-box-shadow: 1px 1px 9px -2px rgba(172, 172, 172, 0.75);
 }
 /* .card {
     padding: 0px auto;
@@ -53,6 +57,7 @@
      margin-top: 20px;
     padding: 0px 0px;
     font-size: 20px;
+    color: #1D1D24;
 }
 
 .cardImg {
@@ -67,4 +72,8 @@
 
  .cardImg:hover {
     transform: scale(1.05);
+}
+
+.cardContentText{
+    color: #1D1D24;
 }

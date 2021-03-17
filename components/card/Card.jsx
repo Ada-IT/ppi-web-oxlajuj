@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons'; */
 import style from "./Card.module.css";
 import { Container } from 'react-bootstrap';
+import IconosRedes from "../IconosRedes/IconosRedes";
 
 const Card = () => {
 
@@ -19,6 +20,7 @@ const Card = () => {
                 </h3>
                     <p>Cargo de la persona</p>
                 </div>
+                <IconosRedes></IconosRedes>
             </article>
         </Container>
     );
