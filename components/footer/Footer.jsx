@@ -45,13 +45,19 @@ const Footer = () => {
                 </Col>
                 <Col>
                     <Row>
-                        <Row><h1 className={style.textStyle}>Accesos rápidos </h1></Row>
-                        <Row><a href="https://www.google.com">Google</a></Row>
-                        <Row><a href="https://www.google.com">Google</a></Row>
-                        <Row><a href="https://www.google.com">Google</a></Row>                
-                                           
+                        <Row>
+                            <h1 className={style.textStyle}>Accesos rápidos </h1>
+                        </Row>
                     </Row>
-
+                    <Row>
+                    <a href="https://www.google.com">Google</a>
+                    </Row>
+                    <Row>
+                    <a href="https://www.google.com">Google</a>
+                    </Row>
+                    <Row>
+                    <a href="https://www.google.com">Google</a>
+                    </Row>               
                 </Col>
                 <Col>
                     <Row>
