@@ -1,5 +1,10 @@
+import Header from "../containers/header/Header";
 const Projects = () => {
-  return <></>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Projects;
