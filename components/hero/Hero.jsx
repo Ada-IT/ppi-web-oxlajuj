@@ -6,17 +6,17 @@ import { useRouter } from "next/router";
 const Hero = () => {
   const router = useRouter();
 
-  const heroType = imgs.filter((img) => router.asPath == img.type);
+  const heroType = imgs.find((img) => router.asPath == img.type);
 
   return (
     <div className={style.contentImage}>
       <Image
         className={style.img}
-        src={heroType[0].img}
+        src={heroType.img}
         style={{ height: "200px", objectFit: "cover" }}
         fluid
       />
-      <h1 className={style.textImage}>{heroType[0].title}</h1>
+      <h1 className={style.textImage}>{heroType.title}</h1>
     </div>
   );
 };
