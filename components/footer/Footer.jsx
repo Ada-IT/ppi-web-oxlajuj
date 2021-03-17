@@ -63,6 +63,12 @@ const Footer = () => {
                     <Row>
                         <h1 className={style.textStyle}>Nuestras redes sociales</h1>
                     </Row>
+                    <Row>
+                    <a href="https://www.facebook.com/FundacionOxlajujnoj"><MapFill color='#48133b' size={35} /></a>
+                    </Row>
+                    <Row>
+                    <a href="https://www.instagram.com/fundacionoxlajujnoj/?hl=es-la">I</a>
+                    </Row>
                 </Col>
             </Row>
         </Container>
