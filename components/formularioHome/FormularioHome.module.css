@@ -3,7 +3,7 @@
     background-color:#48133b;
     padding-left: 10px;
     padding-right: 10px;
-        display: flex;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -18,12 +18,20 @@
     align-items: center;
 
 }
+.formTitle{
+    margin-top: 50px;
+    color:#E2D4A4;
+}
 
 .formInput{
     width:350px;
     padding: 20px;
+
 }
 
 .formButton{
     margin-bottom: 50px;
+}
+.formLabel{
+    color:#E2D4A4;
 }
