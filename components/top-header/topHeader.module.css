@@ -1,0 +1,33 @@
+.topHeaderBar {
+  background: var(--color-primary);
+  color: var(--color-ligth);
+}
+.headerBarEmail,
+.headerBarText {
+  padding: 20px 0;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.headerBarEmail a,
+.headerBarText span {
+  text-transform: lowercase;
+  color: #fff;
+  text-decoration: none;
+}
+.headerBarText {
+  margin-left: 48px;
+}
+.headerBarText p {
+  margin: 0;
+}
+.donate a {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  text-decoration: #ffdead;
+  background: #262222;
+}

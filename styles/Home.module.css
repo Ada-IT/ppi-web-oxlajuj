@@ -1,12 +1,17 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+/*  min-height: 100vh; */
+ padding: 0 0.5rem;
 /*   display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+.cardContainer{
+    margin: 0px 20px 0px 20px;
+    padding: 50 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -80,7 +85,7 @@
   margin-top: 3rem;
 }
 
-.card {
+/* .card {
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -90,13 +95,13 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-}
+} */
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #48133b;
+  border-color: #48133b;
 }
 
 .card h3 {
@@ -112,6 +117,15 @@
 
 .logo {
   height: 1em;
+}
+
+
+.title{
+  text-align: center;
+  margin-top: 40px;
+   padding: 0 0.5rem;
+    color: #48133b;
+    font-size: 30px;
 }
 
 @media (max-width: 600px) {
