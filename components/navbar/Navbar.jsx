@@ -14,10 +14,10 @@ const NavbarComponent = () => {
   console.log("func", isActive("/contacto"));
 
   return (
-    <>
+    <div className='container'>
       <Navbar expand='lg'>
         <Link href='/'>
-          <a className='navbar-brand'>
+          <a style={{ marginLeft: "-26px" }} className='navbar-brand'>
             <img style={{ width: "250px" }} src='./images/logo.png' />
           </a>
         </Link>
@@ -54,7 +54,7 @@ const NavbarComponent = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </>
+    </div>
   );
 };
 
