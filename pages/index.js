@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.container}>
         <Carousel />
       </div>
-      <Row >
+      <div>
         <Row  >
           <Col> <Card /></Col>
           <Col> <Card /></Col>
@@ -25,8 +25,7 @@ export default function Home() {
           <Col> <Card /></Col>
           <Col> <Card /></Col>
         </Row>
-
-      </Row>
+      </div>
 
     </>
   );
