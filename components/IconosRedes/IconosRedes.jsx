@@ -8,16 +8,16 @@ const IconosRedes = () => {
         <div className={style.ContainerRedes}>
             <Row>
                 <Col>
-                    <MapFill color='#CE913B  ' size={18} />
+                    <MapFill color='#CE913B' size={18} />
                 </Col>
                 <Col>
-                    <Whatsapp color='#CE913B  ' size={20} />
+                    <Whatsapp color='#CE913B' size={20} />
                 </Col>
                 <Col>
-                    <Facebook color='#CE913B  ' size={20} />
+                    <Facebook color='#CE913B' size={20} />
                 </Col>
                 <Col>
-                    <Twitter color='#CE913B  ' size={20} />
+                    <Twitter color='#CE913B' size={20} />
                 </Col>
             </Row>
         </div>

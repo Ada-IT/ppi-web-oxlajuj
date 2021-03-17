@@ -4,6 +4,7 @@ import Card from "../components/card/Card";
 import { Container, Row } from "react-bootstrap"
 import Col from "react-bootstrap/Col";
 import styles from "../styles/Home.module.css";
+import FormularioHome from "../components/formularioHome/FormularioHome";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
           <Col> <Card /></Col>
           <Col> <Card /></Col>
         </Row>
+      </div>
+      <div>
+        <FormularioHome></FormularioHome>
       </div>
 
     </>
