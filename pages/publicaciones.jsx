@@ -1,7 +1,5 @@
-import Header from "../containers/header/Header";
-
 const Publications = () => {
-  return <Header />;
+  return <></>;
 };
 
 export default Publications;

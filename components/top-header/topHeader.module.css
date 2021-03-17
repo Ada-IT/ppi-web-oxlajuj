@@ -1,6 +1,6 @@
 .topHeaderBar {
-  background: #48133b;
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-ligth);
 }
 .headerBarEmail,
 .headerBarText {
