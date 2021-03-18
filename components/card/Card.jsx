@@ -18,7 +18,7 @@ const Card = () => {
                     <h3 className={style.cardContentTitle} >
                         Nombre de la persona
                 </h3>
-                    <p>Cargo de la persona</p>
+                    <p className={style.cardContentText}>Cargo de la persona</p>
                 </div>
                 <IconosRedes></IconosRedes>
             </article>
