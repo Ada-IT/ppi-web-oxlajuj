@@ -1,8 +1,9 @@
-import Header from "../containers/header/Header";
+import Hero from "../components/hero/Hero";
+
 const Investigation = () => {
   return (
     <>
-      <Header />
+      <Hero />
     </>
   );
 };

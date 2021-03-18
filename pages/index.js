@@ -1,4 +1,3 @@
-import Header from "../containers/header/Header";
 import Carousel from "../components/carousel/Carousel";
 import Card from "../components/card/Card";
 import { Container, Row } from "react-bootstrap"
@@ -9,7 +8,6 @@ import FormularioHome from "../components/formularioHome/FormularioHome";
 export default function Home() {
   return (
     <>
-      <Header />
       <div className={styles.container}>
         <Carousel />
       </div>
