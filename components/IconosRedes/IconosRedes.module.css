@@ -1,0 +1,11 @@
+.ContainerRedes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box; 
+    padding: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+

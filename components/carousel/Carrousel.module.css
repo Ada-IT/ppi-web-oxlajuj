@@ -1,0 +1,7 @@
+.carTitle{
+  font-size: var( --font-size-large);
+}
+
+.carText{
+  font-size: var( --font-size-body);
+}

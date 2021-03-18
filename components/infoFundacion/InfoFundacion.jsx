@@ -1,35 +1,42 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { MapFill, Whatsapp, Mailbox } from "react-bootstrap-icons";
+//import Container from "react-bootstrap/Container";
+import { MapFill, Whatsapp, Mailbox, Envelope } from "react-bootstrap-icons";
+import style from "./InfoFundacion.module.css";
 
 const InfoFundacion = () => {
     return (
-        <div>
-            <Row>
-                <Col>
-                    <MapFill color='purple' size={35} />
-                </Col>
-                <Col>
-                    <p>Domicilio de la fundacion</p>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Whatsapp color='purple' size={35} />
-                </Col>
-                <Col>
-                    <p>WhatsApp</p>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Mailbox color='purple' size={35} />
-                </Col>
-                <Col>
-                    <p>mail</p>
-                </Col>
-            </Row>
-        </div>
+        <Row className={style.infoFundConten}>
+            
+            <Col>
+                <Row className={style.infoFund}>
+                    <Col xs="3" sm="3" md="3" lg="3">
+                        <MapFill color='#48133b' size={35} />
+
+                    </Col>
+                    <Col xs="3" sm="9" md="9" lg="9">
+                        <p>Domicilio de la fundacion</p>
+
+                    </Col>
+                </Row>
+                <Row className={style.infoFund}>
+                    <Col xs="3" sm="3" md="3" lg="3">
+                        <Envelope color='#48133b' size={35} />
+                    </Col>
+                    <Col xs="3" sm="9" md="9" lg="9">
+                        <p>Mail</p>
+                    </Col>
+                </Row>
+                <Row className={style.infoFund}>
+                    <Col xs="3" sm="3" md="3" lg="3">
+                        <Whatsapp color='#48133b' size={35} />
+                    </Col>
+                    <Col xs="3" sm="9" md="9" lg="9">
+                        <p>WhatsApp</p>
+                    </Col>
+                </Row>
+            </Col>
+        </Row>
     );
 }
 
