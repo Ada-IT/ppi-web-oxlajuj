@@ -1,5 +1,5 @@
 import FormularioContacto from "../components/formularioContacto/formularioContacto";
-import Headers from "../containers/header/Header";
+
 import MapaContacto from "../components/mapaContacto/MapaContacto";
 import InfoFundacion from "../components/infoFundacion/InfoFundacion";
 import Col from "react-bootstrap/Col";
@@ -11,7 +11,7 @@ import Container from "react-bootstrap/Container";
 const Contacto = () => {
     return (
         < >
-            <Headers />
+         
             <Hero />            
             <Container className="infoContainer" style={{ marginTop: 25 }}>
                 <Row>
