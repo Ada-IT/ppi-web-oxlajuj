@@ -20,10 +20,13 @@ const FormularioHome = () => {
                     <Form.Label className={style.formLabel}>Direccion de mail</Form.Label>
                     <Form.Control type='email' placeholder='nombre@email.com' />
                 </Form.Group>
+                <div clasname={style.buttonCont}>
+                    <a className={style.formButton} variant='primary' type='submit'>
+                        Enviar
+                </a>
+                </div>
             </Form>
-            <Button className={style.formButton} variant='primary' type='submit'>
-                Enviar
-                </Button>
+
         </Col>
     )
 };
