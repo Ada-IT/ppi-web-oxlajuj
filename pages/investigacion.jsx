@@ -1,7 +1,10 @@
-import Header from "../containers/header/header";
-
+import Header from "../containers/header/Header";
 const Investigation = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Investigation;

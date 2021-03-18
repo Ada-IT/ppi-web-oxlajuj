@@ -1,6 +1,11 @@
 import Header from "../containers/header/Header";
+
 const WhoAre = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default WhoAre;

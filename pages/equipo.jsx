@@ -1,7 +1,10 @@
 import Header from "../containers/header/Header";
-
 const Team = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Team;

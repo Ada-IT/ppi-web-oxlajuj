@@ -1,7 +1,10 @@
-import Header from "../containers/Header/header";
-
+import Header from "../containers/header/Header";
 const Projects = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Projects;
