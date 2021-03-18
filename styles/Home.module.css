@@ -100,8 +100,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #48133b;
-  border-color: #48133b;
+  color:var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .card h3 {
@@ -123,9 +123,9 @@
 .title{
   text-align: center;
   margin-top: 40px;
-   padding: 0 0.5rem;
-    color: #48133b;
-    font-size: 30px;
+  padding: 0 0.5rem;
+  color: var(--color-primary);
+  font-size: var(--font-size-xlarge);
 }
 
 @media (max-width: 600px) {

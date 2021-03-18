@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
+import style from "../carousel/Carrousel.module.css"
 const CarouselComponent = () => {
 
     const [index, setIndex] = useState(0);
@@ -18,8 +19,8 @@ const CarouselComponent = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className={style.carTitle}>First slide label</h3>
+                    <p className={style.carText}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >

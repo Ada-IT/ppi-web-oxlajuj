@@ -1,9 +1,9 @@
 .formBk{
     margin-top: 30px;
-    background-color:#48133b;
+    background-color:var(--color-primary);
     padding-left: 10px;
     padding-right: 10px;
-    display: flex;
+ /*    display: flex; */
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -20,7 +20,7 @@
 }
 .formTitle{
     margin-top: 50px;
-    color:#E2D4A4;
+    color:var(--color-secundary);
     text-align: center;
 }
 
@@ -32,7 +32,8 @@
 
 .formButton{
     margin-bottom: 50px;
+    display: flex;
 }
 .formLabel{
-    color:#E2D4A4;
+    color:var(--color-alternative)
 }

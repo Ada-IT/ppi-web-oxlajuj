@@ -37,8 +37,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #48133b;
-  border-color: #48133b;
+  color:var(--color-primary);
+  border-color:var(--color-primary);
 }
 
 
@@ -54,10 +54,10 @@
 }
 
  .cardContentTitle {
-     margin-top: 20px;
+    margin-top: 20px;
     padding: 0px 0px;
-    font-size: 20px;
-    color: #1D1D24;
+    font-size: var( --font-size-large);
+    color: var(--color-dark);
 }
 
 .cardImg {
@@ -75,5 +75,6 @@
 }
 
 .cardContentText{
-    color: #1D1D24;
+    color: var(--color-dark);
+    color: var(--font-size-body);
 }
