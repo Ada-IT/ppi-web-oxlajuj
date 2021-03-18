@@ -1,5 +1,10 @@
+import Header from "../containers/header/Header";
 const Publications = () => {
-  return <></>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Publications;
