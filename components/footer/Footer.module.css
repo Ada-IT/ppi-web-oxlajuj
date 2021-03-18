@@ -1,13 +1,35 @@
 .infoFundConten{
     margin-top: 50px;
+    justify-content: center;
 }
 
 .backFooter{
-    background-color: #1D1D24;
+    background-color:var(--color-dark);
+    
+}
+.titleStyle{    
+    color: var(--color-secundary);
+    font-size:var(--font-size-large);
 }
 .textStyle{
-    color: #FFFF;
+    color: var(--color-ligth);
+    font-size:var(--font-size-small);
 }
 .infoFooterConten{
     margin: 0;
+}
+.access{
+    color: var(--color-ligth);
+    font-size:var(--font-size-small);
+    text-decoration: none;
+} 
+   .access:hover{
+    color: var(--color-secundary);
+}
+.redes{
+    color: var(--color-ligth);
+    font-size:var(--font-size-xxlarge);    
+}
+   .redes:hover{
+    color: var(--color-secundary);
 }
