@@ -1,0 +1,21 @@
+.contentImage{
+    margin-top: 0px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: var(--color-alternative);
+    height: 250px;
+    width: 100%;
+}
+.textImage{
+    margin-top: 30px;
+    color:var( --color-secondary);
+    font-size: var(--font-size-xxlarge);
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.img{
+    height: 150px;
+    opacity: 0.5;
+    padding: 20px;
+}

@@ -122,10 +122,13 @@
 
 .title{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   padding: 0 0.5rem;
+  font-weight: 200;
   color: var(--color-primary);
-  font-size: var(--font-size-xlarge);
+  font-size: var(--font-size-xxlarge);
+  margin-bottom: 25px;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 600px) {
@@ -134,3 +137,15 @@
     flex-direction: column;
   }
 }
+.lineCont{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 60px;
+}
+
+.line{
+  border: 0.1px solid var(--color-alternative);
+  width: 95%;
+}
+

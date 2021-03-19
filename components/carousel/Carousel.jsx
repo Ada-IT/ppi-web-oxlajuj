@@ -19,8 +19,8 @@ const CarouselComponent = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3 className={style.carTitle}>First slide label</h3>
-                    <p className={style.carText}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    {/*                     <h3 className={style.carTitle}>First slide label</h3>
+ */}                    <p className={style.carText}>Nulla vitae elit libero.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
@@ -31,8 +31,8 @@ const CarouselComponent = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    {/*     <h3>Second slide label</h3> */}
+                    <p>Lorem ipsum dolor sit amet.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
@@ -43,9 +43,9 @@ const CarouselComponent = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    {/*     <h3>Third slide label</h3> */}
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Praesent commodo cursus magna.
           </p>
                 </Carousel.Caption>
             </Carousel.Item>

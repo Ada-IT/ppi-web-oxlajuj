@@ -4,4 +4,5 @@
 
 .carText{
   font-size: var( --font-size-body);
+  margin-left: 5px;
 }
