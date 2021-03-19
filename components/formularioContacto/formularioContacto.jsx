@@ -1,7 +1,7 @@
 import style from "./formularioContacto.module.css"; 
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Col from "react-bootstrap/Col";
+import Col from "react-bootstrap/Col";  
 
 const FormularioContacto = () => {    
 
@@ -30,7 +30,7 @@ const FormularioContacto = () => {
                     <Form.Label className={style.titleForm}>Mensaje</Form.Label>
                     <Form.Control as='textarea' rows={3} />
                 </Form.Group>
-                <Button className={style.botEnviar}variant='primary' type='submit'>
+                <Button className={style.botEnviar} type='submit'>
                     Enviar
                 </Button>
             </Form>

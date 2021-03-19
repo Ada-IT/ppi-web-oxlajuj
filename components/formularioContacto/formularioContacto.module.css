@@ -1,8 +1,8 @@
-.titleForm{    
+ .titleForm{    
     font-weight: 600;
 }
 
 .botEnviar{
-    background-color:#48133b;
-    border-color:#48133b;
+    background-color:var(--color-primary);
+    border-color:var(--color-primary);
 }
