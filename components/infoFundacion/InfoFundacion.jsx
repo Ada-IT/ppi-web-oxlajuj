@@ -1,7 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import { MapFill, Whatsapp, Mailbox, Envelope } from "react-bootstrap-icons";
+import { MapFill, Whatsapp, Envelope } from "react-bootstrap-icons";
 import style from "./InfoFundacion.module.css";
 
 const InfoFundacion = () => {
