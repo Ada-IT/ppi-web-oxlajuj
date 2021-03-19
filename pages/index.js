@@ -3,6 +3,7 @@ import Card from "../components/card/Card";
 import { Container, Row } from "react-bootstrap"
 import Col from "react-bootstrap/Col";
 import styles from "../styles/Home.module.css";
+import Partners from "../components/Partners/Partners";
 import FormularioHome from "../components/formularioHome/FormularioHome";
 
 export default function Home() {
@@ -19,6 +20,11 @@ export default function Home() {
           <Col> <Card /></Col>
           <Col> <Card /></Col>
         </Row>
+        <div className={styles.lineCont}>
+          <br />
+          <div className={styles.line}></div>
+        </div>
+
         <h1 className={styles.title} >CONOCE A NUESTRO EQUIPO</h1>
         <Row className={styles.cardContainer}  >
           <Col> <Card /></Col>
@@ -30,7 +36,9 @@ export default function Home() {
       <div>
         <FormularioHome></FormularioHome>
       </div>
-
+      <div>
+        <Partners></Partners>
+      </div>
     </>
   );
 }
