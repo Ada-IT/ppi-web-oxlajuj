@@ -8,11 +8,13 @@ const Footer = () => {
     return (
         <Container className={style.backFooter} fluid>
             <Row >
-                <Col  className={style.aca}>
-                    <div>
+                <Col xs="12" md="4">
+                    <Row className="justify-content-md-center mt-3">
                         <Col>
-                            <img style={{ width: "200px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' />
                             <Row>
+                                <img style={{ width: "200px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' />
+                            </Row>
+                            <Row className="mt-3">
                                 <MapFill color='#FFFF' size={15} />
                                 <p className={style.textStyle}>Domicilio de la fundacion</p>
                             </Row>
@@ -25,42 +27,37 @@ const Footer = () => {
                                 <p className={style.textStyle}>41285119</p>
                             </Row>
                         </Col>
-                    </div>
+                    </Row>
                 </Col>
-                <Col md="auto">
-                    <Row className="justify-content-md-center">
+                <Col xs="12" md="4">
+                    <Row className="justify-content-md-center mt-3">
                         <h1 className={style.titleStyle}>Accesos rápidos </h1>
                     </Row>
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-center mt-3">
                         <a href="https://www.google.com" className={style.access}>Google</a>
                     </Row>
-                    <Row className="justify-content-md-center">
+                    <Row  className="justify-content-md-center mt-3">
                         <a href="https://www.google.com" className={style.access}>Google</a>
                     </Row>
-                    <Row className="justify-content-md-center">
+                    <Row  className="justify-content-md-center mt-3">
                         <a href="https://www.google.com" className={style.access}>Google</a>
                     </Row>
                 </Col>
-                <Col >
-                    <Row className="justify-content-md-center">
+                <Col xs="12" md="4" >
+                    <Row className="justify-content-md-center mt-3">
                         <h1 className={style.titleStyle}>Nuestras redes sociales</h1>
                     </Row>
-                    <div className={style.ContainerRedes}>
-                        <Row >
-                            <Col>
-                                <a href="https://www.facebook.com/FundacionOxlajujnoj">
-                                    <Facebook className={style.redes} />
-                                </a>
-                            </Col>
-                            <Col>
-                                <a href="https://www.instagram.com/fundacionoxlajujnoj/?hl=es-la"><Instagram className={style.redes} /></a>
-                            </Col>
-                        </Row>
-                    </div>
+                    <Row className="justify-content-md-center">
+                        <a href="https://www.facebook.com/FundacionOxlajujnoj">
+                            <Facebook className={style.redes} />
+                        </a>
+                        <a href="https://www.instagram.com/fundacionoxlajujnoj/?hl=es-la">
+                            <Instagram className={style.redes} />
+                        </a>
+                    </Row>
                 </Col>
             </Row>
         </Container>
-
     )
 };
 

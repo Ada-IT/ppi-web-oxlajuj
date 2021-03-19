@@ -31,7 +31,8 @@
 }
 .redes{
     color: var(--color-ligth);
-    font-size:var(--font-size-large);    
+    font-size:var(--font-size-large);
+    margin: 15px;
 }
    .redes:hover{
     color: var(--color-secundary);
