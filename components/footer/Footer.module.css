@@ -1,13 +1,54 @@
 .infoFundConten{
     margin-top: 50px;
+    justify-content: center;
 }
 
 .backFooter{
-    background-color: #1D1D24;
+    background-color:var(--color-dark);
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;   
+}
+.titleStyle{    
+    color: var(--color-ligth);
+    font-size:var(--font-size-large);    
 }
 .textStyle{
-    color: #FFFF;
+    color: var(--color-ligth);
+    font-size:var(--font-size-small);
+    padding-left: 5%;
 }
 .infoFooterConten{
     margin: 0;
+}
+.access{
+    color: var(--color-ligth);
+    font-size:var(--font-size-small);
+    text-decoration: none;
+} 
+   .access:hover{
+    color: var(--color-secundary);
+}
+.redes{
+    color: var(--color-ligth);
+    font-size:var(--font-size-large);
+    margin: 15px;
+}
+   .redes:hover{
+    color: var(--color-secundary);
+}
+.ContainerRedes{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;    
+    flex-wrap: wrap;
+    box-sizing: border-box; 
+    padding: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+    color: var(--color-ligth);
+    font-size:var(--font-size-large); 
+}
+.ContainerRedes:hover{
+    color: var(--color-secundary);
 }

@@ -1,12 +1,12 @@
-import FormularioContacto from "../components/formularioContacto/formularioContacto";
 
+import Container from "react-bootstrap/Container";
+import FormularioContacto from "../components/formularioContacto/formularioContacto";
 import MapaContacto from "../components/mapaContacto/MapaContacto";
 import InfoFundacion from "../components/infoFundacion/InfoFundacion";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Hero from "../components/hero/Hero";
 import Footer from "../components/footer/Footer";
-import Container from "react-bootstrap/Container";
 
 const Contacto = () => {
     return (
@@ -28,6 +28,7 @@ const Contacto = () => {
                     </Col>
                 </Row>                
             </Container>            
+
             <Footer />
         </>
     );
