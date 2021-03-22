@@ -46,6 +46,9 @@ const NavbarComponent = () => {
                 Publicaciones
               </a>
             </Link>
+            <Link href='/equipo'>
+              <a className={(isActive("/equipo"), "nav-link")}>Equipo</a>
+            </Link>
             <Link href='/contacto'>
               <a className={(isActive("/contacto"), "nav-link")}>Contacto</a>
             </Link>

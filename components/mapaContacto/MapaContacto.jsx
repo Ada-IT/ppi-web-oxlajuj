@@ -5,7 +5,7 @@ const MapaContacto = () => {
     return(
         <Row>
             <Col>
-            <div class='gmap_canvas'>
+            <div className='gmap_canvas'>
                 <iframe
                     width='100%'
                     height='300'
