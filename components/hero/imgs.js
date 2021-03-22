@@ -20,6 +20,11 @@ const imgs = [
     title: "Publicaciones"
   },
   {
+    type: "/equipo",
+    img: "./images/portfolio-bg.jpg",
+    title: "Equipo"
+  },
+  {
     type: "/contacto",
     img: "./images/contact-bg.jpg",
     title: "Contacto"
