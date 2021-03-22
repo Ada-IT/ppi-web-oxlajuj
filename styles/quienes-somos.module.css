@@ -4,7 +4,9 @@
   color: var(--color-ligth);
 }
 .title {
-  padding: 30px 0;
+  padding: 50px 0;
+  text-align: center;
+  color: var(--color-primary);
 }
 .containerCards {
   display: "flex";
