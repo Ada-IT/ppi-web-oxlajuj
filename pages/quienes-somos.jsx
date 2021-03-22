@@ -19,22 +19,11 @@ const WhoAre = () => {
         <div>
           <h2>Nuestra Historia</h2>
           <p>
-            En el año 2007 un grupo de siete investigadores de Guatemala se
-            conforman como grupo académico de distintas disciplinas; con la
-            firme convicción que la academia y la investigación son
-            fundamentales para el desarrollo de la humanidad, reconociendo los
-            saberes originarios de los pueblos indigenas, es así como surge
-            Fundación Oxlajuj No’j. Trás diez años de experiencia en trabajo de
-            campo en comunidades rurales con población indígena con incidencia
-            en 11 diferentes departamentos del país, en septiembre de 2018 se
-            crea dos nuevos proyecto dentro de Fundación Oxlajuj N’oj, 1) la
-            Dirección de Juventudes y 2) Instituto de género y empoderamiento.
-            Estos proyectos dieron la oportunidad de sumar el área de formación
-            a las líneas de trabajo de la fundación. En los últimos años hemos
-            creado nuevos programas como la pasantía profesionales para jóvenes
-            y Embajadores deparatementales a nivel nacional. Nos hemos
-            especializado en temas de género, prevención de violencia sexual,
-            empoderamiento juventudes y Agenda 2030.
+            En el año 2007 surgió la Fundación Oxlajuj No’j, en Guatemala. Un
+            proyecto en el que siete intelectuales e investigadoras de distintas
+            disciplinas se conformaron como grupo académico; con la firme
+            convicción que la academia y la investigación son fundamentales para
+            el desarrollo de la humanidad.
           </p>
         </div>
         <div>
@@ -44,7 +33,10 @@ const WhoAre = () => {
             temas de género, ética y derechos humanos, fomentando un
             empoderamiento sostenible para las y los jóvenes y mujeres de la
             región centroamericana. Aacortando las brechas de género y
-            disminuyendo la violencia basada en género.{" "}
+            disminuyendo la violencia basada en género. Con más de diez años de
+            experiencia en trabajo de campo en comunidades rurales con población
+            indígena, y con incidencia en once departamentos del país, además de
+            alianzas en países como Nicaragua, México y España.
           </p>
         </div>
         <div>
@@ -53,7 +45,7 @@ const WhoAre = () => {
             Fortalecemos la ejecución de proyectos con enfoque de género y
             empoderamiento sostenible para jóvenes y mujeres de áreas rurales,
             por medio de nuestros programas educativos, investigaciones y
-            capacitaciones para profesionales.{" "}
+            capacitaciones para profesionales.
           </p>
         </div>
         <div>

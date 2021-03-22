@@ -5,7 +5,6 @@
 }
 .title {
   padding: 30px 0;
-  color: var(--color-ligth);
 }
 .containerCards {
   display: "flex";
