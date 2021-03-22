@@ -13,7 +13,7 @@ const TopHeader = () => {
                   className='__cf_email__'
                   data-cfemail='a9cac6c7ddc8cadde9c6dcdbcac1c8dbc0ddd087cac6c4'
                 >
-                  fundacionoxlaju@gmail.com
+                  fundacionoxlajuj@gmail.com
                 </span>
               </a>
             </div>

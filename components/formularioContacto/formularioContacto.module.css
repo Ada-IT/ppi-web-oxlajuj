@@ -1,8 +1,12 @@
- .titleForm{    
-    font-weight: 600;
+.titleForm {
+  font-weight: 600;
 }
 
-.botEnviar{
-    background-color:var(--color-primary);
-    border-color:var(--color-primary);
+.botEnviar {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.botEnviar:hover {
+  background-color: var(--color-secundary);
+  border-color: var(--color-secundary);
 }

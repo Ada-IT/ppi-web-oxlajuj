@@ -7,8 +7,8 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+/*     margin-bottom: 50px;
+ */    padding-bottom: 50px;
 }
 
 .form{

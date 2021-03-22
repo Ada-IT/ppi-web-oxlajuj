@@ -17,15 +17,7 @@ const imgs = [
   {
     type: "/publicaciones",
     img: "./images/news-bg.jpg",
-    title: "Publicaciones"
-<<<<<<< HEAD
-=======
-  },
-  {
-    type: "/equipo",
-    img: "./images/portfolio-bg.jpg",
-    title: "Equipo"
->>>>>>> 6ffd81066a099a32919a233c6045eb6e4f90e263
+    title: "Publicacioness"
   },
   {
     type: "/contacto",
