@@ -2,31 +2,19 @@ import style from "./FormularioHome.module.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
+//import Button from "react-bootstrap/Button";
+//import Form from "react-bootstrap/Form";
 
 const FormularioHome = () => {
 
     return (
-        <Col className={style.formBk}>
+        <Col className={style.formBk}> 
             <h1 className={style.formTitle}>Sumate a nuestro equipo de Voluntarios</h1>
-            <Form className={style.form}>
-                <Form.Group className={style.formInput} controlId='formGroupName'>
-                    <Form.Label className={style.formLabel} >Nombre</Form.Label>
-                    <Form.Control
-                        type='text'
-                        placeholder='Ingrese aqui su nombre completo.'
-                    />
-                </Form.Group>
-                <Form.Group className={style.formInput} controlId='formGroupEmail'>
-                    <Form.Label className={style.formLabel}>Direccion de mail</Form.Label>
-                    <Form.Control type='email' placeholder='nombre@email.com' />
-                </Form.Group>
-                <div clasname={style.buttonCont}>
-                    <a className={style.formButton} variant='primary' type='submit'>
-                        Enviar
+            <div className={style.buttonCont}>
+                <a href="https://forms.gle/hwZGp2mL3ppiHo6N8" className={style.formButton} variant='primary' type='submit'>
+                    Mas info...
                 </a>
-                </div>
-            </Form>
-
+            </div>
         </Col>
     )
 };
