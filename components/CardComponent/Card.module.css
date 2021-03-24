@@ -78,3 +78,9 @@
     color: var(--color-dark);
     color: var(--font-size-body);
 }
+.viewMore{
+    display: flex;
+    justify-content: flex-end;
+    /* text-decoration: none; */
+    color: #48133b;
+}
