@@ -1,7 +1,4 @@
 import React from 'react';
-/* import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons'; */
 import style from "./Card.module.css";
 import { Container } from 'react-bootstrap';
 import IconosRedes from "../IconosRedes/IconosRedes";
