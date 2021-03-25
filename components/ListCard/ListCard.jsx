@@ -7,7 +7,11 @@ const ListCard = () => {
       {data.map((card) => {
         if (card.id < 5)
           return (
-            <CardComponent key={id} nombre={card.nombre} cargo={card.cargo} />
+            <CardComponent
+              key={card.id}
+              nombre={card.nombre}
+              cargo={card.cargo}
+            />
           );
       })}
     </>
