@@ -67,23 +67,11 @@
     color: var(--color-dark);
     color: var(--font-size-body);
 }
-.viewMore{
-    display: flex;
-    justify-content: flex-end;   
-    color:var(--color-alternative);
-}
 
 .cardBody{
     background-color:var(--color-primary);
     color:var(--color-alternative);
 }
-.formButton{
-    color:var(--color-alternative);    
-    background-color:var(--color-dark);  
-    width: 100%;
-}
-.formButton:hover{
-    text-decoration: none;
-    color:#6c757d;    
-    background-color:rgb(24, 22, 22); 
+.a{
+    color:var(--color-alternative);
 }
