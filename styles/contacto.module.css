@@ -1,5 +1,42 @@
 .infoContainer .container{
     margin-top: 25px;
 }
-
+.more{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+.buttonMore{
+    height: 40px;
+    width:250px;
+    background-color:var(--color-alternative);
+    text-align: center;
+    font-size: var(--font-size-large);
+    text-decoration: none;
+    color: var(--color-dark);
+    border-radius: 5px;
+}
+.formBk{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:var(--color-primary);
+    padding-left: 10px;
+    padding-right: 10px; 
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.formTitle{
+    color:white;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+.contForm{
+    justify-content: space-around;
+}
 

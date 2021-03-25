@@ -27,7 +27,7 @@
     text-decoration: none;
 } 
    .access:hover{
-    color: var(--color-secundary);
+    color: var(--color-alternative);
 }
 .redes{
     color: var(--color-ligth);
@@ -35,7 +35,7 @@
     margin: 15px;
 }
    .redes:hover{
-    color: var(--color-secundary);
+    color: var(--color-alternative);
 }
 .ContainerRedes{
     display: flex;
@@ -50,5 +50,5 @@
     font-size:var(--font-size-large); 
 }
 .ContainerRedes:hover{
-    color: var(--color-secundary);
+    color: var(--color-alternative);
 }
