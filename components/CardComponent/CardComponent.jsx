@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Card.module.css";
 import { Container, Card } from "react-bootstrap";
 
-const CardComponent = ({ nombre, cargo }) => {
+const CardComponent = ({ nombre, cargo, btn }) => {
   return (
     <Container>
       <Card style={{ width: "18rem" }}>
@@ -18,7 +18,7 @@ const CardComponent = ({ nombre, cargo }) => {
               variant='primary'
               type='submit'
             >
-              Nuestro equipo...
+              {btn}
             </a>
           </Card.Body>
         </div>
