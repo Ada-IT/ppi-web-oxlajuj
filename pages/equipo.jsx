@@ -1,7 +1,7 @@
 import Hero from "../components/hero/Hero";
 import EquipoCard from "../components/EquipoCard/EquipoCard";
 import data from "../components/ListCard/data";
-//import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Team = () => {
   return (
@@ -16,6 +16,7 @@ const Team = () => {
                 nombre={card.nombre}
                 cargo={card.cargo}
               />
+              <h1>borrar</h1>
             </div>
           </div>
         );
