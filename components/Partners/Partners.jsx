@@ -28,14 +28,6 @@ const Partners = () => {
           src="./images/shape_03.png"
           className={style.img}
         />
-        <Image
-          src="./images/shape_03.png"
-          className={style.img}
-        />
-        <Image
-          src="./images/shape_03.png"
-          className={style.img}
-        />
       </div>
     </>
   );
