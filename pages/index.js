@@ -1,11 +1,11 @@
 import Carousel from "../components/carousel/Carousel";
-import CardComponent from "../components/CardComponent/CardComponent";
-import { Container, Row } from "react-bootstrap"
+import CardComponent from "../components/cardComponent/CardComponent";
+import { Container, Row } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
-import styles from "../styles/Home.module.css";
-import Partners from "../components/Partners/Partners";
+import styles from "../styles/home.module.css";
+import Partners from "../components/partners/Partners";
 import FormularioHome from "../components/formularioHome/FormularioHome";
-import ListCard from "../components/ListCard/ListCard";
+import ListCard from "../components/listCard/ListCard";
 
 export default function Home() {
   return (
@@ -14,20 +14,37 @@ export default function Home() {
         <Carousel />
       </div>
       <div>
+<<<<<<< HEAD
         <h1 className={styles.title} >CONOCE A NUESTROS PROYECTOS</h1>
         <Row className={styles.cardContainer} >
           {/* <Col> <CardComponent/></Col>
           <Col> <CardComponent/></Col>
           <Col> <CardComponent/></Col>
           <Col> <CardComponent/></Col> */}
+=======
+        <h1 className={styles.title}>CONOCE A NUESTROS PROYECTOS</h1>
+        <Row className={styles.cardContainer}>
+          {/* <Col>
+            <CardComponent />
+          </Col>
+          <Col>
+            <CardComponent />
+          </Col>
+          <Col>
+            <CardComponent />
+          </Col>
+          <Col>
+            <CardComponent />
+          </Col> */}
+>>>>>>> fa131137b502f750ff0cc96fdadf1e54c9771b0e
         </Row>
         <div className={styles.lineCont}>
           <br />
           <div className={styles.line}></div>
         </div>
-        <h1 className={styles.title} >CONOCE A NUESTRO EQUIPO</h1>
-        <Row className={styles.cardContainer} xs={12} sm={2} md={2} lg={4}  >
-          <ListCard />          
+        <h1 className={styles.title}>CONOCE A NUESTRO EQUIPO</h1>
+        <Row className={styles.cardContainer} xs={12} sm={2} md={2} lg={4}>
+          <ListCard />
         </Row>
       </div>
       <div>
