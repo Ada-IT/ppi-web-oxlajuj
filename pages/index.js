@@ -14,14 +14,6 @@ export default function Home() {
         <Carousel />
       </div>
       <div>
-<<<<<<< HEAD
-        <h1 className={styles.title} >CONOCE A NUESTROS PROYECTOS</h1>
-        <Row className={styles.cardContainer} >
-          {/* <Col> <CardComponent/></Col>
-          <Col> <CardComponent/></Col>
-          <Col> <CardComponent/></Col>
-          <Col> <CardComponent/></Col> */}
-=======
         <h1 className={styles.title}>CONOCE A NUESTROS PROYECTOS</h1>
         <Row className={styles.cardContainer}>
           {/* <Col>
@@ -36,7 +28,6 @@ export default function Home() {
           <Col>
             <CardComponent />
           </Col> */}
->>>>>>> fa131137b502f750ff0cc96fdadf1e54c9771b0e
         </Row>
         <div className={styles.lineCont}>
           <br />
