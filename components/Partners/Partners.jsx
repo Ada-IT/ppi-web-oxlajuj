@@ -6,12 +6,22 @@ const Partners = () => {
     <>
       <div className={style.contentImage}>
         <h1 className={style.textImage}>Estas son nuestras Alianzas</h1>
-        <Image src='./images/shape_03.png' className={style.img} />
-        <Image src='./images/shape_03.png' className={style.img} />
-        <Image src='./images/shape_03.png' className={style.img} />
-        <Image src='./images/shape_03.png' className={style.img} />
-        <Image src='./images/shape_03.png' className={style.img} />
-        <Image src='./images/shape_03.png' className={style.img} />
+        <Image
+          src="./images/shape_03.png"
+          className={style.img}
+        />
+        <Image
+          src="./images/shape_03.png"
+          className={style.img}
+        />
+        <Image
+          src="./images/shape_03.png"
+          className={style.img}
+        />
+        <Image
+          src="./images/shape_03.png"
+          className={style.img}
+        />
       </div>
     </>
   );
