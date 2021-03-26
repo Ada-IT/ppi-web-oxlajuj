@@ -10,15 +10,9 @@ const Hero = () => {
 
   return (
     <div className={style.contentImage}>
-      <Image
-        className={style.img}
-        src={heroType.img}
-        style={{ height: "200px", objectFit: "cover" }}
-        fluid
-      />
+      <Image className={style.img} src={heroType.img} fluid />
       <h1 className={style.textImage}>{heroType.title}</h1>
     </div>
   );
 };
 export default Hero;
-

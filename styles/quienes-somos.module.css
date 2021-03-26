@@ -1,0 +1,32 @@
+.background {
+  padding: 30px 0;
+  background-color: var(--color-primary);
+  color: var(--color-ligth);
+}
+.align-img {
+  text-align: center;
+}
+.title {
+  padding: 50px 0;
+  text-align: center;
+  color: var(--color-primary);
+}
+.section {
+  margin: 60px 0;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+@media screen and (max-width: 47em) {
+  .img {
+    max-width: 100%;
+  }
+  .section {
+    margin: 45px 0;
+  }
+  .title {
+    padding: 27px 0;
+  }
+}
