@@ -4,11 +4,12 @@
     display: inline-block;
     text-align: center;
     background-color: var(--color-alternative);
-    height: 250px;
+    height: 100%;
     width: 100%;
+    padding: 20px;
 }
 .textImage{
-    margin-top: 30px;
+    margin-top: 10px;
     color:var( --color-secondary);
     font-size: var(--font-size-xxlarge);
     font-weight: 200;
