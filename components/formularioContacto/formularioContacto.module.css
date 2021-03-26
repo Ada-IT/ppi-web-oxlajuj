@@ -9,4 +9,7 @@
 .botEnviar:hover {
   background-color: var(--color-secundary);
   border-color: var(--color-secundary);
+  text-decoration: none;
+  color:#6c757d;    
+  
 }

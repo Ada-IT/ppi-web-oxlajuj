@@ -43,6 +43,11 @@
     color: var(--color-dark);
     border-radius: 5px;
 }
+.formButton:hover{
+    text-decoration: none;
+    color:var(--color-alternative);    
+    background-color:rgb(24, 22, 22);
+}
 .formLabel{
     color:var(--color-alternative);
  
