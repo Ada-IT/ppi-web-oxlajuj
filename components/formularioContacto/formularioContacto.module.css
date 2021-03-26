@@ -1,0 +1,15 @@
+.titleForm {
+  font-weight: 600;
+}
+
+.botEnviar {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.botEnviar:hover {
+  background-color: var(--color-secundary);
+  border-color: var(--color-secundary);
+  text-decoration: none;
+  color:#6c757d;    
+  
+}

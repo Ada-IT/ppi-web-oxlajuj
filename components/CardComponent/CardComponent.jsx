@@ -1,28 +1,25 @@
 import React from "react";
 import style from "./Card.module.css";
-import { Container, Card } from "react-bootstrap";
+import { Container, Card, Image } from "react-bootstrap";
+import Link from "next/link";
 
-const CardComponent = ({ nombre, cargo, btn }) => {
+const CardComponent = ({ nombre, cargo, btn, img }) => {
   return (
     <Container>
-      <Card style={{ width: "18rem" }}>
-        <img className={style.cardImg} src='./images/b.jpg' />
+      <div className='card' className={style.card}>
+        <img className='card-img-top' className={style.cardImg} src={img} />
         <div className={style.cardBody}>
-          <Card.Body>
-            <Card.Title>{nombre}</Card.Title>
-            <Card.Subtitle className='mb-2 text-muted'>{cargo}</Card.Subtitle>
-            {/* <Card.Link href="/equipo">Nuestro equipo...</Card.Link> */}
-            <a
-              href='/equipo'
-              className={style.formButton}
-              variant='primary'
-              type='submit'
-            >
-              {btn}
-            </a>
-          </Card.Body>
+          <div className='card-body' className={style.infoCard}>
+            <h4 className='card-title' className={style.cardTitle}>{nombre}</h4>
+            <h5 className='card-subtitle mb-2 'className={style.cardSubtitle}>{cargo}</h5>           
+            <Link href='/equipo'>
+              <a className={style.formButton} variant='primary'>
+                {btn}
+              </a>
+            </Link>
+          </div>
         </div>
-      </Card>
+      </div>
     </Container>
   );
 };
