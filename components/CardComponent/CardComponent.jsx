@@ -1,35 +1,29 @@
 import React from "react";
 import style from "./Card.module.css";
-import { Container, Card } from "react-bootstrap";
+import { Container, Card, Image } from "react-bootstrap";
+import Link from "next/link";
 
 const CardComponent = ({ nombre, cargo, btn, img }) => {
   return (
     <Container>
-      {/* <div class="card" style={{width: "18rem"}}>
-        <img scr={img} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div> */}
-      <Card className={style.cardCont}>
-          <img scr={img} className={style.cardImg} />
-          <div className={style.cardBody}>
-            <Card.Body className={style.infoCard}>
-              <Card.Title>{nombre}</Card.Title>
-              <Card.Subtitle className='mb-2 text-muted'>{cargo}</Card.Subtitle>
-              <a
-                href='/equipo'
-                className={style.formButton}
-                variant='primary'
-                type='submit'
-              >
+      <div className='card'>
+        <img className='card-img-top' className={style.cardImg} src={img} />
+        <div className={style.cardBody}>
+          <div className='card-body' className={style.infoCard}>
+            <h4 className='card-title'>{nombre}</h4>
+            <h5 className='card-subtitle mb-2 '>{cargo}</h5>
+            <p className='card-text'>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <Link href='/equipo'>
+              <a className={style.formButton} variant='primary'>
                 {btn}
               </a>
-            </Card.Body>
+            </Link>
           </div>
-        </Card>
+        </div>
+      </div>
     </Container>
   );
 };

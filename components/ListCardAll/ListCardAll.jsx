@@ -11,7 +11,7 @@ const ListCardAll = () => {
             key={card.id}
             nombre={card.nombre}
             cargo={card.cargo}
-            btn=""
+            btn=''
           />
         );
       })}
