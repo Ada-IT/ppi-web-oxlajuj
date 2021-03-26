@@ -8,7 +8,7 @@ const CardComponent = ({ nombre, cargo, btn }) => {
       <Card className={style.cardCont}>
         <img className={style.cardImg} src='./images/b.jpg' />
         <div className={style.cardBody}>
-          <Card.Body>
+          <Card.Body className={style.infoCard}>
             <Card.Title>{nombre}</Card.Title>
             <Card.Subtitle className='mb-2 text-muted'>{cargo}</Card.Subtitle>            
             <a

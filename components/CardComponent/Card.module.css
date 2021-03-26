@@ -29,7 +29,7 @@
 }
 .cardCont{
     margin-bottom: 4%;
-    width: 210px;
+    width: 210px;    
 }
 .card:hover,
 .card:focus,
@@ -83,9 +83,7 @@
     text-align: center;
     height: 150px;   
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
+    
 }
 .formButton{
     color:var(--color-alternative);    
@@ -96,4 +94,10 @@
     text-decoration: none;
     color:#6c757d;    
     background-color:rgb(24, 22, 22); 
+}
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
