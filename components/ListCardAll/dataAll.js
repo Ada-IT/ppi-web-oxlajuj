@@ -25,6 +25,66 @@ const data = [
         cargo: "Dirección de alianzas y cooperación"
     },
     {
+        id: "105",
+        nombre: "Gabriela Pineda",
+        img: "url-img",
+        cargo: "Dirección de estrategias y alianzas"
+    },
+    {
+        id: "106",
+        nombre: "Lily Araujo",
+        img: "url-img",
+        cargo: "Dirección de equipo de investigación USAC"
+    },
+    {
+        id: "107",
+        nombre: "Diego taracena",
+        img: "url-img",
+        cargo: "Dirección de equipo de investigación URL"
+    },
+    {
+        id: "108",
+        nombre: "Marce Guevara",
+        img: "url-img",
+        cargo: "Dirección de investigación de dpto. de Escuintla"
+    },
+    {
+        id: "109",
+        nombre: "Karla Zúñiga",
+        img: "url-img",
+        cargo: "Coordinadora de contenidos academicos"
+    },
+    {
+        id: "110",
+        nombre: "Iraydis Cardona",
+        img: "url-img",
+        cargo: "Coordinadora de alianzas municipales"
+    },
+    {
+        id: "111",
+        nombre: "Jéssica Gómeza",
+        img: "url-img",
+        cargo: "Cooperación y alianzas"
+    },
+    {
+        id: "112",
+        nombre: "Yamileth Ventura",
+        img: "url-img",
+        cargo: "Cooperación y alianzas"
+    },
+    {
+        id: "113",
+        nombre: "Estefany Ruiz",
+        img: "url-img",
+        cargo: "Cooperación y monitoreo"
+    },
+    {
+        id: "114",
+        nombre: "Gabriela López",
+        img: "url-img",
+        cargo: "Cooperación y monitoreo"
+    },
+    {
         id: "5",
         nombre: "Carolina Rabe",
         img: "url-img",
@@ -73,18 +133,6 @@ const data = [
         cargo: "Embajador en Guatemala"
     },
     {
-        id: "13",
-        nombre: "",
-        img: "url-img",
-        cargo: "Embajadora en"
-    },
-    {
-        id: "14",
-        nombre: "",
-        img: "url-img",
-        cargo: "Embajadora en"
-    },
-    {
         id: "15",
         nombre: "Ana Mux",
         img: "url-img",
@@ -115,10 +163,54 @@ const data = [
         cargo: "Embajador en Sololá"
     },
     {
-        id: "20",
-        nombre: "Ilse Cua",
+        id: "21",
+        nombre: "Ilse Cua Barreno",
         img: "url-img",
         cargo: "Embajadora en Totonicapán"
+    },
+    {
+        id: "22",
+        nombre: "Iraydis Virgilia",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
+    },
+    {
+        id: "23",
+        nombre: "Zuli García",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
+    },
+    {
+        id: "24",
+        nombre: "Estefany Barraza",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
+    },{
+        id: "25",
+        nombre: "Andrea Vanegas",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
+    },{
+        id: "26",
+        nombre: "Vannesa Campos",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
+    },{
+        id: "27",
+        nombre: "Angela López",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
+    },{
+        id: "28",
+        nombre: "Alaide Iguardia",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
+    },
+    {
+        id: "29",
+        nombre: "Alejandra Teleguario",
+        img: "url-img",
+        cargo: "Pasantía de proyectos y cooperación"
     }
 ];
 export default data;
