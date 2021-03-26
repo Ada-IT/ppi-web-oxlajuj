@@ -6,7 +6,7 @@ import Link from "next/link";
 const CardComponent = ({ nombre, cargo, btn, img }) => {
   return (
     <Container>
-      <div className='card'>
+      <div className='card' className={style.card}>
         <img className='card-img-top' className={style.cardImg} src={img} />
         <div className={style.cardBody}>
           <div className='card-body' className={style.infoCard}>

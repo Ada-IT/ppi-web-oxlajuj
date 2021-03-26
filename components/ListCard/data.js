@@ -34,6 +34,18 @@ const data = [
     nombre: "Lily Araujo",
     img: "./images/AlejandraTelegario.png",
     cargo: "Dirección de equipo de investigación USAC"
-  }
+  }, 
+  {
+    id: "107",
+    nombre: "Diego taracena",
+    img: "./images/AlejandraTelegario.png",
+    cargo: "Dirección de equipo de investigación URL"
+},
+{
+    id: "108",
+    nombre: "Marce Guevara",
+    img: "./images/AlejandraTelegario.png",
+    cargo: "Dirección de investigación de dpto. de Escuintla"
+},
 ];
 export default data;

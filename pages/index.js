@@ -26,7 +26,7 @@ export default function Home() {
           <div className={styles.line}></div>
         </div>
         <h1 className={styles.title} >CONOCE A NUESTRO EQUIPO</h1>
-        <Row className={styles.cardContainer} xs={12} sm={2} md={2} lg={6}  >
+        <Row className={styles.cardContainer} xs={12} sm={2} md={2} lg={4}  >
           <ListCard />          
         </Row>
       </div>

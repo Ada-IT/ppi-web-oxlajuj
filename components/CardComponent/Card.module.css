@@ -1,10 +1,11 @@
+.card{
+  width: 300px;
+}
 .cardImg {
   position: relative;
-  width: 100%;
-  object-fit: cover;
+  width: 100%;  
   transition: all 0.3s ease 0s, height 0s ease 0s;
-  transform: scale(1);
-  height: 180px;
+  height: 250px;
 
 }
 .cardContent {
@@ -50,9 +51,9 @@
   height: 65px;
 }
 .cardSubtitle{
-    font-size: 14px;
-    font-weight: inherit;
-    color: #6c757d;
+  font-size: 14px;
+  font-weight: inherit;
+  color: #6c757d;
 }
 .cardTitle{
   font-size: 22px;
