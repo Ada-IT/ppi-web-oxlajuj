@@ -19,17 +19,25 @@ const WhoAre = () => {
                 fundamentales para el desarrollo de la humanidad.
               </p>
             </div>
-            <div className='d-flex justify-content-center align-items-center offset-lg-1 col-lg-6 col-md-12'>
-              <img src='./images/history.jpeg' alt='nuestra-historia' />
+            <div className=' offset-lg-1 col-lg-6 col-md-12 pt-1 text-center'>
+              <img
+                className={style.img}
+                src='./images/quienesSomos1.png'
+                alt='nuestra-historia'
+              />
             </div>
           </div>
         </section>
         <section className={style.section}>
           <div className='row'>
-            <div className='d-flex justify-content-center align-items-center col-lg-6 col-md-12 '>
-              <img src='./images/mision.jpeg' alt='mision' />
+            <div className='col-lg-6 col-md-12 '>
+              <img
+                className={style.img}
+                src='./images/quienesSomos4.png'
+                alt='mision'
+              />
             </div>
-            <div class='offset-lg-1 col-lg-5 col-md-12'>
+            <div className='offset-lg-1 col-lg-5 col-md-12'>
               <h2 className={style.title}>¿Quienes somos?</h2>
               <p>
                 Somos una fundación cuya naturaleza es carácter privado, no
@@ -52,18 +60,26 @@ const WhoAre = () => {
               </p>
             </div>
             <div className='d-flex justify-content-center align-items-center offset-lg-1 col-lg-6 col-md-12 img-mision'>
-              <img class='pb-3' src='./images/vision.jpeg' alt='vision' />
+              <img
+                className={style.img}
+                src='./images/quienesSomos3.png'
+                alt='vision'
+              />
             </div>
           </div>
         </section>
         <section className={style.section}>
           <div className='row'>
-            <div className='d-flex justify-content-center align-items-center  col-lg-6 col-md-12 img-mision'>
-              <img src='./images/quienes-somos.jpeg' alt='quienes-somos' />
+            <div className=' col-lg-6 col-md-12 img-mision'>
+              <img
+                className={style.img}
+                src='./images/quienesSomos2.png'
+                alt='quienes-somos'
+              />
             </div>
-            <div class='offset-lg-1 col-lg-5 col-md-12 text-mision'>
+            <div className='offset-lg-1 col-lg-5 col-md-12 text-mision'>
               <h2 className={style.title}>Misión</h2>
-              <p>
+              <p className={style.paragraph}>
                 Fortalecemos la ejecución de proyectos con enfoque de género y
                 empoderamiento sostenible para jóvenes y mujeres de áreas
                 rurales, por medio de nuestros programas educativos,
