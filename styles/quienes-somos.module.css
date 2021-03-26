@@ -3,10 +3,25 @@
   background-color: var(--color-primary);
   color: var(--color-ligth);
 }
+.align-img {
+  text-align: center;
+}
 .title {
   padding: 50px 0;
   text-align: center;
   color: var(--color-primary);
+}
+.section {
+  margin: 30px 0;
+}
+
+.paragraph {
+  text-align: justify;
+}
+.containerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .containerCards {
   display: "flex";
