@@ -5,7 +5,6 @@ const data = [
     img: "./images/AlejandraTelegario.png",
     cargo: "Dirección de proyectos"
   },
-
   {
     id: "2",
     nombre: "Gabriela Gaytan",

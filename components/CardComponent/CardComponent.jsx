@@ -10,12 +10,8 @@ const CardComponent = ({ nombre, cargo, btn, img }) => {
         <img className='card-img-top' className={style.cardImg} src={img} />
         <div className={style.cardBody}>
           <div className='card-body' className={style.infoCard}>
-            <h4 className='card-title'>{nombre}</h4>
-            <h5 className='card-subtitle mb-2 '>{cargo}</h5>
-            <p className='card-text'>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h4 className='card-title' className={style.cardTitle}>{nombre}</h4>
+            <h5 className='card-subtitle mb-2 'className={style.cardSubtitle}>{cargo}</h5>           
             <Link href='/equipo'>
               <a className={style.formButton} variant='primary'>
                 {btn}
