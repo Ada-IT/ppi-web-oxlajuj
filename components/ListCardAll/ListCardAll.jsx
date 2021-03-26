@@ -1,7 +1,7 @@
 import CardComponent from "../CardComponent/CardComponent";
-import data from "./data";
+import data from "./dataAll";
 
-const ListCard = () => {
+const ListCardAll = () => {
   return (
     <>
       {data.map((card) => {
@@ -10,7 +10,7 @@ const ListCard = () => {
             key={card.id}
             nombre={card.nombre}
             cargo={card.cargo}
-            btn="Nuestro equipo"
+            btn=""
           />
         );
       })}
@@ -18,4 +18,4 @@ const ListCard = () => {
   );
 };
 
-export default ListCard;
+export default ListCardAll;
