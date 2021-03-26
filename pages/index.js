@@ -2,7 +2,7 @@ import Carousel from "../components/carousel/Carousel";
 import CardComponent from "../components/cardComponent/CardComponent";
 import { Container, Row } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/home.module.css";
 import Partners from "../components/partners/Partners";
 import FormularioHome from "../components/formularioHome/FormularioHome";
 import ListCard from "../components/listCard/ListCard";
@@ -16,22 +16,18 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>CONOCE A NUESTROS PROYECTOS</h1>
         <Row className={styles.cardContainer}>
-          <Col>
-            {" "}
+          {/* <Col>
             <CardComponent />
           </Col>
           <Col>
-            {" "}
             <CardComponent />
           </Col>
           <Col>
-            {" "}
             <CardComponent />
           </Col>
           <Col>
-            {" "}
             <CardComponent />
-          </Col>
+          </Col> */}
         </Row>
         <div className={styles.lineCont}>
           <br />
