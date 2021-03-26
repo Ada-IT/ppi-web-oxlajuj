@@ -1,17 +1,19 @@
 .card{
   width: 300px;
+  margin-top: 3%;
 }
 .cardImg {
   position: relative;
   width: 100%;  
   transition: all 0.3s ease 0s, height 0s ease 0s;
-  height: 250px;
-
+  height: 250px;  
 }
+
 .cardContent {
   align-items: center;
   text-align: center;
 } 
+
 .cardImg:hover {
   transform: scale(1.05);
 }
@@ -32,17 +34,22 @@
   align-items: center;
   padding-bottom: 3%;
 }
+
 .formButton {
-  color: var(--color-alternative);
-  background-color: var(--color-dark);
+  color: var(--color-dark);
+  background-color: var(--color-alternative);
   width: 100%;
   width: 175px;
+  border-radius: 5px;
+  border: none;
 }
 .formButton:hover {
   text-decoration: none;
-  color: #6c757d;
+  color: var(--color-alternative);
   background-color: rgb(24, 22, 22);
+  border: none;  
 }
+
 .infoCard {
   display: flex;
   flex-direction: column;
@@ -57,4 +64,7 @@
 }
 .cardTitle{
   font-size: 22px;
+}
+.cardImgCont{
+  overflow: hidden;
 }
