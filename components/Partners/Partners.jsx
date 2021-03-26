@@ -1,13 +1,7 @@
 import Image from "react-bootstrap/Image";
 import style from "./Partners.module.css";
-/* import imgs from "./imgs";
-import { useRouter } from "next/router"; */
 
 const Partners = () => {
-  /*   const router = useRouter();
-  
-    const heroType = imgs.find((img) => router.asPath == img.type); */
-
   return (
     <>
       <div className={style.contentImage}>
@@ -33,4 +27,3 @@ const Partners = () => {
   );
 };
 export default Partners;
-
