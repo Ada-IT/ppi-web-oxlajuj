@@ -6,7 +6,8 @@ const ListCard = () => {
     <>
       {data.map((card) => {
         return (
-          <CardComponent
+          <CardComponent  
+            img={card.img}
             key={card.id}
             nombre={card.nombre}
             cargo={card.cargo}

@@ -16,10 +16,10 @@ export default function Home() {
       <div>
         <h1 className={styles.title} >CONOCE A NUESTROS PROYECTOS</h1>
         <Row className={styles.cardContainer} >
+          {/* <Col> <CardComponent/></Col>
           <Col> <CardComponent/></Col>
           <Col> <CardComponent/></Col>
-          <Col> <CardComponent/></Col>
-          <Col> <CardComponent/></Col>
+          <Col> <CardComponent/></Col> */}
         </Row>
         <div className={styles.lineCont}>
           <br />
