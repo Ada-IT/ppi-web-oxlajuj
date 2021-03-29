@@ -24,7 +24,7 @@
     background-color:rgb(24, 22, 22);
 }
 .formBk{
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     background-color:var(--color-primary);
     padding-left: 10px;
@@ -43,4 +43,5 @@
 }
 .contForm{
     justify-content: space-around;
+    margin-top: 3%;
 }

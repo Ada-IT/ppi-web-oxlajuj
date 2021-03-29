@@ -1,26 +1,26 @@
 const data = [
   {
     id: "1",
-    nombre: "Lourdes Lopez",
-    img: "./images/AlejandraTelegario.png",
+    nombre: "Andrea Lopez",
+    img: "./images/andreaLopez_Mesa de trabajo 1.png",
     cargo: "Dirección de proyectos"
   },
   {
     id: "2",
     nombre: "Gabriela Gaytan",
-    img: "./images/AlejandraTelegario.png",
+    img: "./images/gabielaGaytan_Mesa de trabajo 1.png",
     cargo: "Dirección de comunicaión"
   },
   {
     id: "3",
     nombre: "Alejandro Noj",
-    img: "./images/AlejandraTelegario.png",
+    img: "./images/alejandroNoj_Mesa de trabajo 1.png",
     cargo: "Dirección de investigación"
   },
   {
     id: "4",
     nombre: "Nahony Hernandez",
-    img: "./images/AlejandraTelegario.png",
+    img: "./images/nahomy_Mesa de trabajo 1.png",
     cargo: "Dirección de alianzas y cooperación"
   },
   {

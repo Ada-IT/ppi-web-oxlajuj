@@ -1,6 +1,8 @@
 .card{
   width: 300px;
-  margin-top: 3%;
+  margin-top: 5%;
+  /* box-shadow: 3px 5px 8px 2px rgba(72,19,59,0.61); */
+  box-shadow: 3px 5px 12px -2px rgba(72,19,59,0.43);
 }
 .cardImg {
   position: relative;
@@ -25,8 +27,8 @@
 }
 
 .cardBody {
-  background-color: var(--color-primary);
-  color: var(--color-alternative);
+  /* background-color: var(--color-primary);      */
+  color: var(--color-primary);
   text-align: center;
   height: 100px;  
   display: flex;
@@ -36,8 +38,8 @@
 }
 
 .formButton {
-  color: var(--color-dark);
-  background-color: var(--color-alternative);
+  color: var(--color-alternative);
+  background-color: var(--color-primary);
   width: 100%;
   width: 175px;
   border-radius: 5px;
@@ -45,8 +47,8 @@
 }
 .formButton:hover {
   text-decoration: none;
-  color: var(--color-alternative);
-  background-color: rgb(24, 22, 22);
+  color: var(--color-primary);
+  background-color: var(--color-alternative);
   border: none;  
 }
 
@@ -60,11 +62,14 @@
 .cardSubtitle{
   font-size: 14px;
   font-weight: inherit;
-  color: #6c757d;
+  color: var(--color-primary);
 }
 .cardTitle{
   font-size: 22px;
+  font-weight: 400;
 }
 .cardImgCont{
   overflow: hidden;
+  max-width: 100%;
+  height: auto;
 }

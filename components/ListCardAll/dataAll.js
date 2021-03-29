@@ -2,26 +2,26 @@ const data = [
     {
         id: "101",
         nombre: "Andrea Lopez",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Dirección de proyectos"
     },
 
     {
         id: "102",
         nombre: "Gabriela Gaytan",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/gabielaGaytan_Mesa de trabajo 1.png",
         cargo: "Dirección de comunicaión"
     },
     {
         id: "103",
         nombre: "Alejandro Noj",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/alejandroNoj_Mesa de trabajo 1.png",
         cargo: "Dirección de investigación"
     },
     {
         id: "104",
         nombre: "Nahony Hernandez",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/nahomy_Mesa de trabajo 1.png",
         cargo: "Dirección de alianzas y cooperación"
     },
     {
@@ -87,13 +87,13 @@ const data = [
     {
         id: "5",
         nombre: "Carolina Rabe",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/CarolinaRabe_Mesa de trabajo 1.png",
         cargo: "Coordinación de redes sociales"
     },
     {
         id: "6",
         nombre: "Jeimy Martinez",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/jeimiMartinez_Mesa de trabajo 1.png",
         cargo: "Coordinación alianzas colegios"
     },
     {
@@ -105,19 +105,19 @@ const data = [
     {
         id: "8",
         nombre: "Wendy Orozco",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/wendyOrozco_Mesa de trabajo 1.png",
         cargo: "Embajadora en San Marcos"
     },
     {
         id: "9",
-        nombre: "Isabel Bautista",
-        img: "./images/AlejandraTelegario.png",
+        nombre: "Isabel Bautista",       
+        img: "./images/isabelSanMarcos_Mesa de trabajo 1.png",
         cargo: "Embajadora en San Marcos"
     },
     {
         id: "10",
         nombre: "Cecilia Paiz",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/ceciliaPais_Mesa de trabajo 1.png",
         cargo: "Embajadora en San Marcos"
     },
     {
@@ -129,19 +129,19 @@ const data = [
     {
         id: "12",
         nombre: "Pablo",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/pabloGuatemala_Mesa de trabajo 1.png",
         cargo: "Embajador en Guatemala"
     },
     {
         id: "15",
         nombre: "Ana Mux",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/AnaMux.png",
         cargo: "Embajadora en Guatemala"
     },
     {
         id: "16",
         nombre: "Elizabeth",
-        img: "./images/AlejandraTelegario.png",
+        img: "./images/ElizabethSacatepesquez_Mesa de trabajo 1.png",
         cargo: "Embajadora en Sacatepéquez"
     },
     {

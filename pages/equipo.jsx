@@ -3,6 +3,7 @@ import EquipoCard from "../components/EquipoCard/EquipoCard";
 import ListCardAll from "../components/ListCardAll/ListCardAll";
 import { Container, Row, Col } from "react-bootstrap";
 import style from "../styles/equipo.module.css";
+//import style from "../styles/equipo.module.css";
 
 const Team = () => {
   return (
@@ -13,7 +14,7 @@ const Team = () => {
          espacio de educación e investigación."</p>
       </div>
       <div className={style.contCardEquipo}>
-        <Row xs={12} sm={2} md={2} lg={6}>
+        <Row xs={12} sm={2} md={2} lg={4}>
           <ListCardAll />
         </Row>
       </div>
