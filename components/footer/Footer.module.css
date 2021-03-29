@@ -29,6 +29,7 @@
 } 
    .access:hover{
     color: var(--color-alternative);
+    text-decoration: none;
 }
 .redes{
     color: var(--color-ligth);

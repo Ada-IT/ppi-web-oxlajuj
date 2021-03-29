@@ -9,14 +9,16 @@ const Team = () => {
   return (
     <>
       <Hero />
-      <div>        
+      <Row className={style.contEquipo} flow>
         <p className={style.titleEquipo}>"Trabajamos en empoderar a la juventud y mujeres en redes de pensamiento, para fortalecer el aprendizaje de género en el
          espacio de educación e investigación."</p>
-      </div>
-      <div className={style.contCardEquipo}>
-        <Row xs={12} sm={2} md={2} lg={4}>
-          <ListCardAll />
-        </Row>
+      </Row>
+      <div sclassName={style.contCardEquipo}>
+        <Container fluid>
+          <Row>
+            <ListCardAll />
+          </Row>
+        </Container>
       </div>
     </>
   );

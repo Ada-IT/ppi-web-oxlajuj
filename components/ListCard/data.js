@@ -2,49 +2,49 @@ const data = [
   {
     id: "1",
     nombre: "Andrea Lopez",
-    img: "./images/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
     cargo: "Dirección de proyectos"
   },
   {
     id: "2",
     nombre: "Gabriela Gaytan",
-    img: "./images/gabielaGaytan_Mesa de trabajo 1.png",
-    cargo: "Dirección de comunicaión"
+    img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
+    cargo: "Dirección de comunicación"
   },
   {
     id: "3",
     nombre: "Alejandro Noj",
-    img: "./images/alejandroNoj_Mesa de trabajo 1.png",
+    img: "./images/equipo/alejandroNoj_Mesa de trabajo 1.png",
     cargo: "Dirección de investigación"
   },
   {
     id: "4",
-    nombre: "Nahony Hernandez",
-    img: "./images/nahomy_Mesa de trabajo 1.png",
+    nombre: "Nahomy Hernandez",
+    img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
     cargo: "Dirección de alianzas y cooperación"
   },
   {
     id: "5",
     nombre: "Gabriela Pineda",
-    img: "./images/AlejandraTelegario.png",
+    img: "./images/equipo/AlejandraTelegario.png",
     cargo: "Dirección de estrategias y alianzas"
   },
   {
     id: "6",
     nombre: "Lily Araujo",
-    img: "./images/AlejandraTelegario.png",
+    img: "./images/equipo/AlejandraTelegario.png",
     cargo: "Dirección de equipo de investigación USAC"
   }, 
   {
     id: "107",
     nombre: "Diego taracena",
-    img: "./images/AlejandraTelegario.png",
+    img: "./images/equipo/AlejandraTelegario.png",
     cargo: "Dirección de equipo de investigación URL"
 },
 {
     id: "108",
     nombre: "Marce Guevara",
-    img: "./images/AlejandraTelegario.png",
+    img: "./images/equipo/AlejandraTelegario.png",
     cargo: "Dirección de investigación de dpto. de Escuintla"
 },
 ];

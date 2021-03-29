@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const CardComponent = ({ nombre, cargo, btn, img }) => {
   return (
-    <Container>
+    
       <div className='card' className={style.card}>
         <div className={style.cardImgCont}>
           <img className='card-img-top' className={style.cardImg} src={img} />
@@ -22,7 +22,7 @@ const CardComponent = ({ nombre, cargo, btn, img }) => {
           </div>
         </div>
       </div>
-    </Container>
+    
   );
 };
 
