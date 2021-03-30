@@ -1,6 +1,6 @@
 import Hero from "../components/hero/Hero";
 
-const Investigation = () => {
+const Courses = () => {
   return (
     <>
       <Hero />
@@ -8,4 +8,4 @@ const Investigation = () => {
   );
 };
 
-export default Investigation;
+export default Courses;

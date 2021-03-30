@@ -10,14 +10,14 @@ const imgs = [
     title: "Proyectos"
   },
   {
-    type: "/investigacion",
+    type: "/blog",
     img: "./images/portfolio-bg.jpg",
-    title: "Investigación"
+    title: "Blog"
   },
   {
-    type: "/publicaciones",
+    type: "/cursos",
     img: "./images/news-bg.jpg",
-    title: "Publicaciones"
+    title: "Cursos y webinar"
   },
   {
     type: "/equipo",
