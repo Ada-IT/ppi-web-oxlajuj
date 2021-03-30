@@ -1,10 +1,9 @@
 .titleEquipo{
     color:var(--color-primary);
-    background-color: var(--color-alternative);
     text-align: center;
     margin-top:10px;
     font-size:var(--font-size-large);
-    font-weight: lighter;
+    font-weight:400;
     padding-left: 15%;
     padding-right: 15%;
 }

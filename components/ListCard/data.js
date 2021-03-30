@@ -37,7 +37,7 @@ const data = [
   }, 
   {
     id: "107",
-    nombre: "Diego taracena",
+    nombre: "Diego Taracena",
     img: "./images/equipo/AlejandraTelegario.png",
     cargo: "Dirección de equipo de investigación URL"
 },

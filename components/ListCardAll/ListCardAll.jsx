@@ -9,13 +9,13 @@ const ListCardAll = () => {
       {data.map((card) => {
         return (
           <Col xs={12} sm={6} md={4} lg={3}>
-          <CardComponent
-            img={card.img}
-            key={card.id}
-            nombre={card.nombre}
-            cargo={card.cargo}
-            btn=''
-          />
+            <CardComponent
+              img={card.img}
+              key={card.id}
+              nombre={card.nombre}
+              cargo={card.cargo}
+              btn=''
+            />
           </Col>
         );
       })}
