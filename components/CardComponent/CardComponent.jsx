@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Card.module.css";
-import { Container, Card, Image } from "react-bootstrap";
+//import { Container, Card, Image } from "react-bootstrap";
 import Link from "next/link";
 
 const CardComponent = ({ nombre, cargo, btn, img }) => {

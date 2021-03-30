@@ -1,13 +1,18 @@
 import { Col, Row, Container } from "react-bootstrap";
 import Hero from "../components/hero/Hero";
 import style from "../styles/proyectos.module.css";
+import ProyectoCard from "../components/ProyectoCard/ProyectoCard";
 
 const Projects = () => {
   return (
     <>
       <Hero />
       <Container className={style.contProyecto}>
-        <Row className={style.rowPro}>
+        <Row>
+          <ProyectoCard/>
+        </Row>
+
+        {/* <Row className={style.rowPro}>
           <Col lg={4} className={style.colPro}>
             <img src='./images/quienesSomos1.png' />
           </Col>
@@ -15,8 +20,8 @@ const Projects = () => {
             <h1 className={style.proyTitle}>Bioetica</h1>
             <p className={style.proyDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!</p>
           </Col>
-        </Row>        
-        <hr noshade="noshade"className={style.linea}/>        
+        </Row>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col>
             <h1 className={style.proyTitle}>Salud mental</h1>
@@ -26,7 +31,7 @@ const Projects = () => {
             <img src='./images/quienesSomos1.png' />
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col lg={4} className={style.colPro}>
             <img src='./images/quienesSomos1.png' />
@@ -36,7 +41,7 @@ const Projects = () => {
             <p className={style.proyDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!</p>
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col>
             <h1 className={style.proyTitle}>Investigación</h1>
@@ -46,7 +51,7 @@ const Projects = () => {
             <img src='./images/quienesSomos1.png' />
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col lg={4} className={style.colPro}>
             <img src='./images/quienesSomos1.png' />
@@ -56,7 +61,7 @@ const Projects = () => {
             <p className={style.proyDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!</p>
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col>
             <h1 className={style.proyTitle}>Prevención de violencia de género y sexual</h1>
@@ -66,7 +71,7 @@ const Projects = () => {
             <img src='./images/quienesSomos1.png' />
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col lg={4} className={style.colPro}>
             <img src='./images/quienesSomos1.png' />
@@ -76,7 +81,7 @@ const Projects = () => {
             <p className={style.proyDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!</p>
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col>
             <h1 className={style.proyTitle}>Agenda 2030 y objetivos de desarrollo sostenible</h1>
@@ -86,7 +91,7 @@ const Projects = () => {
             <img src='./images/quienesSomos1.png' />
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col lg={4} className={style.colPro}>
             <img src='./images/quienesSomos1.png' />
@@ -96,7 +101,7 @@ const Projects = () => {
             <p className={style.proyDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!</p>
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col>
             <h1 className={style.proyTitle}>Derechos humanos</h1>
@@ -106,7 +111,7 @@ const Projects = () => {
             <img src='./images/quienesSomos1.png' />
           </Col>
         </Row>
-        <hr noshade="noshade"className={style.linea}/>
+        <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro}>
           <Col lg={4} className={style.colPro}>
             <img src='./images/quienesSomos1.png' />
@@ -115,7 +120,7 @@ const Projects = () => {
             <h1 className={style.proyTitle}>Juventudes</h1>
             <p className={style.proyDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur suscipit magnam alias quae ex reiciendis maiores nihil asperiores molestiae cum accusamus cumque impedit vero, beatae quod fugit dolor itaque!</p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </>
   );
