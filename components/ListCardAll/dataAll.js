@@ -27,61 +27,61 @@ const data = [
     {
         id: "105",
         nombre: "Gabriela Pineda",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Dirección de estrategias y alianzas"
     },
     {
         id: "106",
         nombre: "Lily Araujo",
-        img:"./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Dirección de equipo de investigación USAC"
     },
     {
         id: "107",
         nombre: "Diego Taracena",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Dirección de equipo de investigación URL"
     },
     {
         id: "108",
         nombre: "Marce Guevara",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Dirección de investigación de dpto. de Escuintla"
     },
     {
         id: "109",
         nombre: "Karla Zúñiga",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Coordinadora de contenidos academicos"
     },
     {
         id: "110",
         nombre: "Iraydis Cardona",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Coordinadora de alianzas municipales"
     },
     {
         id: "111",
         nombre: "Jéssica Gómeza",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Cooperación y alianzas"
     },
     {
         id: "112",
         nombre: "Yamileth Ventura",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Cooperación y alianzas"
     },
     {
         id: "113",
         nombre: "Estefany Ruiz",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Cooperación y monitoreo"
     },
     {
         id: "114",
         nombre: "Gabriela López",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Cooperación y monitoreo"
     },
     {
@@ -99,7 +99,7 @@ const data = [
     {
         id: "7",
         nombre: "Alejandra Teleguario",       
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/AlejandraTelegario_Mesa de trabajo 1.png",
         cargo: "Embajadora en Quetaltenango"
     },
     {
@@ -123,7 +123,7 @@ const data = [
     {
         id: "11",
         nombre: "Carlos ",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Embajador en Altaverapaz"
     },
     {
@@ -147,70 +147,65 @@ const data = [
     {
         id: "17",
         nombre: "Zayra",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Embajadora en Sacatepéquez"
     },
     {
         id: "18",
         nombre: "Elida",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Embajadora en Sololá"
     },
     {
         id: "19",
         nombre: "Ramón",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Embajador en Sololá"
     },
     {
         id: "21",
         nombre: "Ilse Cua Barreno",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Embajadora en Totonicapán"
     },
     {
         id: "22",
         nombre: "Iraydis Virgilia",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Pasantía de proyectos y cooperación"
     },
     {
         id: "23",
         nombre: "Zuli García",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Pasantía de proyectos y cooperación"
     },
     {
         id: "24",
         nombre: "Estefany Barraza",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Pasantía de proyectos y cooperación"
     },{
         id: "25",
         nombre: "Andrea Vanegas",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Pasantía de proyectos y cooperación"
     },{
         id: "26",
         nombre: "Vannesa Campos",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Pasantía de proyectos y cooperación"
     },{
         id: "27",
         nombre: "Angela López",
-        img: "./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Pasantía de proyectos y cooperación"
     },{
         id: "28",
         nombre: "Alaide Iguardia",
-        img:"./images/equipo/AlejandraTelegario.png",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Pasantía de proyectos y cooperación"
     },
-    {
-        id: "29",
-        nombre: "Alejandra Teleguario",
-        img:"./images/equipo/AlejandraTelegario.png",
-        cargo: "Pasantía de proyectos y cooperación"
-    }
+  
 ];
 export default data;

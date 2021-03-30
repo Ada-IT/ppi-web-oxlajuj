@@ -26,25 +26,25 @@ const data = [
   {
     id: "5",
     nombre: "Gabriela Pineda",
-    img: "./images/equipo/AlejandraTelegario.png",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
     cargo: "Dirección de estrategias y alianzas"
   },
   {
     id: "6",
     nombre: "Lily Araujo",
-    img: "./images/equipo/AlejandraTelegario.png",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
     cargo: "Dirección de equipo de investigación USAC"
   }, 
   {
     id: "107",
     nombre: "Diego Taracena",
-    img: "./images/equipo/AlejandraTelegario.png",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
     cargo: "Dirección de equipo de investigación URL"
 },
 {
     id: "108",
     nombre: "Marce Guevara",
-    img: "./images/equipo/AlejandraTelegario.png",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
     cargo: "Dirección de investigación de dpto. de Escuintla"
 },
 ];
