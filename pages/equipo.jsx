@@ -1,9 +1,7 @@
 import Hero from "../components/hero/Hero";
-import EquipoCard from "../components/EquipoCard/EquipoCard";
 import ListCardAll from "../components/ListCardAll/ListCardAll";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import style from "../styles/equipo.module.css";
-//import style from "../styles/equipo.module.css";
 
 const Team = () => {
   return (

@@ -1,0 +1,16 @@
+.contProyecto{
+    margin-top: 3%;
+}
+   
+.linea{
+    border: 0.1px solid var(--color-alternative);
+    width: 100%;
+}
+.proyTitle{
+    color:var(--color-primary);
+    font-size: 24px;
+}
+.proyDesc{
+    color:var(--color-dark);
+    font-size: 18px;
+}
