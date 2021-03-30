@@ -1,5 +1,5 @@
 import Carousel from "../components/carousel/Carousel";
-import CardComponent from "../components/cardComponent/CardComponent";
+import CardComponent from "../components/card/CardComponent";
 import { Container, Row } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import styles from "../styles/home.module.css";
