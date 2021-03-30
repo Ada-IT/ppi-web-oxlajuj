@@ -1,12 +1,41 @@
 import React, { useState } from "react";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Modal, Button } from "react-bootstrap";
 import style from "./Carrousel.module.css";
 const CarouselComponent = () => {
   const [index, setIndex] = useState(0);
+  const [showModal, setShowModal] = useState(false);
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+
+  /*   const toggleTrueFalse = () => {
+      setShowModal(handleShow);
+    } */
+
+  const ModalContent = () => {
+    return (
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    )
+  }
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} className='w-100'>
@@ -17,10 +46,11 @@ const CarouselComponent = () => {
           alt='First slide'
         />
 
-        <Carousel.Caption>
-          {/*                     <h3 className={style.carTitle}>First slide label</h3>
-           */}{" "}
-          <p className={style.carText}>Nulla vitae elit libero.</p>
+        <Carousel.Caption className={style.carBtnCont}>
+          {/* <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
+          <Button variant="primary" onClick={handleShow}>
+            DONAR
+      </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,9 +60,12 @@ const CarouselComponent = () => {
           alt='Second slide'
         />
 
-        <Carousel.Caption>
-          {/*     <h3>Second slide label</h3> */}
-          <p>Lorem ipsum dolor sit amet.</p>
+        <Carousel.Caption className={style.carBtnCont}>
+          {/*           <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a>
+ */}
+          <Button variant="primary" onClick={handleShow}>
+            DONAR
+      </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -42,12 +75,15 @@ const CarouselComponent = () => {
           alt='Third slide'
         />
 
-        <Carousel.Caption>
-          {/*     <h3>Third slide label</h3> */}
-          <p>Praesent commodo cursus magna.</p>
+        <Carousel.Caption className={style.carBtnCont}>
+          {/*   <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
+          <Button variant="primary" onClick={handleShow}>
+            DONAR      </Button>
         </Carousel.Caption>
       </Carousel.Item>
+      {show ? <ModalContent /> : null}
     </Carousel>
+
   );
 };
 

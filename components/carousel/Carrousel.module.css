@@ -6,3 +6,38 @@
   font-size: var( --font-size-body);
   margin-left: 5px;
 }
+.carBtnCont{
+  margin-bottom: 30px;
+}
+.carBtn{
+    height: 40px;
+    width:250px;
+    background-color:var(--color-alternative);
+    text-align: center;
+    font-size: var(--font-size-large);
+    text-decoration: none;
+    color: var(--color-primary);
+    border-radius: 5px;
+    border: none;
+  /*   font-weight: 200; */
+    padding: 15px;  
+}
+.carBtn:hover{
+    text-decoration: none;
+    color:var(--color-alternative);    
+    background-color:rgb(24, 22, 22);
+}
+.carBtn:link {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+.carBtn:active {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+@media (max-width: 600px) {
+  .carBtn {
+    display: none;
+  }
+}
