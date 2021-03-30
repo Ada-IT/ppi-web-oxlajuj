@@ -1,4 +1,5 @@
 import { Modal } from "react-bootstrap";
+
 function Example() {
     const [show, setShow] = useState(false);
 

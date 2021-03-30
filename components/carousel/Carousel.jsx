@@ -3,7 +3,7 @@ import { Carousel, Modal, Button } from "react-bootstrap";
 import style from "./Carrousel.module.css";
 const CarouselComponent = () => {
   const [index, setIndex] = useState(0);
-  const [showModal, setShowModal] = useState(false);
+  /*   const [showModal, setShowModal] = useState(false); */
 
   const [show, setShow] = useState(false);
 
@@ -22,16 +22,15 @@ const CarouselComponent = () => {
     return (
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Estas a punto de donar</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>Esta pagina te rediccionara a nuestra pagina de Paypal para que nos puedas ayudar a financiar nuestros proyectos y cursos. Muchas gracias por colaborar con la Fundación Oxlajuj No’j  </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
+          <Button variant="secondary" onClick={handleClose} className={style.carBtnCerrar}>
+            Cerrar
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
+          <a href="https://www.paypal.com/ar/home"> <Button variant="primary" onClick={handleClose} className={style.carBtn}>
+            Donar          </Button></a>
         </Modal.Footer>
       </Modal>
     )
@@ -48,7 +47,7 @@ const CarouselComponent = () => {
 
         <Carousel.Caption className={style.carBtnCont}>
           {/* <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
-          <Button variant="primary" onClick={handleShow}>
+          <Button variant="primary" onClick={handleShow} className={style.carBtn}>
             DONAR
       </Button>
         </Carousel.Caption>
@@ -63,7 +62,7 @@ const CarouselComponent = () => {
         <Carousel.Caption className={style.carBtnCont}>
           {/*           <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a>
  */}
-          <Button variant="primary" onClick={handleShow}>
+          <Button variant="primary" onClick={handleShow} className={style.carBtn}>
             DONAR
       </Button>
         </Carousel.Caption>
@@ -77,7 +76,7 @@ const CarouselComponent = () => {
 
         <Carousel.Caption className={style.carBtnCont}>
           {/*   <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
-          <Button variant="primary" onClick={handleShow}>
+          <Button variant="primary" onClick={handleShow} className={style.carBtn}>
             DONAR      </Button>
         </Carousel.Caption>
       </Carousel.Item>
