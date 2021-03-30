@@ -12,6 +12,7 @@ const MapaContacto = () => {
             id='gmap_canvas'
             src='https://maps.google.com/maps?q=guatemala&t=&z=13&ie=UTF8&iwloc=&output=embed'
             scrolling='no'
+            style={{ borderStyle: "none" }}
           ></iframe>
           <a href='https://www.whatismyip-address.com'></a>
         </div>
