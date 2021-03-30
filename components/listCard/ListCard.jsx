@@ -1,4 +1,4 @@
-import CardComponent from "../cardComponent/CardComponent";
+import CardComponent from "../card/CardComponent";
 import data from "./data";
 
 const ListCard = () => {
