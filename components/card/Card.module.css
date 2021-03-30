@@ -1,0 +1,60 @@
+.card{
+  width: 300px;
+}
+.cardImg {
+  position: relative;
+  width: 100%;  
+  transition: all 0.3s ease 0s, height 0s ease 0s;
+  height: 250px;
+
+}
+.cardContent {
+  align-items: center;
+  text-align: center;
+} 
+.cardImg:hover {
+  transform: scale(1.05);
+}
+
+.viewMore {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--color-alternative);
+}
+
+.cardBody {
+  background-color: var(--color-primary);
+  color: var(--color-alternative);
+  text-align: center;
+  height: 100px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3%;
+}
+.formButton {
+  color: var(--color-alternative);
+  background-color: var(--color-dark);
+  width: 100%;
+  width: 175px;
+}
+.formButton:hover {
+  text-decoration: none;
+  color: #6c757d;
+  background-color: rgb(24, 22, 22);
+}
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 65px;
+}
+.cardSubtitle{
+  font-size: 14px;
+  font-weight: inherit;
+  color: #6c757d;
+}
+.cardTitle{
+  font-size: 22px;
+}
