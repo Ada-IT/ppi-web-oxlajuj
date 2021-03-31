@@ -7,7 +7,8 @@
     background-color:var(--color-dark);
     padding-top: 2%;
     padding-left: 6%;
-    padding-right: 6%;   
+    padding-right: 6%;
+    margin-top: 3%;   
 }
 .titleStyle{    
     color: var(--color-ligth);
@@ -28,6 +29,7 @@
 } 
    .access:hover{
     color: var(--color-alternative);
+    text-decoration: none;
 }
 .redes{
     color: var(--color-ligth);
