@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Carousel, Modal, Button } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import style from "./Carrousel.module.css";
 import ModalContent from "../ModalContent/ModalContent";
 
@@ -14,9 +14,7 @@ const CarouselComponent = () => {
     setIndex(selectedIndex);
   };
 
-
   return (
-
     <Carousel activeIndex={index} onSelect={handleSelect} className='w-100'>
       <Carousel.Item>
         <img

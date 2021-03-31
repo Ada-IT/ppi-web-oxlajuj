@@ -1,39 +1,15 @@
 import React, { useState } from "react";
-import { Modal } from "react-bootstrap";
 import topHeader from "./TopHeader.module.css";
+import ModalContent from "../ModalContent/ModalContent";
 
 const TopHeader = () => {
 
   const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
+  const handleClose = () => setShow(false);
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
-
-  /*   const toggleTrueFalse = () => {
-      setShowModal(handleShow);
-    } */
-
-  const ModalContent = () => {
-    return (
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Estas a punto de donar</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Esta pagina te rediccionara a nuestra pagina de Paypal para que nos puedas ayudar a financiar nuestros proyectos y cursos. Muchas gracias por colaborar con la Fundación Oxlajuj No’j  </Modal.Body>
-        <Modal.Footer>
-          <button /* variant="secondary" */ onClick={handleClose} className={topHeader.carBtnCerrar}>
-            Cerrar
-          </button>
-          <a href="https://www.paypal.com/ar/home"> <button variant="primary" onClick={handleClose} className={topHeader.carBtn}>
-            Donar          </button></a>
-        </Modal.Footer>
-      </Modal>
-    )
-  }
 
   return (
     <div className={topHeader.topHeaderBar}>
@@ -65,7 +41,7 @@ const TopHeader = () => {
           </div>
         </div>
       </div>
-      {show ? <ModalContent /> : null}
+      {show ? <ModalContent show={show} handleClose={handleClose} /> : null}
     </div>
   );
 };
