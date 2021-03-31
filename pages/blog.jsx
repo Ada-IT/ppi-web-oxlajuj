@@ -1,7 +1,6 @@
-
 import Hero from "../components/hero/Hero";
 
-const Publications = () => {
+const Blog = () => {
   return (
     <>
       <Hero />
@@ -9,4 +8,4 @@ const Publications = () => {
   );
 };
 
-export default Publications;
+export default Blog;

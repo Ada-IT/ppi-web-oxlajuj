@@ -6,12 +6,12 @@ const WhoAre = () => {
   return (
     <>
       <Hero />
-      <Container>
+      <Container className={style.container}>
         <section className={style.section}>
           <div className='row'>
             <div className='col-lg-5 col-md-12'>
               <h2 className={style.title}>Nuestra Historia</h2>
-              <p className={style.paragraph}>
+              <p className={style.textCenter}>
                 En el año 2007 surgió la Fundación Oxlajuj No’j, en Guatemala.
                 Un proyecto en el que siete intelectuales e investigadoras de
                 distintas disciplinas se conformaron como grupo académico; con
@@ -19,9 +19,9 @@ const WhoAre = () => {
                 fundamentales para el desarrollo de la humanidad.
               </p>
             </div>
-            <div className=' offset-lg-1 col-lg-6 col-md-12 pt-1 text-center'>
+            <div className=' offset-lg-1 col-lg-6 col-md-12 text-center'>
               <img
-                className={style.img}
+                className={style.imgHistory}
                 src='./images/quienesSomos1.png'
                 alt='nuestra-historia'
               />
@@ -37,9 +37,9 @@ const WhoAre = () => {
                 alt='mision'
               />
             </div>
-            <div className='offset-lg-1 col-lg-5 col-md-12'>
+            <div className=' col-lg-5 col-md-12'>
               <h2 className={style.title}>¿Quienes somos?</h2>
-              <p>
+              <p className={style.paragraph}>
                 Somos una fundación cuya naturaleza es carácter privado, no
                 partidista, sin fines de lucro, con proyección social y de
                 asistencia humanitaria.
@@ -51,7 +51,7 @@ const WhoAre = () => {
           <div className='row'>
             <div className='col-lg-5 col-md-12 text-mision'>
               <h2 className={style.title}>Visión</h2>
-              <p className={style.paragraph}>
+              <p className={style.textCenter}>
                 Educar a la población por medio de la formación e investigación
                 en temas de género, ética y derechos humanos, fomentando un
                 empoderamiento sostenible para las y los jóvenes y mujeres de la
@@ -70,14 +70,14 @@ const WhoAre = () => {
         </section>
         <section className={style.section}>
           <div className='row'>
-            <div className=' col-lg-6 col-md-12 img-mision'>
+            <div className='col-lg-6 col-md-12 img-mision'>
               <img
                 className={style.img}
                 src='./images/quienesSomos2.png'
                 alt='quienes-somos'
               />
             </div>
-            <div className='offset-lg-1 col-lg-5 col-md-12 text-mision'>
+            <div className='col-lg-5 col-md-12 text-mision'>
               <h2 className={style.title}>Misión</h2>
               <p className={style.paragraph}>
                 Fortalecemos la ejecución de proyectos con enfoque de género y
@@ -85,6 +85,25 @@ const WhoAre = () => {
                 rurales, por medio de nuestros programas educativos,
                 investigaciones y capacitaciones para profesionales.
               </p>
+            </div>
+          </div>
+        </section>
+        <section className={style.section}>
+          <div className='row'>
+            <div className='col-lg-5 col-md-12 text-mision'>
+              <h2 className={style.title}>¿Donde trabajamos?</h2>
+              <p className={style.textCenter}>
+                Estamos en los siguientes departamentos: Guatemala, Jutiapa,
+                Sololá, Quetzaltenango, Chimaltenango, Sacatepéquez, Alta,
+                Verapaz, San Marcos, Chiquimula, Escuintla y Totonicapán.
+              </p>
+            </div>
+            <div className='d-flex justify-content-center align-items-center offset-lg-1 col-lg-6 col-md-12 img-mision'>
+              <img
+                className={style.img}
+                src='./images/quienesSomos.png'
+                alt='vision'
+              />
             </div>
           </div>
         </section>

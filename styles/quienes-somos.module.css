@@ -3,6 +3,9 @@
   background-color: var(--color-primary);
   color: var(--color-ligth);
 }
+.container {
+  margin-right: 80px;
+}
 .align-img {
   text-align: center;
 }
@@ -16,7 +19,11 @@
 }
 
 .paragraph {
-  text-align: justify;
+  text-align: end;
+}
+.imgHistory {
+  width: 250px;
+  padding-top: 59px;
 }
 
 @media screen and (max-width: 47em) {
@@ -28,5 +35,9 @@
   }
   .title {
     padding: 27px 0;
+  }
+  .paragraph,
+  .textCenter {
+    text-align: center;
   }
 }

@@ -33,21 +33,19 @@ const NavbarComponent = () => {
                 Quienes Somos?
               </a>
             </Link>
+            <Link href='/equipo'>
+              <a className={(isActive("/equipo"), "nav-link")}>Equipo</a>
+            </Link>
             <Link href='/proyectos'>
               <a className={(isActive("/proyectos"), "nav-link")}>Proyectos</a>
             </Link>
-            <Link href='/investigacion'>
-              <a className={(isActive("/investigacion"), "nav-link")}>
-                Investigación
+            <Link href='/cursos'>
+              <a className={(isActive("/cursos"), "nav-link")}>
+                Cursos y webinar
               </a>
             </Link>
-            <Link href='/publicaciones'>
-              <a className={(isActive("/publicaciones"), "nav-link")}>
-                Publicaciones
-              </a>
-            </Link>
-            <Link href='/equipo'>
-              <a className={(isActive("/equipo"), "nav-link")}>Equipo</a>
+            <Link href='/blog'>
+              <a className={(isActive("/blog"), "nav-link")}>Blog</a>
             </Link>
             <Link href='/contacto'>
               <a className={(isActive("/contacto"), "nav-link")}>Contacto</a>

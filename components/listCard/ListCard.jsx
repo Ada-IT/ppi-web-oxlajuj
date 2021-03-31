@@ -1,11 +1,10 @@
-import CardComponent from "../CardComponent/CardComponent";
+import CardComponent from "../card/CardComponent";
 import data from "./data";
 
 const ListCard = () => {
   return (
     <>
       {data.map((card) => {
-        console.log("card", card);
         return (
           <CardComponent
             img={card.img}
