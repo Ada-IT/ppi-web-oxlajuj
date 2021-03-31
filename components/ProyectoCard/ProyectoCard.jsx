@@ -6,9 +6,9 @@ const ProyectoCard = ({ texto, titulo, img, titulo2, texto2, img2 }) => {
 
     return (
         <>       
-            <Row className={style.rowPro}>
+            <Row className={style.rowPro1}>
                 <Col lg={4} className={style.colPro} >
-                    <img src={img} />
+                    <img src={img} className={style.imgPro} />
                 </Col>
                 <Col>
                     <h1 className={style.proyTitle}>{titulo}</h1>
@@ -16,13 +16,13 @@ const ProyectoCard = ({ texto, titulo, img, titulo2, texto2, img2 }) => {
                 </Col>
             </Row>
             <hr noshade="noshade" className={style.linea} />
-            <Row >                
+            <Row className={style.rowPro2}>                
                 <Col>
                     <h1 className={style.proyTitle} >{titulo2}</h1>
                     <p className={style.proyDesc} >{texto2}</p>
                 </Col>
                 <Col lg={4}className={style.colPro} >
-                    <img src={img2} />
+                    <img src={img2} className={style.imgPro}/>
                 </Col>
             </Row>
             <hr noshade="noshade" className={style.linea} />
