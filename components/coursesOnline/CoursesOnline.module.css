@@ -1,0 +1,15 @@
+.cursosImg {
+  height: auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.title {
+  color: var(--color-primary);
+  text-align: center;
+}
+.container {
+  margin-top: 60px;
+}
+.paragraph {
+  text-align: justify;
+}
