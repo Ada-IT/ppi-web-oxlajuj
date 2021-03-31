@@ -14,10 +14,6 @@ const CarouselComponent = () => {
     setIndex(selectedIndex);
   };
 
-  /*   const toggleTrueFalse = () => {
-      setShowModal(handleShow);
-    } */
-
   const ModalContent = () => {
     return (
       <Modal show={show} onHide={handleClose}>
