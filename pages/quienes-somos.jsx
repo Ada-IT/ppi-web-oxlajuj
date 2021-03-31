@@ -88,6 +88,25 @@ const WhoAre = () => {
             </div>
           </div>
         </section>
+        <section className={style.section}>
+          <div className='row'>
+            <div className='col-lg-5 col-md-12 text-mision'>
+              <h2 className={style.title}>¿Donde trabajamos?</h2>
+              <p className={style.textCenter}>
+                Estamos en los siguientes departamentos: Guatemala, Jutiapa,
+                Sololá, Quetzaltenango, Chimaltenango, Sacatepéquez, Alta,
+                Verapaz, San Marcos, Chiquimula, Escuintla y Totonicapán.
+              </p>
+            </div>
+            <div className='d-flex justify-content-center align-items-center offset-lg-1 col-lg-6 col-md-12 img-mision'>
+              <img
+                className={style.img}
+                src='./images/quienesSomos.png'
+                alt='vision'
+              />
+            </div>
+          </div>
+        </section>
       </Container>
     </>
   );
