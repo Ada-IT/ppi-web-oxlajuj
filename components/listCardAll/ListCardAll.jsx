@@ -1,4 +1,4 @@
-import CardComponent from "../CardComponent/CardComponent";
+import CardComponent from "../card/CardComponent";
 import data from "./dataAll";
 import { Container, Row, Col } from "react-bootstrap";
 
