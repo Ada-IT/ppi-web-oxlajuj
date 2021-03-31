@@ -29,8 +29,8 @@ const CarouselComponent = () => {
           <button /* variant="secondary" */ onClick={handleClose} className={style.carBtnCerrar}>
             Cerrar
           </button>
-          <a href="https://www.paypal.com/ar/home"> <Button variant="primary" onClick={handleClose} className={style.carBtn}>
-            Donar          </Button></a>
+          <a href="https://www.paypal.com/ar/home"> <button variant="primary" onClick={handleClose} className={style.carBtn}>
+            Donar          </button></a>
         </Modal.Footer>
       </Modal>
     )
