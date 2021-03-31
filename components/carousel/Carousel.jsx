@@ -26,9 +26,9 @@ const CarouselComponent = () => {
         </Modal.Header>
         <Modal.Body>Esta pagina te rediccionara a nuestra pagina de Paypal para que nos puedas ayudar a financiar nuestros proyectos y cursos. Muchas gracias por colaborar con la Fundación Oxlajuj No’j  </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose} className={style.carBtnCerrar}>
+          <button /* variant="secondary" */ onClick={handleClose} className={style.carBtnCerrar}>
             Cerrar
-          </Button>
+          </button>
           <a href="https://www.paypal.com/ar/home"> <Button variant="primary" onClick={handleClose} className={style.carBtn}>
             Donar          </Button></a>
         </Modal.Footer>
@@ -47,9 +47,9 @@ const CarouselComponent = () => {
 
         <Carousel.Caption className={style.carBtnCont}>
           {/* <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
-          <Button variant="primary" onClick={handleShow} className={style.carBtn}>
+          <button /* variant="primary" */ onClick={handleShow} className={style.carBtn}>
             DONAR
-      </Button>
+      </button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -62,9 +62,9 @@ const CarouselComponent = () => {
         <Carousel.Caption className={style.carBtnCont}>
           {/*           <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a>
  */}
-          <Button variant="primary" onClick={handleShow} className={style.carBtn}>
+          <button variant="primary" onClick={handleShow} className={style.carBtn}>
             DONAR
-      </Button>
+      </button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -76,8 +76,8 @@ const CarouselComponent = () => {
 
         <Carousel.Caption className={style.carBtnCont}>
           {/*   <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
-          <Button variant="primary" onClick={handleShow} className={style.carBtn}>
-            DONAR      </Button>
+          <button variant="primary" onClick={handleShow} className={style.carBtn}>
+            DONAR      </button>
         </Carousel.Caption>
       </Carousel.Item>
       {show ? <ModalContent /> : null}
