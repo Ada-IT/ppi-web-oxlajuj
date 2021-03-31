@@ -8,9 +8,13 @@ const ProyectoComp = () => {
       {proyectos.map((card) => {        
         return (          
          <ProyectoCard
+            key={card.id}
             img={card.img}            
             titulo={card.titulo}
-            texto={card. texto}            
+            texto={card. texto} 
+            img2={card.img2}            
+            titulo2={card.titulo2}
+            texto2={card. texto2}           
             />         
         );
       })}
