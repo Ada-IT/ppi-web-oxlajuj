@@ -76,7 +76,7 @@ const CarouselComponent = () => {
 
         <Carousel.Caption className={style.carBtnCont}>
           {/*   <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
-          <button variant="primary" onClick={handleShow} className={style.carBtn}>
+          <button onClick={handleShow} className={style.carBtn}>
             DONAR      </button>
         </Carousel.Caption>
       </Carousel.Item>
