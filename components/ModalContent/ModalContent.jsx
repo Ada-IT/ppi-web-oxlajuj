@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+/* import React, { useState } from "react"; */
 import { Modal } from "react-bootstrap";
-import style from "./ModalContent.module.css";
+import style from "./Modal.module.css";
 
 
-const Modal = () => {
-    const [show, setShow] = useState(false);
-    const handleShow = () => setShow(true);
-    const handleClose = () => setShow(false);
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    }
+const ModalContent = ({ show, handleClose }) => {
+
+    /*     const handleClose = () => setShow(false);
+     */
 
     return (
         <Modal show={show} onHide={handleClose}>
@@ -28,4 +25,4 @@ const Modal = () => {
     )
 }
 
-export default Modal;
+export default ModalContent;
