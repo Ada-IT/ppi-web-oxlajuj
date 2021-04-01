@@ -1,0 +1,30 @@
+.cardsContainer {
+    width: 500px;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+}
+
+ .cardsContainerHidden{
+        display: flex;
+        justify-content: space-between;
+        width: 1020px;
+        transition: transform 0.2s linear;
+    }
+ .cardsContainerHidden:after, .cardsContainerHidden:before {
+        position: absolute;
+        height: 100%;
+        width: 90px;
+        top: 0;
+        display: block;
+        content: ' ';
+        z-index: 1;
+    }
+.cardsContainerHidden:before {
+        left: 0;
+        background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    }
+.cardsContainerHidden:after{
+        right: 0;
+        background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
+    }
