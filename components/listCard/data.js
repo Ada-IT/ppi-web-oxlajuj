@@ -1,51 +1,52 @@
 const data = [
-  {
+  {  
     id: "1",
-    nombre: "Andrea Lopez",
+    nombre: "Andrea Lourdes Lopez",
     img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de proyectos"
-  },
-  {
-    id: "2",
-    nombre: "Gabriela Gaytan",
-    img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
-    cargo: "Dirección de comunicación"
-  },
+    cargo: "Junta directiva - Directora ejecutiva"
+  },  
   {
     id: "3",
-    nombre: "Alejandro Noj",
-    img: "./images/equipo/alejandroNoj_Mesa de trabajo 1.png",
-    cargo: "Dirección de investigación"
+    nombre: "Luis López",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    cargo: "Junta directiva"
   },
-  {
-    id: "4",
-    nombre: "Nahomy Hernandez",
-    img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
-    cargo: "Dirección de alianzas y cooperación"
-  },
+  
   {
     id: "5",
-    nombre: "Gabriela Pineda",
+    nombre: "Marco Sagastume",
     img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de estrategias y alianzas"
+    cargo: "Junta directiva"
   },
   {
     id: "6",
-    nombre: "Lily Araujo",
+    nombre: "Rodrigo Vargas",
     img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de equipo de investigación USAC"
+    cargo: "Junta directiva"
   }, 
   {
     id: "107",
-    nombre: "Diego Taracena",
+    nombre: "Patricia Véliz",
     img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de equipo de investigación URL"
+    cargo: "Junta directiva"
 },
 {
     id: "108",
     nombre: "Marce Guevara",
     img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
     cargo: "Dirección de investigación de dpto. de Escuintla"
+},
+{
+  id: "4",
+  nombre: "Nahomy Hernandez",
+  img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
+  cargo: "Dirección de alianzas"
+},
+{
+  id: "2",
+  nombre: "Gabriela Gaytan",
+  img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
+  cargo: "Dirección de comunicación"
 },
 ];
 export default data;

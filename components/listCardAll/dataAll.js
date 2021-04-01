@@ -1,46 +1,46 @@
 const data = [
     {
         id: "101",
-        nombre: "Andrea Lopez",
+        nombre: "Andrea Lourdes Lopez",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Dirección de proyectos"
+        cargo: "Junta directiva - Directora ejecutiva"
     },
 
     {
         id: "102",
-        nombre: "Gabriela Gaytan",
-        img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
-        cargo: "Dirección de comunicación"
+        nombre: "Luis López",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    cargo: "Junta directiva"
     },
     {
         id: "103",
-        nombre: "Alejandro Noj",
-        img: "./images/equipo/alejandroNoj_Mesa de trabajo 1.png",
-        cargo: "Dirección de investigación"
+        nombre: "Marco Sagastume",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    cargo: "Junta directiva"
     },
     {
         id: "104",
-        nombre: "Nahomy Hernandez",
-        img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
-        cargo: "Dirección de alianzas y cooperación"
+        nombre: "Rodrigo Vargas",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    cargo: "Junta directiva"
     },
     {
         id: "105",
-        nombre: "Gabriela Pineda",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Dirección de estrategias y alianzas"
+        nombre: "Patricia Véliz",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    cargo: "Junta directiva"
     },
     {
         id: "106",
-        nombre: "Lily Araujo",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Dirección de equipo de investigación USAC"
+        nombre: "Marce Guevara",
+    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    cargo: "Dirección de investigación de dpto. de Escuintla"
     },
     {
         id: "107",
-        nombre: "Diego Taracena",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Dirección de equipo de investigación URL"
+        nombre: "Nahomy Hernandez",
+        img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
+        cargo: "Dirección de alianzas"
     },
     {
         id: "108",
@@ -56,70 +56,71 @@ const data = [
     },
     {
         id: "110",
-        nombre: "Iraydis Cardona",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Coordinadora de alianzas municipales"
+        nombre: "Gabriela Gaytan",
+        img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
+        cargo: "Dirección de comunicación"
     },
     {
         id: "111",
-        nombre: "Jéssica Gómeza",
+        nombre: "Jessica Gómez",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Cooperación y alianzas"
+        cargo: "Coordinación webinars"
     },
     {
         id: "112",
-        nombre: "Yamileth Ventura",
+        nombre: "Alaide Iguardia",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Cooperación y alianzas"
+        cargo: "Coordinación Foros"
     },
     {
         id: "113",
-        nombre: "Estefany Ruiz",
+        nombre: " Eunice Lemus",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Cooperación y monitoreo"
+        cargo: "Coordinación Foros"
     },
     {
         id: "114",
-        nombre: "Gabriela López",
+        nombre: "Gaby Gaytán",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Cooperación y monitoreo"
+        cargo: "Equipo de cominucacion"
     },
     {
         id: "5",
-        nombre: "Carolina Rabe",
+        nombre: "Susana Balcarcel",
         img: "./images/equipo/CarolinaRabe_Mesa de trabajo 1.png",
-        cargo: "Coordinación de redes sociales"
+        cargo: "Equipo de cominucacion"
     },
     {
         id: "6",
-        nombre: "Jeimy Martinez",
+        nombre: "Melanie López",
         img: "./images/equipo/jeimiMartinez_Mesa de trabajo 1.png",
-        cargo: "Coordinación alianzas colegios"
+        cargo: "Equipo de cominucacion"
     },
     {
         id: "7",
-        nombre: "Alejandra Teleguario",       
+        nombre: "Carolina Rabe",       
         img: "./images/equipo/AlejandraTelegario_Mesa de trabajo 1.png",
-        cargo: "Embajadora en Quetaltenango"
+        cargo: "Equipo de cominucacion"
     },
     {
         id: "8",
-        nombre: "Wendy Orozco",
+        nombre: "Ándrea Gonzales",
         img: "./images/equipo/wendyOrozco_Mesa de trabajo 1.png",
-        cargo: "Embajadora en San Marcos"
+        cargo: "Equipo de cominucacion"
     },
     {
         id: "9",
-        nombre: "Isabel Bautista",       
+        nombre: "Karla Zúñiga",       
         img: "./images/equipo/isabelSanMarcos_Mesa de trabajo 1.png",
-        cargo: "Embajadora en San Marcos"
+        cargo: "Equipo de cominucacion"
     },
     {
         id: "10",
-        nombre: "Cecilia Paiz",
+        nombre: "Cynthia Paola",
         img: "./images/equipo/ceciliaPais_Mesa de trabajo 1.png",
-        cargo: "Embajadora en San Marcos"
+        cargo: "Equipo de cominucacion"
     },
+    
     {
         id: "11",
         nombre: "Carlos ",
