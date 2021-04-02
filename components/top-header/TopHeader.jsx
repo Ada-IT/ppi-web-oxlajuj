@@ -1,6 +1,16 @@
+import React, { useState } from "react";
 import topHeader from "./TopHeader.module.css";
+import ModalContent from "../ModalContent/ModalContent";
 
 const TopHeader = () => {
+
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <div className={topHeader.topHeaderBar}>
       <div className='container'>
@@ -25,11 +35,13 @@ const TopHeader = () => {
           </div>
           <div className='col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center'>
             <div className={topHeader.donate}>
-              <a href='#'>Donar</a>
+              <button onClick={handleShow} className={topHeader.carBtn}>
+                DONAR      </button>
             </div>
           </div>
         </div>
       </div>
+      {show ? <ModalContent show={show} handleClose={handleClose} /> : null}
     </div>
   );
 };

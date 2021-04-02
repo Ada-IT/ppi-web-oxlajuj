@@ -3,9 +3,7 @@
   background-color: var(--color-primary);
   color: var(--color-ligth);
 }
-.container {
-  margin-right: 80px;
-}
+
 .align-img {
   text-align: center;
 }
@@ -18,15 +16,21 @@
   margin: 60px 0;
 }
 
-.paragraph {
+.textCenter {
   text-align: end;
 }
 .imgHistory {
   width: 250px;
   padding-top: 59px;
 }
+.reverse {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
-@media screen and (max-width: 47em) {
+@media screen and (max-width: 768px) {
   .img {
     max-width: 100%;
   }
@@ -36,8 +40,11 @@
   .title {
     padding: 27px 0;
   }
-  .paragraph,
+  .text,
   .textCenter {
     text-align: center;
+  }
+  .reverse {
+    flex-direction: column-reverse;
   }
 }
