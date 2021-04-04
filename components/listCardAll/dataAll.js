@@ -33,7 +33,7 @@ const data = [
     {
         id: "115",
         nombre: "Marce Guevara",
-        img: "./images/equipo/marceGuevara_Mesa de trabajo 1.png",
+        img: "./images/equipo/marceGuevara_Mesa de trabajo 1 copy.png",
         cargo: "Dirección de investigación de dpto. de Escuintla"
     },
     {

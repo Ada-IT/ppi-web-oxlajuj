@@ -3,12 +3,10 @@
     background-color:var(--color-primary);
     padding-left: 10px;
     padding-right: 10px;
- /*    display: flex; */
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-/*     margin-bottom: 50px;
- */    padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .form{
