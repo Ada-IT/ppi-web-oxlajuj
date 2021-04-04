@@ -165,7 +165,7 @@ const data = [
     {
         id: "19",
         nombre: "Jeimy Martinez",
-        img: "./images/equipo/JeimyMart+.png",
+        img: "./images/equipo/1JeimyMart.png",
         cargo: "Equipo de Alianzas e investigación"
     },
     {
