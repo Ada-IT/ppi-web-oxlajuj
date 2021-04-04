@@ -3,210 +3,281 @@ const data = [
         id: "101",
         nombre: "Andrea Lourdes Lopez",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Junta directiva - Directora ejecutiva"
+        cargo: "Junta directiva - Directora ejecutiva -Equipo de formación"
     },
 
     {
         id: "102",
         nombre: "Luis López",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Junta directiva"
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Junta directiva"
     },
     {
         id: "103",
         nombre: "Marco Sagastume",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Junta directiva"
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Junta directiva"
     },
     {
         id: "104",
         nombre: "Rodrigo Vargas",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Junta directiva"
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+            cargo: "Junta directiva"
     },
     {
         id: "105",
         nombre: "Patricia Véliz",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Junta directiva"
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Junta directiva"
+    },
+    {
+        id: "115",
+        nombre: "Marce Guevara",
+        img: "./images/equipo/marceGuevara_Mesa de trabajo 1.png",
+        cargo: "Dirección de investigación de dpto. de Escuintla"
     },
     {
         id: "106",
-        nombre: "Marce Guevara",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de investigación de dpto. de Escuintla"
-    },
-    {
-        id: "107",
-        nombre: "Nahomy Hernandez",
+        nombre: "Nahomy Hernández",
         img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
         cargo: "Dirección de alianzas"
     },
     {
+        id: "107",
+        nombre: "Gabriela Gaytán",
+        img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
+        cargo: "Dirección de comunicaión - Equipo de comunicación"
+    },    
+    {
         id: "108",
-        nombre: "Marce Guevara",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Dirección de investigación de dpto. de Escuintla"
+        nombre: "Jessica Gomez",
+        img: "./images/equipo/jesicaGomez_Mesa de trabajo 1.png",
+        cargo: "Coordinación de Webinars -Equipo de Alianzas"
     },
     {
         id: "109",
-        nombre: "Karla Zúñiga",
+        nombre: "Alaide Iguardia",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Coordinadora de contenidos academicos"
+        cargo: "Coordinación de foros -Equipo de proyectos"
     },
     {
         id: "110",
-        nombre: "Gabriela Gaytan",
-        img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
-        cargo: "Dirección de comunicación"
+        nombre: "Eunice Lemus",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Coordinación de foros -Equipo de proyectos"
     },
     {
         id: "111",
-        nombre: "Jessica Gómez",
+        nombre: "Susana Balcárcel",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Coordinación webinars"
+        cargo: "Equipo de comunicación"
     },
     {
         id: "112",
-        nombre: "Alaide Iguardia",
+        nombre: "Melanie Lopez",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Coordinación Foros"
+        cargo: "Equipo de comunicación"
     },
     {
         id: "113",
-        nombre: " Eunice Lemus",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Coordinación Foros"
+        nombre: " Carolina Rabe",
+        img: "./images/equipo/CarolinaRabe_Mesa de trabajo 1.png",
+        cargo: "Equipo de comunicación"
     },
     {
         id: "114",
-        nombre: "Gaby Gaytán",
+        nombre: "Andrea Gonzalez",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Equipo de cominucacion"
     },
     {
         id: "5",
-        nombre: "Susana Balcarcel",
-        img: "./images/equipo/CarolinaRabe_Mesa de trabajo 1.png",
+        nombre: "Karla Zuñiga",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Equipo de cominucacion"
     },
     {
         id: "6",
-        nombre: "Melanie López",
-        img: "./images/equipo/jeimiMartinez_Mesa de trabajo 1.png",
+        nombre: "Cynthia Paola",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
         cargo: "Equipo de cominucacion"
     },
     {
         id: "7",
-        nombre: "Carolina Rabe",       
-        img: "./images/equipo/AlejandraTelegario_Mesa de trabajo 1.png",
-        cargo: "Equipo de cominucacion"
+        nombre: "Alejandra Lopez",       
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de proyectos"
     },
     {
         id: "8",
-        nombre: "Ándrea Gonzales",
+        nombre: "Wendy Orozco",
         img: "./images/equipo/wendyOrozco_Mesa de trabajo 1.png",
-        cargo: "Equipo de cominucacion"
+        cargo: "Equipo de proyectos -Embajadora en San Marcos, San pedro, Sacatepéquez"
     },
     {
         id: "9",
-        nombre: "Karla Zúñiga",       
-        img: "./images/equipo/isabelSanMarcos_Mesa de trabajo 1.png",
-        cargo: "Equipo de cominucacion"
+        nombre: "Ana Mux",       
+        img: "./images/equipo/AnaMux_Mesa de trabajo 1.png",
+        cargo: "Equipo de proyectos -Embajadora en Guatemala, Santa Catarina, Pinula"
     },
     {
         id: "10",
-        nombre: "Cynthia Paola",
-        img: "./images/equipo/ceciliaPais_Mesa de trabajo 1.png",
-        cargo: "Equipo de cominucacion"
-    },
-    
+        nombre: "Alejandra Teleguardio",
+        img: "./images/equipo/AlejandraTelegario_Mesa de trabajo 1.png",
+        cargo: "Equipo de proyectos -Embajadora en Quetzaltenango"
+    },    
     {
         id: "11",
-        nombre: "Carlos ",
+        nombre: "Gerson Upún ",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Embajador en Altaverapaz"
+        cargo: "Equipo de proyectos"
     },
     {
         id: "12",
-        nombre: "Pablo",
-        img: "./images/equipo/pabloGuatemala_Mesa de trabajo 1.png",
-        cargo: "Embajador en Guatemala"
+        nombre: "Ilse Cua",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas"
     },
     {
         id: "15",
-        nombre: "Ana Mux",
-        img: "./images/equipo/AnaMux.png",
-        cargo: "Embajadora en Guatemala"
+        nombre: "Ana Cecilia Paiz",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas -Embajadora en San Marcos, San pedro, Sacatepéquez"
     },
     {
         id: "16",
-        nombre: "Elizabeth",
-        img: "./images/equipo/ElizabethSacatepesquez_Mesa de trabajo 1.png",
-        cargo: "Embajadora en Sacatepéquez"
+        nombre: "Estefany Ruiz",
+        img: "./images/equipo/estefanyRuiz_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas"
     },
     {
         id: "17",
-        nombre: "Zayra",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Embajadora en Sacatepéquez"
+        nombre: "Yamileth Ventura",
+        img: "./images/equipo/yamiletVentura_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas"
     },
     {
         id: "18",
-        nombre: "Elida",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Embajadora en Sololá"
+        nombre: "Vanessa Campos",
+        img: "./images/equipo/vanesaCampos_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas"
     },
     {
         id: "19",
-        nombre: "Ramón",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Embajador en Sololá"
+        nombre: "Jeimy Martinez",
+        img: "./images/equipo/jeimiMartinez_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas e investigación"
     },
     {
         id: "21",
-        nombre: "Ilse Cua Barreno",
+        nombre: "Angela López",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Embajadora en Totonicapán"
+        cargo: "Equipo de Alianzas e investigación"
     },
     {
         id: "22",
-        nombre: "Iraydis Virgilia",
+        nombre: "Alejandra Patal",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Pasantía de proyectos y cooperación"
+        cargo: "Equipo de Alianzas e investigación"
     },
     {
         id: "23",
-        nombre: "Zuli García",
+        nombre: "Sindy Guevara",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Pasantía de proyectos y cooperación"
+        cargo: "Equipo de Alianzas e investigación"
     },
     {
         id: "24",
-        nombre: "Estefany Barraza",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Pasantía de proyectos y cooperación"
+        nombre: "Diego Taracena",
+        img: "./images/equipo/diegoTaracena_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas e investigación"
     },{
         id: "25",
-        nombre: "Andrea Vanegas",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Pasantía de proyectos y cooperación"
+        nombre: "Gabriela Pineda",
+        img: "./images/equipo/gabrielaPineda_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas e investigación"
     },{
         id: "26",
-        nombre: "Vannesa Campos",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Pasantía de proyectos y cooperación"
+        nombre: "Alejandro N´oj",
+        img: "./images/equipo/alejandroNoj_Mesa de trabajo 1.png",
+        cargo: "Equipo de Alianzas e investigación"
     },{
         id: "27",
-        nombre: "Angela López",
+        nombre: "Linda Alay",
         img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Pasantía de proyectos y cooperación"
-    },{
-        id: "28",
-        nombre: "Alaide Iguardia",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-        cargo: "Pasantía de proyectos y cooperación"
+        cargo: "Equipo de formación"
     },
-  
+    {
+        id: "28",
+        nombre: "Valentina Contreras",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de formación"
+    },
+    {
+        id: "29",
+        nombre: "Francis Navas",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de formación"
+    },
+    {
+        id: "30",
+        nombre: "Ivonne Plascencia",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de formación"
+    },
+    {
+        id: "31",
+        nombre: "Andrea Reyes",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de formación"
+    },
+    {
+        id: "32",
+        nombre: "Susana Yuman",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Equipo de formación"
+    },
+    {
+        id: "33",
+        nombre: "Elida Judith López",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Embajadora en Sololá, San Andrés, Semetabaj"
+    },
+    {
+        id: "34",
+        nombre: "Maria Isabel Bautista",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Embajadora en San Marcos – San pedro – Sacatepéquez"
+    },
+    {
+        id: "35",
+        nombre: "Zaira Gabriela Xicay",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Embajadora en Guatemala, Sacatepéquez, Antigua Guatemala"
+    },
+    {
+        id: "36",
+        nombre: "Elizabeth Chavez López",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Embajadora en Guatemala, Sacatepéquez, San Antonio AC"
+    },
+    {
+        id: "37",
+        nombre: "Paolo Giovanni Mendoza",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Embajador en Guatemala, San Miguel, Petapa"
+    },
+    {
+        id: "38",
+        nombre: "Ramón López Tambriz",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Embajador en Sololá, Nahualá"
+    },
+    {
+        id: "39",
+        nombre: "Carlos Humberto Vicente",
+        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        cargo: "Embajador en Alta verapáz, Tamahú"
+    }  
 ];
 export default data;

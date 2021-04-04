@@ -3,7 +3,7 @@ const data = [
     id: "1",
     nombre: "Andrea Lourdes Lopez",
     img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Junta directiva - Directora ejecutiva"
+    cargo: "Junta directiva - Directora ejecutiva -Equipo de formación"
   },  
   {
     id: "3",
@@ -33,7 +33,7 @@ const data = [
 {
     id: "108",
     nombre: "Marce Guevara",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/marceGuevara_Mesa de trabajo 1.png",
     cargo: "Dirección de investigación de dpto. de Escuintla"
 },
 {
