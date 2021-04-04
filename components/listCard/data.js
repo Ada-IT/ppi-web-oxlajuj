@@ -2,7 +2,7 @@ const data = [
   {  
     id: "1",
     nombre: "Andrea Lourdes Lopez",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/1ALourdesLopez.png",
     cargo: "Junta directiva - Directora ejecutiva -Equipo de formación"
   },  
   {
