@@ -240,43 +240,43 @@ const data = [
     {
         id: "33",
         nombre: "Elida Judith López",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        img: "./images/equipo/1ElidaJudithLope.png",
         cargo: "Embajadora en Sololá, San Andrés, Semetabaj"
     },
     {
         id: "34",
         nombre: "Maria Isabel Bautista",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        img: "./images/equipo/1MariaIsabBau.png",
         cargo: "Embajadora en San Marcos – San pedro – Sacatepéquez"
     },
     {
         id: "35",
         nombre: "Zaira Gabriela Xicay",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        img: "./images/equipo/1ZairGab.png",
         cargo: "Embajadora en Guatemala, Sacatepéquez, Antigua Guatemala"
     },
     {
         id: "36",
         nombre: "Elizabeth Chavez López",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        img: "./images/equipo/1ElizChavLop.png",
         cargo: "Embajadora en Guatemala, Sacatepéquez, San Antonio AC"
     },
     {
         id: "37",
         nombre: "Paolo Giovanni Mendoza",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        img: "./images/equipo/1PabloGM.png",
         cargo: "Embajador en Guatemala, San Miguel, Petapa"
     },
     {
         id: "38",
         nombre: "Ramón López Tambriz",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        img: "./images/equipo/1RamonLopez.png",
         cargo: "Embajador en Sololá, Nahualá"
     },
     {
         id: "39",
         nombre: "Carlos Humberto Vicente",
-        img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+        img: "./images/equipo/1CarlosHumMend.png",
         cargo: "Embajador en Alta verapáz, Tamahú"
     }  
 ];
