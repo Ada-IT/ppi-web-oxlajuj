@@ -8,44 +8,44 @@ const data = [
   {
     id: "3",
     nombre: "Luis López",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/1ALourdesLopez.png",
     cargo: "Junta directiva"
   },
   
   {
     id: "5",
     nombre: "Marco Sagastume",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/1ALourdesLopez.png",
     cargo: "Junta directiva"
   },
   {
     id: "6",
     nombre: "Rodrigo Vargas",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/1ALourdesLopez.png",
     cargo: "Junta directiva"
   }, 
   {
-    id: "107",
+    id: "7",
     nombre: "Patricia Véliz",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/1ALourdesLopez.png",
     cargo: "Junta directiva"
 },
 {
-    id: "108",
+    id: "8",
     nombre: "Marce Guevara",
-    img: "./images/equipo/marceGuevara_Mesa de trabajo 1.png",
+    img: "./images/equipo/1MarceGuevara.png",
     cargo: "Dirección de investigación de dpto. de Escuintla"
 },
 {
-  id: "4",
+  id: "9",
   nombre: "Nahomy Hernandez",
-  img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
+  img: "./images/equipo/1NahomyHernandez.png",
   cargo: "Dirección de alianzas"
 },
 {
-  id: "2",
+  id: "10",
   nombre: "Gabriela Gaytan",
-  img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
+  img: "./images/equipo/1GabyGay.png",
   cargo: "Dirección de comunicación"
 },
 ];
