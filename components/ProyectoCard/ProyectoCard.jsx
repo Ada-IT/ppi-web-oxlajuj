@@ -7,7 +7,7 @@ const ProyectoCard = ({ texto, titulo, img, titulo2, texto2, img2 }) => {
     return (
         <>       
             <Row className={style.rowPro1}>
-                <Col lg={4} className={style.colPro} >
+                <Col lg={4} xl={4} className={style.colPro} >
                     <img src={img} className={style.imgPro} />
                 </Col>
                 <Col>
