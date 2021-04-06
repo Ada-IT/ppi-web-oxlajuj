@@ -9,11 +9,11 @@ const WhoAre = () => {
       <Container className={style.ContQuienes}>
         <Row >
           <Col sm={6} className={style.imgHistory} >
-            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+            <img src='./images/quienesSomos/nuestraHistoria.png' className={style.imgPro} />
           </Col>
-          <Col sm={4}className={style.contenProy}>
+          <Col sm={6}className={style.contenProy}>
             <h1 className={style.title}>Nuestra Historia</h1>
-            <p className={style.textCenter}>En el año 2007 surgió la Fundación Oxlajuj No’j, en Guatemala.
+            <p className={style.textQuienes}>En el año 2007 surgió la Fundación Oxlajuj No’j, en Guatemala.
             Un proyecto en el que siete intelectuales e investigadoras de
             distintas disciplinas se conformaron como grupo académico; con
             la firme convicción que la academia y la investigación son
@@ -22,24 +22,24 @@ const WhoAre = () => {
         </Row>
         <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro2}>
-          <Col className={style.contenProy}>
-            <h1 className={style.proyTitle} >¿Quienes somos?</h1>
-            <p className={style.proyDesc} >Somos una fundación cuya naturaleza es carácter privado, no
+          <Col sm={6} className={style.contenProy}>
+            <h1 className={style.title} >¿Quienes somos?</h1>
+            <p className={style.textQuienes} >Somos una fundación cuya naturaleza es carácter privado, no
             partidista, sin fines de lucro, con proyección social y de
                 asistencia humanitaria.</p>
           </Col>
-          <Col lg={4}  >
-            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          <Col sm={6}  >
+            <img src='./images/quienesSomos/quienesSomos.png' className={style.imgPro} />
           </Col>
         </Row>
         <hr noshade="noshade" className={style.linea} />
         <Row >
-          <Col lg={4} className={style.imgHistory} >
-            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          <Col sm={6} className={style.imgHistory} >
+            <img src='./images/quienesSomos/vision.png' className={style.imgPro} />
           </Col>
-          <Col className={style.contenProy}>
+          <Col sm={6} className={style.contenProy}>
             <h1 className={style.title}>Visión</h1>
-            <p className={style.textCenter}>Educar a la población por medio de la formación e investigación
+            <p className={style.textQuienes}>Educar a la población por medio de la formación e investigación
                 en temas de género, ética y derechos humanos, fomentando un
                 empoderamiento sostenible para las y los jóvenes y mujeres de la
                 región centroamericana. Aacortando las brechas de género y
@@ -48,25 +48,25 @@ const WhoAre = () => {
         </Row>
         <hr noshade="noshade" className={style.linea} />
         <Row className={style.rowPro2}>
-          <Col className={style.contenProy}>
-            <h1 className={style.proyTitle} >Misión</h1>
-            <p className={style.proyDesc} >Fortalecemos la ejecución de proyectos con enfoque de género y
+          <Col sm={6} className={style.contenProy}>
+            <h1 className={style.title} >Misión</h1>
+            <p className={style.textQuienes} >Fortalecemos la ejecución de proyectos con enfoque de género y
                 empoderamiento sostenible para jóvenes y mujeres de áreas
                 rurales, por medio de nuestros programas educativos,
                 investigaciones y capacitaciones para profesionales.</p>
           </Col>
-          <Col lg={4}  >
-            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          <Col sm={6}>
+            <img src='./images/quienesSomos/mision.png' className={style.imgPro} />
           </Col>
         </Row>
         <hr noshade="noshade" className={style.linea} />
         <Row >
-          <Col lg={4} className={style.imgHistory} >
-            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          <Col sm={6} className={style.imgHistory} >
+            <img src='./images/quienesSomos/dondeTrabajamos.png' className={style.imgPro} />
           </Col>          
-          <Col className={style.contenProy}>
+          <Col sm={6} className={style.contenProy}>
             <h1 className={style.title}>¿Donde trabajamos?</h1>
-            <p className={style.textCenter}>Estamos en los siguientes departamentos: Guatemala, Jutiapa,
+            <p className={style.textQuienes}>Estamos en los siguientes departamentos: Guatemala, Jutiapa,
                 Sololá, Quetzaltenango, Chimaltenango, Sacatepéquez, Alta,
                 Verapaz, San Marcos, Chiquimula, Escuintla y Totonicapán.</p>
           </Col>
