@@ -8,12 +8,12 @@
 }
 .proyTitle{
     color:var(--color-primary);
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .proyDesc{
-    color:var(--color-dark);
-    font-size: 18px;
+    color:var(--color-dark);    
+    font-size: 24px;
 }
 
 .rowPro1{
@@ -24,6 +24,16 @@
     text-align: end;
 }
 
+.contenProy{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center
+}
+
+.colPro{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 990px) {
     .proyTitle{

@@ -48,3 +48,6 @@
     flex-direction: column-reverse;
   }
 }
+.ContQuienes{
+  max-width: 1500px;
+}

@@ -1,13 +1,79 @@
 import Hero from "../components/hero/Hero";
-import { Container } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import style from "../styles/quienes-somos.module.css";
 
 const WhoAre = () => {
   return (
     <>
       <Hero />
-      <Container className={style.container}>
-        <section className={style.section}>
+      <Container className={style.ContQuienes}>
+        <Row >
+          <Col sm={6} className={style.imgHistory} >
+            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          </Col>
+          <Col sm={4}className={style.contenProy}>
+            <h1 className={style.title}>Nuestra Historia</h1>
+            <p className={style.textCenter}>En el año 2007 surgió la Fundación Oxlajuj No’j, en Guatemala.
+            Un proyecto en el que siete intelectuales e investigadoras de
+            distintas disciplinas se conformaron como grupo académico; con
+            la firme convicción que la academia y la investigación son
+        fundamentales para el desarrollo de la humanidad.</p>
+          </Col>
+        </Row>
+        <hr noshade="noshade" className={style.linea} />
+        <Row className={style.rowPro2}>
+          <Col className={style.contenProy}>
+            <h1 className={style.proyTitle} >¿Quienes somos?</h1>
+            <p className={style.proyDesc} >Somos una fundación cuya naturaleza es carácter privado, no
+            partidista, sin fines de lucro, con proyección social y de
+                asistencia humanitaria.</p>
+          </Col>
+          <Col lg={4}  >
+            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          </Col>
+        </Row>
+        <hr noshade="noshade" className={style.linea} />
+        <Row >
+          <Col lg={4} className={style.imgHistory} >
+            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          </Col>
+          <Col className={style.contenProy}>
+            <h1 className={style.title}>Visión</h1>
+            <p className={style.textCenter}>Educar a la población por medio de la formación e investigación
+                en temas de género, ética y derechos humanos, fomentando un
+                empoderamiento sostenible para las y los jóvenes y mujeres de la
+                región centroamericana. Aacortando las brechas de género y
+                disminuyendo la violencia basada en género.</p>
+          </Col>
+        </Row>
+        <hr noshade="noshade" className={style.linea} />
+        <Row className={style.rowPro2}>
+          <Col className={style.contenProy}>
+            <h1 className={style.proyTitle} >Misión</h1>
+            <p className={style.proyDesc} >Fortalecemos la ejecución de proyectos con enfoque de género y
+                empoderamiento sostenible para jóvenes y mujeres de áreas
+                rurales, por medio de nuestros programas educativos,
+                investigaciones y capacitaciones para profesionales.</p>
+          </Col>
+          <Col lg={4}  >
+            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          </Col>
+        </Row>
+        <hr noshade="noshade" className={style.linea} />
+        <Row >
+          <Col lg={4} className={style.imgHistory} >
+            <img src='./images/proyecto/DerechosGeneroM.png' className={style.imgPro} />
+          </Col>          
+          <Col className={style.contenProy}>
+            <h1 className={style.title}>¿Donde trabajamos?</h1>
+            <p className={style.textCenter}>Estamos en los siguientes departamentos: Guatemala, Jutiapa,
+                Sololá, Quetzaltenango, Chimaltenango, Sacatepéquez, Alta,
+                Verapaz, San Marcos, Chiquimula, Escuintla y Totonicapán.</p>
+          </Col>
+        </Row>
+      </Container>
+
+      {/* <section className={style.section}>
           <div className='row'>
             <div className='col-lg-6 col-md-12'>
               <h2 className={style.title}>Nuestra Historia</h2>
@@ -25,7 +91,7 @@ const WhoAre = () => {
                 src='./images/quienesSomos1.png'
                 alt='nuestra-historia'
               />
-            </div>
+            </div>            
           </div>
         </section>
         <section className={style.section}>
@@ -88,6 +154,7 @@ const WhoAre = () => {
             </div>
           </div>
         </section>
+
         <section className={style.section}>
           <div className='row'>
             <div className='col-lg-6 col-md-12 text-mision'>
@@ -107,7 +174,7 @@ const WhoAre = () => {
             </div>
           </div>
         </section>
-      </Container>
+      </Container> */}
     </>
   );
 };
