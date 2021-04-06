@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  padding: 20px 80px;
+padding: 20px 0px;
 }
 
 
@@ -30,7 +30,6 @@ animation-duration: 3s;
   }
   
 }
-
 
 .bannerText {
   padding: 20px 0px;
@@ -68,4 +67,30 @@ animation-duration: 3s;
 .carBtn:active {
     text-decoration: none;
     color: var(--color-dark);
+}
+
+@media (max-width: 990px) {
+    .banner{
+       display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+    }
+}
+@media (max-width: 990px) {
+    .bannerText{
+      padding: 0 auto;
+      margin: 0 auto;
+text-align: center;
+/* height: 300px; */
+    }
+}
+
+@media (max-width: 400px) {
+    .bannerText{
+      padding: 0 auto;
+      margin: 0 auto;
+text-align: center;
+ height: 200px;
+    }
 }
