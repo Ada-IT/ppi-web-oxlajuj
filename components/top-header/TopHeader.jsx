@@ -3,7 +3,6 @@ import topHeader from "./TopHeader.module.css";
 import ModalContent from "../ModalContent/ModalContent";
 
 const TopHeader = () => {
-
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
@@ -13,7 +12,7 @@ const TopHeader = () => {
 
   return (
     <div className={topHeader.topHeaderBar}>
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center'>
           <div className='col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0'>
             <div className={topHeader.headerBarEmail}>
@@ -36,7 +35,8 @@ const TopHeader = () => {
           <div className='col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center'>
             <div className={topHeader.donate}>
               <button onClick={handleShow} className={topHeader.carBtn}>
-                DONAR      </button>
+                DONAR{" "}
+              </button>
             </div>
           </div>
         </div>
