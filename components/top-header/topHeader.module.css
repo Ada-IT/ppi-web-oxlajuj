@@ -1,6 +1,11 @@
 .topHeaderBar {
   background: var(--color-primary);
   color: var(--color-ligth);
+  padding-left: 34px;
+  padding-right: 25px;
+}
+.container {
+  margin-left: 18px;
 }
 .headerBarEmail,
 .headerBarText {
@@ -31,79 +36,38 @@
   text-decoration: #ffdead;
   background: #262222;
 }
-.carBtn{
-   /*  height: 40px;
-    width:250px; */
-    background-color:var(--color-secundary);
-   /*  text-align: center; */
-   /*  font-size: var(--font-size-large); */
-    text-decoration: none;
-    color: var(--color-dark);
-/*     border-radius: 5px;
- */    border: none;
-  /*   font-weight: 200; */
- padding: 15px 20px;
+.carBtn {
+  background-color: var(--color-secundary);
+  text-decoration: none;
+  color: var(--color-dark);
+  border: none;
+  padding: 15px 20px;
 }
-.carBtn:hover{
-    text-decoration: none;
-    color:var(--color-alternative);    
-    background-color:rgb(24, 22, 22);
+.carBtn:hover {
+  text-decoration: none;
+  color: var(--color-alternative);
+  background-color: rgb(24, 22, 22);
 }
-/* .carBtn:link {
-    text-decoration: none;
-    color: var(--color-dark);
-} */
+
 .carBtn:active {
-    text-decoration: none;
-    color: var(--color-dark);
+  text-decoration: none;
+  color: var(--color-dark);
 }
-/* .carBtn:{
-    text-decoration: none;
-    color: var(--color-dark);
-} */
-/* .carBtn:focus {
-    text-decoration: none;
-    color: var(--color-alternative);
-   background-color:rgb(24, 22, 22);
-}
- */
-.carBtnCerrar{
 
-    background-color:var(--color-primary);
- 
-   /*  font-size: var(--font-size-large); */
-    text-decoration: none;
-    color: var(--color-alternative);
-/*     border-radius: 5px;
- */    border: none;
-  /*   font-weight: 200; */
- padding: 15px 20px;
+.carBtnCerrar {
+  background-color: var(--color-primary);
+  text-decoration: none;
+  color: var(--color-alternative);
+  border: none;
+  padding: 15px 20px;
 }
-.carBtnCerrar:hover{
-    text-decoration: none;
-    color:var(--color-alternative);    
-    background-color:rgb(24, 22, 22);
+.carBtnCerrar:hover {
+  text-decoration: none;
+  color: var(--color-alternative);
+  background-color: rgb(24, 22, 22);
 }
-/* .carBtnCerrar:link {
-    text-decoration: none;
-    color: var(--color-dark);
-} */
+
 .carBtnCerrar:active {
-    text-decoration: none;
-    color: var(--color-dark);
+  text-decoration: none;
+  color: var(--color-dark);
 }
-/* .carBtn:{
-    text-decoration: none;
-    color: var(--color-dark);
-} */
-/* .carBtnCerrar:focus {
-    text-decoration: none;
-    color: var(--color-alternative);
-   background-color:rgb(24, 22, 22);
-} */
-
-/* @media (max-width: 600px) {
-  .carBtn {
-    display: none;
-  }
-} */

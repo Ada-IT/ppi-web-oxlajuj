@@ -1,4 +1,4 @@
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container, Row } from "react-bootstrap";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -12,10 +12,10 @@ const NavbarComponent = () => {
   };
 
   return (
-    <div className='container'>
-      <Navbar expand='lg'>
+    <Navbar expand='lg'>
+      <div class='container-fluid'>
         <Link href='/'>
-          <a style={{ marginLeft: "-26px" }} className='navbar-brand'>
+          <a className='navbar-brand'>
             <img style={{ width: "250px" }} src='./images/logo.png' />
           </a>
         </Link>
@@ -52,8 +52,8 @@ const NavbarComponent = () => {
             </Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-    </div>
+      </div>
+    </Navbar>
   );
 };
 
