@@ -1,0 +1,97 @@
+.banner {
+  background: var(--color-alternative);
+  color: var(--color-ligth); 
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+padding: 20px 0px;
+}
+
+
+.bannerImage{
+ 
+  -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+animation-duration: 3s;
+}
+
+
+@keyframes slide-left {
+  0% {
+      -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+ 
+  }
+  100% {
+     -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  
+}
+
+.bannerText {
+  padding: 20px 0px;
+  font-size: var(--font-size-large);
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-weight: 200;
+  line-height: 30px;
+  height: 150px;
+  text-align: center;
+}
+.bannerTextStrong{
+  font-size: var(--font-size-large);
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-weight: 600;
+  line-height: 30px;
+}
+
+
+.carBtn{
+    background-color:var(--color-primary);
+    text-decoration: none;
+    color: var(--color-alternative);
+    border: none;
+    padding: 15px 20px;
+}
+.carBtn:hover{
+    text-decoration: none;
+    color:var(--color-alternative);    
+    background-color:rgb(24, 22, 22);
+}
+
+.carBtn:active {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+@media (max-width: 990px) {
+    .banner{
+       display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+    }
+}
+@media (max-width: 990px) {
+    .bannerText{
+      padding: 0 auto;
+      margin: 0 auto;
+text-align: center;
+/* height: 300px; */
+    }
+}
+
+@media (max-width: 400px) {
+    .bannerText{
+      padding: 0 auto;
+      margin: 0 auto;
+text-align: center;
+ height: 200px;
+    }
+}

@@ -1,51 +1,52 @@
 const data = [
-  {
+  {  
     id: "1",
-    nombre: "Andrea Lopez",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de proyectos"
-  },
-  {
-    id: "2",
-    nombre: "Gabriela Gaytan",
-    img: "./images/equipo/gabielaGaytan_Mesa de trabajo 1.png",
-    cargo: "Dirección de comunicación"
-  },
+    nombre: "Andrea Lourdes Lopez",
+    img: "./images/equipo/1ALourdesLopez.png",
+    cargo: "Junta directiva - Directora ejecutiva -Equipo de formación"
+  },  
   {
     id: "3",
-    nombre: "Alejandro Noj",
-    img: "./images/equipo/alejandroNoj_Mesa de trabajo 1.png",
-    cargo: "Dirección de investigación"
+    nombre: "Luis López",
+    img: "./images/equipo/1ALourdesLopez.png",
+    cargo: "Junta directiva"
   },
-  {
-    id: "4",
-    nombre: "Nahomy Hernandez",
-    img: "./images/equipo/nahomy_Mesa de trabajo 1.png",
-    cargo: "Dirección de alianzas y cooperación"
-  },
+  
   {
     id: "5",
-    nombre: "Gabriela Pineda",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de estrategias y alianzas"
+    nombre: "Marco Sagastume",
+    img: "./images/equipo/1ALourdesLopez.png",
+    cargo: "Junta directiva"
   },
   {
     id: "6",
-    nombre: "Lily Araujo",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de equipo de investigación USAC"
+    nombre: "Rodrigo Vargas",
+    img: "./images/equipo/1ALourdesLopez.png",
+    cargo: "Junta directiva"
   }, 
   {
-    id: "107",
-    nombre: "Diego Taracena",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
-    cargo: "Dirección de equipo de investigación URL"
+    id: "7",
+    nombre: "Patricia Véliz",
+    img: "./images/equipo/1ALourdesLopez.png",
+    cargo: "Junta directiva"
 },
 {
-    id: "108",
+    id: "8",
     nombre: "Marce Guevara",
-    img: "./images/equipo/andreaLopez_Mesa de trabajo 1.png",
+    img: "./images/equipo/1MarceGuevara.png",
     cargo: "Dirección de investigación de dpto. de Escuintla"
+},
+{
+  id: "9",
+  nombre: "Nahomy Hernandez",
+  img: "./images/equipo/1NahomyHernandez.png",
+  cargo: "Dirección de alianzas"
+},
+{
+  id: "10",
+  nombre: "Gabriela Gaytan",
+  img: "./images/equipo/1GabyGay.png",
+  cargo: "Dirección de comunicación"
 },
 ];
 export default data;

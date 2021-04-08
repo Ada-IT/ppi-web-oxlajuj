@@ -7,7 +7,7 @@ import Partners from "../components/partners/Partners";
 import FormularioHome from "../components/formularioHome/FormularioHome";
 import ListCard from "../components/listCard/ListCard";
 import ProyectoComp from "../components/ProyectoComp/ProyectoComp";
-
+import HomeProyectos from "../components/HomeProyectos/HomeProyectos";
 
 export default function Home() {
   return (
@@ -17,9 +17,11 @@ export default function Home() {
       </div>
       <div>
         <h1 className={styles.title}>CONOCE A NUESTROS PROYECTOS</h1>
-        <Row className={styles.cardContainer}>
-        
-        </Row>
+        <Container fluid>
+          <Row className={styles.cardContainer}>
+            <HomeProyectos></HomeProyectos>
+          </Row>
+        </Container>
         <div className={styles.lineCont}>
           <br />
           <div className={styles.line}></div>
