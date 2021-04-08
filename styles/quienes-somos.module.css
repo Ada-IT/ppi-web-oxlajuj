@@ -1,50 +1,115 @@
-.background {
-  padding: 30px 0;
-  background-color: var(--color-primary);
-  color: var(--color-ligth);
-}
-
-.align-img {
-  text-align: center;
-}
 .title {
-  padding: 50px 0;
-  text-align: center;
+   padding: 50px 0; 
   color: var(--color-primary);
+  font-weight: 200;
+  font-size: var(--font-size-xxlarge);
 }
-.section {
-  margin: 60px 0;
+.title2 {
+  /*  padding: 50px 0; */
+  color: var(--color-primary);
+  font-weight: 200;
+  margin-bottom: 50px;
+  font-size: var(--font-size-xxlarge);
 }
+.rowQuienes2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.img{
+  padding: 0px 20px;
 
-.textCenter {
-  text-align: end;
+}
+.row1{
+  margin-top: 10px;
+}
+.row2{
+  margin-top: 10px;
+  padding-top: 30px;
 }
 .imgHistory {
   width: 250px;
   padding-top: 59px;
+  overflow: hidden;
 }
-.reverse {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+.ContQuienes{
+  max-width: 1400px;
 }
-
-@media screen and (max-width: 768px) {
-  .img {
-    max-width: 100%;
-  }
-  .section {
-    margin: 45px 0;
-  }
-  .title {
-    padding: 27px 0;
-  }
-  .text,
-  .textCenter {
-    text-align: center;
-  }
-  .reverse {
+/* .linea{
+  border: 0.1px solid var(--color-alternative);
+  width: auto; 
+} */
+.linea:nth-last-child(1){
+  display: none;
+}
+.textQuienes{
+  color:grey;    
+  font-size: var(--font-size-large);
+}
+.textQuienes2{
+  color:grey;    
+  font-size: var(--font-size-large);
+  text-align: end;
+}
+@media (max-width: 690px){
+  .row2{
+    width: 100%;
     flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+}
+@media (max-width: 690px){
+  .row1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+@media (max-width: 1025px){
+  .imgHistory {
+    width: 90%;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 1025px){
+  .img {
+    width: 100%;
+     padding-bottom: 10px;
+  }
+}
+@media (max-width: 1025px){
+  .title{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+        margin: 0 auto;
+
+  }
+}
+@media (max-width: 1025px){
+  .title2{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ /*    padding: 20px 0; */
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1025px){
+  .textQuienes{
+    text-align: center;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1025px){
+  .textQuienes2{
+    text-align: center;
+    font-size: 18px;
   }
 }
