@@ -40,6 +40,7 @@ animation-duration: 3s;
   font-weight: 200;
   line-height: 30px;
   height: 150px;
+  text-align: center;
 }
 .bannerTextStrong{
   font-size: var(--font-size-large);

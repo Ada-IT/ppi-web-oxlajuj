@@ -1,9 +1,10 @@
+import { Container, Col, Row } from "react-bootstrap";
 const Testimonials = () => {
     return (
-        <div /* className='container' */>
+        <>
             <h2>Testimonios</h2>
-            <div className='row'>
-                <div className='col-4'>
+            <Row /* className='container' */>
+                <Col xs={12} sm={6} md={6} lg={4}>
                     <video width='100%' controls>
                         <source src='./video/1.mp4' type='video/mp4' />
                     </video>
@@ -24,19 +25,20 @@ const Testimonials = () => {
                         </figcaption>
                     </figure>
                     <blockquote></blockquote> */}
-                </div>
-                <div className='col-4'>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={4}>
                     <video width='100%' controls>
                         <source src='./video/2.mp4' type='video/mp4' />
                     </video>
-                </div>
-                <div className='col-4'>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={4}>
                     <video width='100%' controls>
                         <source src='./video/3.mp4' type='video/mp4' />
                     </video>
-                </div>
-            </div>
-        </div>
+                </Col>
+
+            </Row>
+        </>
     );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import Testimonials from "../testimonials/Testimonials";
 import style from "./CoursesOnline.module.css";
 import courses from "./data";
-import { Container } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 
 const CoursesOnline = () => {
     return (
@@ -12,14 +12,22 @@ const CoursesOnline = () => {
             <p className={style.paragraph}>
                 Los temas de los cursos que facilitamos son:
           </p>
-            <div className='row'>
-                {courses.map((course) => (
-                    <div className='col-3'>
-                        <div className='p-3 m-2 border bg-light'>{course}</div>
-                    </div>
-                ))}
+            <div className={style.cursosContainer}>
+                <Row>
+                    {courses.map((course) => (
+
+
+                        <Col xs={12} sm={6} md={6} lg={4}>
+                            <li className={style.cursos}><span className={style.cursosLi}>{course}</span></li>
+                        </Col>
+
+
+                    ))}
+                </Row>
             </div>
-            <Testimonials />
+            <div className={style.testimonials}>
+                <Testimonials />
+            </div>
 
         </>
     );
