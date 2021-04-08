@@ -1,4 +1,5 @@
 const courses = [
+
     "Inteligencia emocional",
     "Liderazgo colectivo",
     "Prevención violencia sexual",
@@ -29,3 +30,4 @@ const courses = [
 ];
 
 export default courses;
+
