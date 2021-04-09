@@ -10,6 +10,7 @@ const Blog = () => {
     const entries = await fetchBlogEntries();
     setPosts(entries);
   }
+
   useEffect(() => {
     getPost();
   }, [])
@@ -23,6 +24,7 @@ const Blog = () => {
           return (
             <>
               <li>titulo:{post.title}</li>
+              <li>body: {post.body.content.value}</li>
               <img src={post.image.imageUrl} />
             </>
           )
