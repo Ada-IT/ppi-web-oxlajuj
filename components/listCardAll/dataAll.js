@@ -2,56 +2,55 @@ const data = [
     {
         id: "101",
         nombre: "Andrea Lourdes Lopez",
-        img: "./images/equipo2/andreaLopez.png",
+        img: "./images/equipo/1ALourdesLopez.png",
         cargo: "Junta directiva - Directora ejecutiva -Equipo de formación"
     },
-
     {
         id: "102",
         nombre: "Luis López",
-        img: "./images/equipo2/andreaLopez.png",
+        img: "./images/equipo/1ALourdesLopez.png",
         cargo: "Junta directiva"
     },
     {
         id: "103",
         nombre: "Marco Sagastume",
-        img: "./images/equipo2/andreaLopez.png",
+        img: "./images/equipo/1ALourdesLopez.png",
         cargo: "Junta directiva"
     },
     {
         id: "104",
         nombre: "Rodrigo Vargas",
-        img: "./images/equipo2/andreaLopez.png",
+        img: "./images/equipo/1ALourdesLopez.png",
         cargo: "Junta directiva"
     },
     {
         id: "105",
         nombre: "Patricia Véliz",
-        img: "./images/equipo2/andreaLopez.png",
+        img: "./images/equipo/1ALourdesLopez.png",
         cargo: "Junta directiva"
     },
     {
         id: "106",
         nombre: "Marce Guevara",
-        img: "./images/equipo2/marceGuevara.png",
+        img: "./images/equipo/1MarceGuevara.png",
         cargo: "Dirección de investigación de dpto. de Escuintla"
     },
     {
         id: "107",
         nombre: "Nahomy Hernández",
-        img: "./images/equipo2/nahomy.png",
+        img: "./images/equipo/1NahomyHernandez.png",
         cargo: "Dirección de alianzas"
     },
     {
         id: "108",
         nombre: "Gabriela Gaytán",
-        img: "./images/equipo2/gabielaGaytan.png",
+        img: "./images/equipo/1GabyGay.png",
         cargo: "Dirección de comunicaión - Equipo de comunicación"
     },
     {
         id: "109",
         nombre: "Jessica Gomez",
-        img: "./images/equipo2/jesicaGomez.png",
+        img: "./images/equipo/1JessicaGomez.png",
         cargo: "Coordinación de Webinars -Equipo de Alianzas"
     },
     {
@@ -81,7 +80,7 @@ const data = [
     {
         id: "114",
         nombre: " Carolina Rabe",
-        img: "./images/equipo2/CarolinaRabe.png",
+        img: "./images/equipo/1Carorabe.png",
         cargo: "Equipo de comunicación"
     },
     {
@@ -93,7 +92,7 @@ const data = [
     {
         id: "116",
         nombre: "Karla Zuñiga",
-        img: "./images/equipo2/carlaZuñiga.png",
+        img: "./images/equipo/1KarlaZuñiga.png",
         cargo: "Equipo de cominucacion"
     },
     {
@@ -105,25 +104,25 @@ const data = [
     {
         id: "118",
         nombre: "Alejandra Lopez",
-        img: "./images/equipo2/andreaLopez.png",
+        img: "./images/equipo/1alejandraLopez.png",
         cargo: "Equipo de proyectos"
     },
     {
         id: "119",
         nombre: "Wendy Orozco",
-        img: "./images/equipo2/wendyOrozco.png",
+        img: "./images/equipo/1WOrozco.png",
         cargo: "Equipo de proyectos -Embajadora en San Marcos, San pedro, Sacatepéquez"
     },
     {
         id: "120",
         nombre: "Ana Mux",
-        img: "./images/equipo2/AnaMux.png",
+        img: "./images/equipo/1AnaMux.png",
         cargo: "Equipo de proyectos -Embajadora en Guatemala, Santa Catarina, Pinula"
     },
     {
         id: "121",
         nombre: "Alejandra Teleguardio",
-        img: "./images/equipo2/AlejandraTelegario.png",
+        img: "./images/equipo/1Alejandrateleguario.png",
         cargo: "Equipo de proyectos -Embajadora en Quetzaltenango"
     },
     {
@@ -141,31 +140,31 @@ const data = [
     {
         id: "124",
         nombre: "Ana Cecilia Paiz",
-        img: "./images/equipo2/ceciliaPais.png",
+        img: "./images/equipo/1AnaCecPaiz.png",
         cargo: "Equipo de Alianzas -Embajadora en San Marcos, San pedro, Sacatepéquez"
     },
     {
         id: "125",
         nombre: "Estefany Ruiz",
-        img: "./images/equipo2/estefanyRuiz.png",
+        img: "./images/equipo/1EstefanyRuiz.png",
         cargo: "Equipo de Alianzas"
     },
     {
         id: "126",
         nombre: "Yamileth Ventura",
-        img: "./images/equipo2/yamiletVentura.png",
+        img: "./images/equipo/1yamilethVentura.png",
         cargo: "Equipo de Alianzas"
     },
     {
         id: "127",
         nombre: "Vanessa Campos",
-        img: "./images/equipo2/vanesaCampos.png",
+        img: "./images/equipo/1VanessaCampos.png",
         cargo: "Equipo de Alianzas"
     },
     {
         id: "128",
         nombre: "Jeimy Martinez",
-        img: "./images/equipo2/jeimiMartinez.png",
+        img: "./images/equipo/1JeimyMart.png",
         cargo: "Equipo de Alianzas e investigación"
     },
     {
@@ -189,17 +188,17 @@ const data = [
     {
         id: "132",
         nombre: "Diego Taracena",
-        img: "./images/equipo2/diegoTaracena.png",
+        img: "./images/equipo/1diegoTarac.png",
         cargo: "Equipo de Alianzas e investigación"
     }, {
         id: "133",
         nombre: "Gabriela Pineda",
-        img: "./images/equipo2/gabrielaPineda.png",
+        img: "./images/equipo/1GabrielaPineda.png",
         cargo: "Equipo de Alianzas e investigación"
     }, {
         id: "134",
         nombre: "Alejandro N´oj",
-        img: "./images/equipo2/alejandroNoj.png",
+        img: "./images/equipo/1AleNoj.png",
         cargo: "Equipo de Alianzas e investigación"
     }, {
         id: "135",
