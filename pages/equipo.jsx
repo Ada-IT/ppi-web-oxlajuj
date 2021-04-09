@@ -1,5 +1,5 @@
 import Hero from "../components/hero/Hero";
-import ListCardAll from "../components/ListCardAll/ListCardAll";
+import ListCardAll from "../components/listCardAll/ListCardAll";
 import { Container, Row } from "react-bootstrap";
 import style from "../styles/equipo.module.css";
 
