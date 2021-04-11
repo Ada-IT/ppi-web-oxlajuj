@@ -18,7 +18,7 @@ const ModalContent = ({ show, handleClose }) => {
                 <button /* variant="secondary" */ onClick={handleClose} className={style.carBtnCerrar}>
                     Cerrar
           </button>
-                <a href="https://www.paypal.com/ar/home"> <button variant="primary" onClick={handleClose} className={style.carBtn}>
+                <a href="https://www.paypal.com/paypalme/13noj"> <button variant="primary" onClick={handleClose} className={style.carBtn}>
                     Donar          </button></a>
             </Modal.Footer>
         </Modal>
