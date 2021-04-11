@@ -1,16 +1,20 @@
-import { Media, Row } from "react-bootstrap";
+import { Media, Row, Card, Button } from "react-bootstrap";
+import style from "./CardBlog.module.css";
 
 const CardBlog = ({ img, title, text, date, body }) => {
   return (
-    <Media>
-      <img width={300} className='mr-3' src={img} alt='img-blog1' />
-      <Media.Body>
-        <h5>{title}</h5>
-        <p>{text}</p>
-        <p>{date}</p>
-        <p>{body}</p>
-      </Media.Body>
-    </Media>
+    <Card>
+      <Card.Img variant="top" src={img} style={{ width: '18rem' }} />
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{date}</Card.Text>
+        <Card.Text>
+          {text}
+        </Card.Text>
+        <Card.Text>{body}</Card.Text>
+        <Button variant="primary">VER MÁS</Button>
+      </Card.Body>
+    </Card>
   );
 };
 

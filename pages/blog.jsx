@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Hero from "../components/hero/Hero";
 import { fetchBlogEntries } from "./api/ApiContentful";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import CardBlog from "../components/card-blog/CardBlog";
 
 const Blog = () => {
@@ -18,12 +18,13 @@ const Blog = () => {
   return (
     <>
       <Hero />
-      <Row>
-        {posts.map((post) => {
-          console.log("post", post);
-          return (
-            <div style={{ marginTop: "30px" }}>
-              <Col xs={12} sm={12} md={6} lg={6}>
+
+      <Container fluid style={{ marginTop: '30px' }}>
+        <Row>
+          {posts.map((post) => {
+            console.log("post", post);
+            return (
+              <Col xs={12} sm={6} md={4} lg={4}>
                 <CardBlog
                   title={post.title}
                   text={post.description}
@@ -32,10 +33,12 @@ const Blog = () => {
                   body={post.body.content[0].content[0].value}
                 />
               </Col>
-            </div>
-          );
-        })}
-      </Row>
+            );
+          })}
+
+        </Row>
+      </Container>
+
     </>
   );
 };
