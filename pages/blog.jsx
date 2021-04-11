@@ -3,6 +3,7 @@ import Hero from "../components/hero/Hero";
 import { fetchBlogEntries } from "./api/ApiContentful";
 import { Col, Row, Container } from "react-bootstrap";
 import CardBlog from "../components/card-blog/CardBlog";
+import ModalBlog from "../components/modalBlog/ModalBlog";
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -14,6 +15,12 @@ const Blog = () => {
   useEffect(() => {
     getPost();
   }, []);
+
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
+
 
   return (
     <>
@@ -31,6 +38,7 @@ const Blog = () => {
                   img={post.image.imageUrl}
                   date={post.publishedDate}
                   body={post.body.content[0].content[0].value}
+                  button={handleShow}
                 />
               </Col>
             );
@@ -38,7 +46,7 @@ const Blog = () => {
 
         </Row>
       </Container>
-
+      {show ? <ModalBlog show={show} handleClose={handleClose} /> : null}
     </>
   );
 };
