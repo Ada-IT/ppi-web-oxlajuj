@@ -20,6 +20,7 @@ const Blog = () => {
       <Hero />
       <Row>
         {posts.map((post) => {
+          console.log("post", post);
           return (
             <div style={{ marginTop: "30px" }}>
               <Col xs={12} sm={12} md={6} lg={6}>
@@ -28,6 +29,7 @@ const Blog = () => {
                   text={post.description}
                   img={post.image.imageUrl}
                   date={post.publishedDate}
+                  body={post.body.content[0].content[0].value}
                 />
               </Col>
             </div>
