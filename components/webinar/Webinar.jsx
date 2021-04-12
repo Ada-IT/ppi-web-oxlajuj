@@ -9,7 +9,7 @@ const Webinar = () => {
                              <br />
                             DE NUESTROS WEBINARS POR FACEBOOK LIVE
                              <br />
-                <span className={style.bannerTextStrong}>HORARIO: JUEVES 15 HS</span>
+                <span className={style.bannerTextStrong}>HORARIO: JUEVES 18 HS</span>
             </div>
             <div className={style.donate}>
                 <button className={style.carBtn}>
