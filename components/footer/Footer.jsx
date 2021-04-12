@@ -1,7 +1,7 @@
 import style from "./Footer.module.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { MapFill, Whatsapp, Envelope, Facebook, Instagram } from "react-bootstrap-icons";
+import { MapFill, Facebook, Instagram, TelephoneFill, EnvelopeFill } from "react-bootstrap-icons";
 import Container from "react-bootstrap/Container";
 
 const Footer = () => {
@@ -15,15 +15,15 @@ const Footer = () => {
                                 <img style={{ width: "200px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' />
                             </Row>
                             <Row className="mt-3">
-                                <MapFill color='#FFFF' size={15} />
+                                <MapFill color='#FFFF' size={17} />
                                 <p className={style.textStyle}>Domicilio de la fundacion</p>
                             </Row>
                             <Row>
-                                <Envelope color='#FFFF' size={15} />
-                                <p className={style.textStyle}>fundacionoxlajuj@gmail.com</p>
+                                <EnvelopeFill color='#FFFF' size={17} />
+                                <p className={style.textStyle}>fundacionoxlajujnoj@FundacionOxlajujNoj.onmicrosoft.com</p>
                             </Row>
                             <Row>
-                                <Whatsapp color='#FFFF' size={15} />
+                                <TelephoneFill color='#FFFF' size={17} />
                                 <p className={style.textStyle}>41285119</p>
                             </Row>
                         </Col>

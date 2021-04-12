@@ -71,3 +71,6 @@
   text-decoration: none;
   color: var(--color-dark);
 }
+.iconHeader{
+  margin-left: 7px;
+}

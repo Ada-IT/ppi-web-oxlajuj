@@ -18,7 +18,7 @@ const proyectos = [
 
     titulo2: "Investigación",
     img2: "./images/proyecto/1investigacion.png",
-    texto2: "Desde el 2008 nos hemos dedicado a trabajar investigación con metodologías participaticas en areas urbanas y rurales, en 2019 iniciamos a trabajar investigación junior por jóvenes temas de género. "
+    texto2: "Desde el 2008 nos hemos dedicado a trabajar investigación con metodologías participativas en areas urbanas y rurales, en 2019 iniciamos a trabajar investigación junior por jóvenes temas de género. "
   },
   {
     id: "203",

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import topHeader from "./TopHeader.module.css";
 import ModalContent from "../ModalContent/ModalContent";
+import {TelephoneFill, EnvelopeFill } from "react-bootstrap-icons";
+import style from "./TopHeader.module.css";
 
 const TopHeader = () => {
   const [show, setShow] = useState(false);
@@ -16,19 +18,20 @@ const TopHeader = () => {
         <div className='row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center'>
           <div className='col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0'>
             <div className={topHeader.headerBarEmail}>
-              MAIL:
-              <a href='#'>
-                <span
+              <EnvelopeFill color='#FFFF' size={17} />
+              <a href='#'className={style.iconHeader}>
+                <span 
                   className='__cf_email__'
                   data-cfemail='a9cac6c7ddc8cadde9c6dcdbcac1c8dbc0ddd087cac6c4'
                 >
-                  fundacionoxlajuj@gmail.com
+                  fundacionoxlajujnoj@FundacionOxlajujNoj.onmicrosoft.com
                 </span>
               </a>
             </div>
             <div className={topHeader.headerBarText}>
               <p>
-                PHONE: <span>+24 3772 120 091 / +56452 4567</span>
+                <TelephoneFill color='#FFFF' size={17}  />
+                <span className={style.iconHeader}>+24 3772 120 091 / +56452 4567</span>
               </p>
             </div>
           </div>
