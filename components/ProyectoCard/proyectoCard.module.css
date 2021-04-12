@@ -37,7 +37,6 @@
 @media (max-width: 990px) {
   .proyTitle {
     text-align: center;
-
     margin-bottom: 20px;
   }
   .proyDesc {
@@ -49,7 +48,7 @@
     width: 100%;
   }
   .imgPro {
-    width: 50%;
+    width: 30%;
     margin-bottom: 20px;
   }
   .rowPro1 {
