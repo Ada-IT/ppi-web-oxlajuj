@@ -15,15 +15,15 @@ const Footer = () => {
                                 <img style={{ width: "200px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' />
                             </Row>
                             <Row className="mt-3">
-                                <MapFill color='#FFFF' size={17} />
+                                <MapFill color='#FFFF' size={15} />
                                 <p className={style.textStyle}>Domicilio de la fundacion</p>
                             </Row>
                             <Row>
-                                <EnvelopeFill color='#FFFF' size={17} />
+                                <EnvelopeFill color='#FFFF' size={15} />
                                 <p className={style.textStyle}>fundacionoxlajujnoj@FundacionOxlajujNoj.onmicrosoft.com</p>
                             </Row>
                             <Row>
-                                <TelephoneFill color='#FFFF' size={17} />
+                                <TelephoneFill color='#FFFF' size={15} />
                                 <p className={style.textStyle}>41285119</p>
                             </Row>
                         </Col>
