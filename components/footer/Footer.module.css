@@ -12,12 +12,17 @@
 }
 .titleStyle{    
     color: var(--color-ligth);
-    font-size:var(--font-size-large);    
+    font-size:var(--font-size-large);
+       
 }
 .textStyle{
     color: var(--color-ligth);
     font-size:var(--font-size-small);
     padding-left: 5%;
+}
+.textStyle:hover{
+    text-decoration: none;
+    color: var(--color-secundary);
 }
 .infoFooterConten{
     margin: 0;

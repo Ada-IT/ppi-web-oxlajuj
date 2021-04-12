@@ -26,7 +26,7 @@ const data = [
   }, 
   {
     id: "7",
-    nombre: "Patricia Véliz",
+    nombre: "Marlen Judith Garnica Vanegas",
     img: "./images/equipo/1ALourdesLopez.png",
     cargo: "Junta directiva"
 },

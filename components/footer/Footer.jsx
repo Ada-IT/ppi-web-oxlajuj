@@ -1,7 +1,7 @@
 import style from "./Footer.module.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { MapFill, Facebook, Instagram, TelephoneFill, EnvelopeFill } from "react-bootstrap-icons";
+import { MapFill, Facebook, Instagram, EnvelopeFill, Whatsapp } from "react-bootstrap-icons";
 import Container from "react-bootstrap/Container";
 
 const Footer = () => {
@@ -23,8 +23,9 @@ const Footer = () => {
                                 <p className={style.textStyle}>fundacionoxlajujnoj@FundacionOxlajujNoj.onmicrosoft.com</p>
                             </Row>
                             <Row>
-                                <TelephoneFill color='#FFFF' size={15} />
-                                <p className={style.textStyle}>41285119</p>
+                                <Whatsapp color='#FFFF' size={15} />
+                                <a href="https://wa.link/u7lbgt" className={style.textStyle}>502 41285119</a>
+                                {/* <p className={style.textStyle}> 502 41285119</p> */}
                             </Row>
                         </Col>
                     </Row>

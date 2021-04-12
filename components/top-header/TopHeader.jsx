@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import topHeader from "./TopHeader.module.css";
 import ModalContent from "../ModalContent/ModalContent";
-import {TelephoneFill, EnvelopeFill } from "react-bootstrap-icons";
+import {Whatsapp, EnvelopeFill } from "react-bootstrap-icons";
 import style from "./TopHeader.module.css";
 
 const TopHeader = () => {
@@ -30,8 +30,9 @@ const TopHeader = () => {
             </div>
             <div className={topHeader.headerBarText}>
               <p>
-                <TelephoneFill color='#FFFF' size={17}  />
-                <span className={style.iconHeader}>+24 3772 120 091 / +56452 4567</span>
+                <Whatsapp color='#FFFF' size={17}  />
+                <a href="https://wa.link/u7lbgt" className={style.iconHeader}>502 41285119</a>
+                {/* <span className={style.iconHeader}> 502 41285119</span> */}
               </p>
             </div>
           </div>
