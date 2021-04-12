@@ -7,6 +7,8 @@ import ModalBlog from "../components/modalBlog/ModalBlog";
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
+  const [postSelected, setPostSelected] = useState({});
+  const [show, setShow] = useState(false);
 
   const getPost = async () => {
     const entries = await fetchBlogEntries();
@@ -16,20 +18,21 @@ const Blog = () => {
     getPost();
   }, []);
 
-  const [show, setShow] = useState(false);
-  const handleShow = () => setShow(true);
+  const handleShow = (post) => {
+    return () => {
+      setShow(true);
+      setPostSelected(post);
+    };
+  };
   const handleClose = () => setShow(false);
-
-
 
   return (
     <>
       <Hero />
 
-      <Container fluid style={{ marginTop: '30px' }}>
+      <Container fluid style={{ marginTop: "30px" }}>
         <Row>
           {posts.map((post) => {
-            console.log("post", post);
             return (
               <Col xs={12} sm={6} md={4} lg={4}>
                 <CardBlog
@@ -37,16 +40,16 @@ const Blog = () => {
                   text={post.description}
                   img={post.image.imageUrl}
                   date={post.publishedDate}
-                  body={post.body.content[0].content[0].value}
-                  button={handleShow}
+                  button={handleShow(post)}
                 />
               </Col>
             );
           })}
-
         </Row>
       </Container>
-      {show ? <ModalBlog show={show} handleClose={handleClose} /> : null}
+      {show && (
+        <ModalBlog show={show} handleClose={handleClose} post={postSelected} />
+      )}
     </>
   );
 };
