@@ -8,9 +8,7 @@ const Projects = () => {
     <>
       <Hero />
       <Container className={style.contProyecto}>
-        <Row>
-          <ProyectoComp/>
-        </Row> 
+        <ProyectoComp />
       </Container>
     </>
   );
