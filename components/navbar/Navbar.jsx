@@ -13,7 +13,7 @@ const NavbarComponent = () => {
 
   return (
     <Navbar expand='lg'>
-      <div class='container-fluid'>
+      <div className="container-fluid">
         <Link href='/'>
           <a className='navbar-brand'>
             <img style={{ width: "250px" }} src='./images/logo.png' />

@@ -36,6 +36,7 @@ const Blog = () => {
             return (
               <Col xs={12} sm={6} md={4} lg={4}>
                 <CardBlog
+                  key={post.id}
                   title={post.title}
                   text={post.description}
                   img={post.image.imageUrl}

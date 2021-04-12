@@ -12,8 +12,7 @@ const fetchBlogEntries = async () => {
     })
     .then(posts => {
       if (posts && posts.items && posts.items.length > 0) {
-        const blogPosts = posts.items.map(entry => convertPost(entry));
-        console.log('ver Blog', blogPosts)
+        const blogPosts = posts.items.map((entry, i)  => convertPost(entry));        
         return blogPosts;
       }
       return [];
