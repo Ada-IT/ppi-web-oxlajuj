@@ -1,7 +1,7 @@
 const imgs = [
   {
     type: "/quienes-somos",
-    img: "./images/news-bg.jpg",
+    img: "./images/about-bg.jpg",
     title: "Quienes somos"
   },
   {
@@ -11,22 +11,22 @@ const imgs = [
   },
   {
     type: "/blog",
-    img: "./images/portfolio-bg.jpg",
+    img: "./images/about-bg.jpg",
     title: "Blog"
   },
   {
     type: "/cursos",
-    img: "./images/news-bg.jpg",
+    img: "./images/about-bg.jpg",
     title: "Cursos y webinar"
   },
   {
     type: "/equipo",
-    img: "./images/portfolio-bg.jpg",
+    img: "./images/about-bg.jpg",
     title: "Equipo"
   },
   {
     type: "/contacto",
-    img: "./images/contact-bg.jpg",
+    img: "./images/about-bg.jpg",
     title: "Contacto"
   }
 ];
