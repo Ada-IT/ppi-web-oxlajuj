@@ -17,7 +17,6 @@
 .row1,
 .row2 {
   padding-top: 30px;
-  align-items: center;
 }
 
 .imgHistory {
@@ -72,7 +71,6 @@
 @media (min-width: 691px) {
   .imgHistory {
     width: 90%;
-    padding-top: 10px;
   }
   .img {
     width: 100%;
@@ -98,5 +96,9 @@
   }
   .rowQuienes2 {
     align-items: flex-end;
+  }
+  .row1,
+  .row2 {
+    align-items: center;
   }
 }
