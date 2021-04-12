@@ -22,7 +22,7 @@ const InfoFundacion = () => {
                         <Envelope color='#48133b' size={35} />
                     </Col>
                     <Col xs="9" sm="9" md="9" lg="9">
-                        <p>Mail</p>
+                        <p>fundacionoxlajujnoj@FundacionOxlajujNoj.onmicrosoft.com</p>
                     </Col>
                 </Row>
                 <Row className={style.infoFund}>
@@ -30,7 +30,7 @@ const InfoFundacion = () => {
                         <Whatsapp color='#48133b' size={35} />
                     </Col>
                     <Col xs="9" sm="9" md="9" lg="9">
-                        <p>WhatsApp</p>
+                    <a href="https://wa.link/u7lbgt" >502 41285119</a>
                     </Col>
                 </Row>
             </Col>

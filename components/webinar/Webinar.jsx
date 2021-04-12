@@ -9,11 +9,12 @@ const Webinar = () => {
                              <br />
                             DE NUESTROS WEBINARS POR FACEBOOK LIVE
                              <br />
-                <span className={style.bannerTextStrong}>HORARIO: JUEVES 18 HS</span>
+                <span className={style.bannerTextStrong}>HORARIO: JUEVES 18 HS - Guatemala</span>
             </div>
             <div className={style.donate}>
-                <button className={style.carBtn}>
-                    PARTICIPAR DEL WEBINAR     </button>
+                <a href="https://www.facebook.com/FundacionOxlajujnoj">
+                    <button className={style.carBtn}>
+                    PARTICIPAR DEL WEBINAR</button> </a>
             </div>
         </div>
     );
