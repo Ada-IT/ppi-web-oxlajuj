@@ -1,0 +1,22 @@
+.imgBlog{   
+    text-align: center;
+}   
+.titleBlog{
+    color: var(--color-primary);
+}
+.cardBlog{
+    margin-top: 20px;
+}
+.blogButton {
+    color: var(--color-alternative);
+    background-color: var(--color-primary);    
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  .blogButton:hover {
+    text-decoration: none;
+    color: var(--color-primary);
+    background-color: var(--color-alternative);
+    border: none;  
+  }

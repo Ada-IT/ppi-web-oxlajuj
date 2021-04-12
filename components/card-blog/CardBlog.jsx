@@ -5,16 +5,18 @@ import style from "./CardBlog.module.css";
 const CardBlog = ({ img, title, text, date, body, button }) => {
 
   return (
-    <Card>
-      <Card.Img variant="top" src={img} style={{ width: '18rem' }} />
+    <Card className={style.cardBlog}>
+      <div className={style.imgBlog}>
+        <Card.Img variant="top" src={img} style={{ width: '80%' }} />
+      </div>
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Title className={style.titleBlog}>{title}</Card.Title>
         <Card.Text>{date}</Card.Text>
         <Card.Text>
           {text}
         </Card.Text>
         <Card.Text>{body}</Card.Text>
-        <Button variant="primary" onClick={button}>VER MÁS</Button>
+        <a className={style.blogButton} onClick={button}>VER MÁS</a>
       </Card.Body>
     </Card>
   );
