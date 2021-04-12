@@ -24,8 +24,7 @@ const Footer = () => {
                             </Row>
                             <Row>
                                 <Whatsapp color='#FFFF' size={15} />
-                                <a href="https://wa.link/u7lbgt" className={style.textStyle}>502 41285119</a>
-                                {/* <p className={style.textStyle}> 502 41285119</p> */}
+                                <a href="https://wa.link/u7lbgt" className={style.textStyle}>502 41285119</a>                               
                             </Row>
                         </Col>
                     </Row>
