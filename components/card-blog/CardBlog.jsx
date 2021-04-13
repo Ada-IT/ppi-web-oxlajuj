@@ -1,22 +1,21 @@
-import React, { useState } from "react";
-import { Media, Row, Card, Button } from "react-bootstrap";
+import React from "react";
+import { Card } from "react-bootstrap";
 import style from "./CardBlog.module.css";
 
 const CardBlog = ({ img, title, text, date, body, button }) => {
-
   return (
     <Card className={style.cardBlog}>
       <div className={style.imgBlog}>
-        <Card.Img variant="top" src={img} style={{ width: '80%' }} />
+        <Card.Img variant='top' src={img} style={{ width: "80%" }} />
       </div>
       <Card.Body>
         <Card.Title className={style.titleBlog}>{title}</Card.Title>
         <Card.Text>{date}</Card.Text>
-        <Card.Text>
-          {text}
-        </Card.Text>
+        <Card.Text>{text}</Card.Text>
         <Card.Text>{body}</Card.Text>
-        <a className={style.blogButton} onClick={button}>VER MÁS</a>
+        <a className={style.blogButton} onClick={button}>
+          VER MÁS
+        </a>
       </Card.Body>
     </Card>
   );
