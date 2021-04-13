@@ -11,6 +11,7 @@ const Partners = () => {
           {imgs.map((item) => {
             return (
               <Image
+                key={item.id}
                 src={item.img}
                 className={style.img}
               />
