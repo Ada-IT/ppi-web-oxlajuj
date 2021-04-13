@@ -29,7 +29,6 @@ const Blog = () => {
   return (
     <>
       <Hero />
-
       <Container fluid style={{ marginTop: "30px" }}>
         <Row>
           {posts.map((post) => {

@@ -1,12 +1,10 @@
 import Carousel from "../components/carousel/Carousel";
 import CardComponent from "../components/card/CardComponent";
 import { Container, Row } from "react-bootstrap";
-import Col from "react-bootstrap/Col";
 import styles from "../styles/home.module.css";
 import Partners from "../components/Partners/Partners";
 import FormularioHome from "../components/formularioHome/FormularioHome";
 import ListCard from "../components/listCard/ListCard";
-import ProyectoComp from "../components/ProyectoComp/ProyectoComp";
 import HomeProyectos from "../components/HomeProyectos/HomeProyectos";
 
 export default function Home() {
