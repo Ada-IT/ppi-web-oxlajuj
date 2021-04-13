@@ -8,33 +8,39 @@ const data = [
     {
         id: "102",
         nombre: "Luis López",
-        img: "./images/equipo/1ALourdesLopez.png",
+        img: "./images/equipo/1LuisLópez.png",
         cargo: "Junta directiva"
     },
     {
         id: "103",
         nombre: "Marco Sagastume",
-        img: "./images/equipo/1ALourdesLopez.png",
+        img: "./images/equipo/1MarcoSagastume.png",
         cargo: "Junta directiva"
     },
     {
         id: "104",
         nombre: "Rodrigo Vargas",
-        img: "./images/equipo/1ALourdesLopez.png",
+        img: "./images/equipo/1RodriVargas.png",
+        cargo: "Junta directiva"
+    },
+    {
+        id: "148",
+        nombre: "Patricia Véliz",
+        img: "./images/equipo/1PatriciaVéliz.png",
         cargo: "Junta directiva"
     },
     {
 
         id: "105",
         nombre: "Marlen Judith Garnica Vanegas",
-        img: "./images/equipo/1ALourdesLopez.png",
+        img: "./images/equipo/1MarlenVanegas.png",
         cargo: "Junta directiva"
     },
     {
-        id: "106",
-        nombre: "Marce Guevara",
-        img: "./images/equipo/1MarceGuevara.png",
-        cargo: "Dirección de investigación de dpto. de Escuintla"
+         id: "108",
+         nombre: "Gabriela Gaytán",
+         img: "./images/equipo/1GabyGay.png",
+         cargo: "Dirección de comunicaión - Equipo de comunicación"
     },
     {
         id: "107",
@@ -43,11 +49,11 @@ const data = [
         cargo: "Dirección de alianzas"
     },
     {
-        id: "108",
-        nombre: "Gabriela Gaytán",
-        img: "./images/equipo/1GabyGay.png",
-        cargo: "Dirección de comunicaión - Equipo de comunicación"
-    },
+        id: "106",
+        nombre: "Marce Guevara",
+        img: "./images/equipo/1MarceGuevara.png",
+        cargo: "Dirección de investigación de dpto. de Escuintla"
+    },    
     {
         id: "109",
         nombre: "Jessica Gomez",
