@@ -7,9 +7,9 @@
     background-color:var(--color-dark);
     padding-top: 2%;
     padding-left: 6%;
-    padding-right: 6%;
-    margin-top: 3%;   
+    padding-right: 6%;       
 }
+
 .titleStyle{    
     color: var(--color-ligth);
     font-size:var(--font-size-large);
