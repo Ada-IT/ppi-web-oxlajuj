@@ -1,7 +1,12 @@
+.contentPartners{
+    display: flex;
+    flex-wrap: wrap;
+}
 .contentImage{
     margin-top: 0px;
     position: relative;
-    display: inline-block;
+    /* display: flex;
+    flex-wrap: wrap; */
     text-align: center;
     background-color: var(--color-alternative);
     height: 100%;
@@ -10,13 +15,12 @@
 }
 .textImage{
     margin-top: 10px;
-    color:var( --color-secondary);
+    color:var( --color-primary);
     font-size: var(--font-size-xxlarge);
     font-weight: 200;
     letter-spacing: 1px;
 }
 .img{
-    height: 150px;
-    opacity: 0.5;
+    height: 100%;;
     padding: 20px;
 }
