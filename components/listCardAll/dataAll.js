@@ -222,7 +222,7 @@ const data = [
     {
         id: "137",
         nombre: "Francis Navas",
-        img: "./images/equipo/1ValenContre.png",
+        img: "./images/equipo/1francisNavas.png",
         cargo: "Equipo de formación"
     },
     {
