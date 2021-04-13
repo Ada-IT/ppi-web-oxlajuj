@@ -1,29 +1,58 @@
 const imgs = [
   {
-    type: "/quienes-somos",
-    img: "./images/news-bg.jpg",
-    title: "Quienes somos"
+    img: "./images/alianzas/actorasdecambio.png",
   },
   {
-    type: "/proyectos",
-    img: "./images/about-bg.jpg",
-    title: "Proyectos"
+    img: "./images/alianzas/ama.png",
   },
   {
-    type: "/investigacion",
-    img: "./images/portfolio-bg.jpg",
-    title: "Investigación"
+    img: "./images/alianzas/cecovig.png",
   },
   {
-    type: "/publicaciones",
-    img: "./images/news-bg.jpg",
-    title: "Publicacioness"
+    img: "./images/alianzas/corazondelagua.png",
   },
   {
-    type: "/contacto",
-    img: "./images/contact-bg.jpg",
-    title: "Contacto"
-  }
+    img: "./images/alianzas/estoyconvos.png",
+  },
+  {
+    img: "./images/alianzas/helvetas.png",
+  },
+  {
+    img: "./images/alianzas/ixoqib.png",
+  },
+  {
+    img: "./images/alianzas/jauria.png",
+  },
+  {
+    img: "./images/alianzas/jovenesartistas.png",
+  },
+  {
+    img: "./images/alianzas/lafemme.png",
+  },
+  {
+    img: "./images/alianzas/onumujeres.png",
+  },
+  {
+    img: "./images/alianzas/period.png",
+  },
+  {
+    img: "./images/alianzas/sapiens.png",
+  },
+  {
+    img: "./images/alianzas/scorp.png",
+  },
+  {
+    img: "./images/alianzas/uterosrebeldes.png",
+  },
+  {
+    img: "./images/alianzas/xela.png",
+  },
+  {
+    img: "./images/alianzas/xocomilas.png",
+  },
+  {
+    img: "./images/alianzas/yalmotx.png",
+  },
 ];
 
 export default imgs;
