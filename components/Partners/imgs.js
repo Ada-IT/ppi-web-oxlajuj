@@ -53,6 +53,9 @@ const imgs = [
   {
     img: "./images/alianzas/yalmotx.png",
   },
+  {
+    img: "./images/alianzas/ada.png",
+  },
 ];
 
 export default imgs;

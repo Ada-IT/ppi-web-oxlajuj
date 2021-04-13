@@ -10,13 +10,11 @@ const Partners = () => {
           <h1 className={style.textImage}>Estas son nuestras Alianzas</h1>
           {imgs.map((item) => {
             return (
-/*             <Col xs={12} sm={6} md={4} lg={3}>
- */              <Image
+              <Image
                 src={item.img}
                 className={style.img}
               />
-/*             </Col>
- */          );
+            );
           })}
         </div>
       </div>
