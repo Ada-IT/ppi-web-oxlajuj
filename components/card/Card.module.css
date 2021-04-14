@@ -41,6 +41,8 @@
   width: 135px;
   border-radius: 5px;
   border: none;
+  padding: 5px;
+  margin: 3px;
 }
 .formButton:hover {
   text-decoration: none;

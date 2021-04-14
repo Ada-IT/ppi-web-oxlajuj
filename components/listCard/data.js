@@ -36,17 +36,17 @@ const data = [
     img: "./images/equipo/1PatriciaVéliz.png",
     cargo: "Junta directiva"
 },
-{
-  id: "108",
-  nombre: "Gabriela Gaytán",
-  img: "./images/equipo/1GabyGay.png",
-  cargo: "Dirección de comunicaión - Equipo de comunicación"
-},
-{
-  id: "9",
-  nombre: "Nahomy Hernandez",
-  img: "./images/equipo/1NahomyHernandez.png",
-  cargo: "Dirección de alianzas"
-},
+// {
+//   id: "108",
+//   nombre: "Gabriela Gaytán",
+//   img: "./images/equipo/1GabyGay.png",
+//   cargo: "Dirección de comunicaión - Equipo de comunicación"
+// },
+// {
+//   id: "9",
+//   nombre: "Nahomy Hernandez",
+//   img: "./images/equipo/1NahomyHernandez.png",
+//   cargo: "Dirección de alianzas"
+// },
 ];
 export default data;
