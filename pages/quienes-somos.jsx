@@ -9,7 +9,7 @@ const WhoAre = () => {
       <div className='container-fluid'>
         <Row className={style.row1}>
           <Col sm={6} className={style.imgHistory}>
-            <div className={style.contentImg}>
+            <div className={style.contentImgHistory}>
               <img
                 src='./images/quienesSomos/nuestraHistoria2.png'
                 className={style.img}

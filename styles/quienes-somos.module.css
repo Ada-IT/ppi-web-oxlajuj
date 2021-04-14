@@ -35,6 +35,9 @@
   font-size: var(--font-size-large);
   text-align: end;
 }
+.contentImgHistory {
+  height: 363px;
+}
 @media (max-width: 690px) {
   .row2 {
     width: 100%;
@@ -76,7 +79,6 @@
   }
   .title {
     display: flex;
-    /* justify-content: end; */
     padding: 20px 0;
     margin: 0 auto;
   }
@@ -86,21 +88,17 @@
   }
   .textQuienes {
     text-align: start;
-    font-size: var(--font-size-large);
+    font-size: 20px;
   }
   .textQuienes2 {
     text-align: end;
-    font-size: var(--font-size-large);
+    font-size: 20px;
   }
   .rowQuienes2 {
     align-items: flex-end;
   }
-  .row1,
-  .row2 {
-    align-items: center;
-  }
+
   .contentImg {
-    height: 363px;
     overflow: hidden;
     margin-bottom: 20px;
   }
