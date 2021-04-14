@@ -21,7 +21,6 @@
 
 .imgHistory {
   width: 250px;
-  padding-top: 59px;
   overflow: hidden;
 }
 
@@ -51,7 +50,6 @@
   }
   .imgHistory {
     width: 100%;
-    padding-top: 10px;
   }
   .img {
     width: 100%;
@@ -100,5 +98,10 @@
   .row1,
   .row2 {
     align-items: center;
+  }
+  .contentImg {
+    height: 363px;
+    overflow: hidden;
+    margin-bottom: 20px;
   }
 }
