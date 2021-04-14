@@ -6,7 +6,7 @@ const WhoAre = () => {
   return (
     <>
       <Hero />
-      <div class='container-fluid'>
+      <div className='container-fluid'>
         <Row className={style.row1}>
           <Col sm={6} className={style.imgHistory}>
             <div className={style.contentImg}>
