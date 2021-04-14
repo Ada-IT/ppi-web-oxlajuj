@@ -6,6 +6,7 @@ import Partners from "../components/Partners/Partners";
 import FormularioHome from "../components/formularioHome/FormularioHome";
 import ListCard from "../components/listCard/ListCard";
 import HomeProyectos from "../components/HomeProyectos/HomeProyectos";
+import Partners2 from "../components/Partners2/Partners2";
 
 export default function Home() {
   return (
@@ -36,6 +37,9 @@ export default function Home() {
       </div>
       <div>
         <Partners></Partners>
+      </div>
+      <div>
+        <Partners2></Partners2>
       </div>
     </>
   );
