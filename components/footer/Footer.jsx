@@ -34,13 +34,13 @@ const Footer = () => {
                         <h1 className={style.titleStyle}>Accesos rápidos </h1>
                     </Row>
                     <Row className="justify-content-md-center mt-3">
-                        <a href="https://www.google.com" className={style.access}>Google</a>
+                        <a href="https://www.paypal.com/paypalme/13noj" className={style.access}>Doná</a>
                     </Row>
                     <Row className="justify-content-md-center mt-3">
-                        <a href="https://www.google.com" className={style.access}>Google</a>
+                        <a href="./proyectos" className={style.access}>Proyectos</a>
                     </Row>
                     <Row className="justify-content-md-center mt-3">
-                        <a href="https://www.google.com" className={style.access}>Google</a>
+                        <a href="./cursos" className={style.access}>Cursos y webinar</a>
                     </Row>
                 </Col>
                 <Col xs="12" md="4" >
