@@ -1,3 +1,10 @@
 .jdbody{
     display: flex;
 }
+.jddesc{
+    margin: 15px;
+}
+.jdtitle{
+    color: var(--color-primary);
+    font-size: var(--font-size-large);
+}
