@@ -11,9 +11,9 @@ const Footer = () => {
                 <Col xs="12" md="4">
                     <Row className="justify-content-md-center mt-3">
                         <Col>
-                            <Row>
+                            {/* <Row>
                                 <img style={{ width: "200px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' />
-                            </Row>
+                            </Row> */}
                             <Row className="mt-3">
                                 <MapFill color='#FFFF' size={15} />
                                 <p className={style.textStyle}>Domicilio de la fundacion</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                             </Row>
                             <Row>
                                 <Whatsapp color='#FFFF' size={15} />
-                                <a href="https://wa.link/u7lbgt" className={style.textStyle}>502 41285119</a>                               
+                                <a href="https://wa.link/u7lbgt" className={style.textStyle}>502 41285119</a>
                             </Row>
                         </Col>
                     </Row>
@@ -36,10 +36,10 @@ const Footer = () => {
                     <Row className="justify-content-md-center mt-3">
                         <a href="https://www.google.com" className={style.access}>Google</a>
                     </Row>
-                    <Row  className="justify-content-md-center mt-3">
+                    <Row className="justify-content-md-center mt-3">
                         <a href="https://www.google.com" className={style.access}>Google</a>
                     </Row>
-                    <Row  className="justify-content-md-center mt-3">
+                    <Row className="justify-content-md-center mt-3">
                         <a href="https://www.google.com" className={style.access}>Google</a>
                     </Row>
                 </Col>
