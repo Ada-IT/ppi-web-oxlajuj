@@ -24,7 +24,6 @@
 }
 
 .cardBody {
-  /* background-color: var(--color-primary);      */
   color: var(--color-primary);
   text-align: center;
   height: 100px;  
@@ -41,6 +40,7 @@
   width: 135px;
   border-radius: 5px;
   border: none;
+  margin: 3px;
 }
 .formButton:hover {
   text-decoration: none;

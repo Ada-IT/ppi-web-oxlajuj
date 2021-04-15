@@ -6,13 +6,15 @@ const WhoAre = () => {
   return (
     <>
       <Hero />
-      <div class='container-fluid'>
+      <div className='container-fluid'>
         <Row className={style.row1}>
           <Col sm={6} className={style.imgHistory}>
-            <img
-              src='./images/quienesSomos/nuestraHistoria1.png'
-              className={style.img}
-            />
+            <div className={style.contentImgHistory}>
+              <img
+                src='./images/quienesSomos/nuestraHistoria2.png'
+                className={style.img}
+              />
+            </div>
           </Col>
           <Col sm={6}>
             <p className={style.title}>Nuestra Historia</p>
@@ -35,18 +37,22 @@ const WhoAre = () => {
             </p>
           </Col>
           <Col sm={6}>
-            <img
-              src='./images/quienesSomos/quienesSomos1.png'
-              className={style.img}
-            />
+            <div className={style.contentImg}>
+              <img
+                src='./images/quienesSomos/quienesSomos2.jpg'
+                className={style.img}
+              />
+            </div>
           </Col>
         </Row>
         <Row className={style.row1}>
           <Col sm={6} className={style.imgHistory}>
-            <img
-              src='./images/quienesSomos/vision1.png'
-              className={style.img}
-            />
+            <div className={style.contentImg}>
+              <img
+                src='./images/quienesSomos/vision2.jpg'
+                className={style.img}
+              />
+            </div>
           </Col>
           <Col sm={6}>
             <p className={style.title}>Visión</p>
@@ -70,15 +76,22 @@ const WhoAre = () => {
             </p>
           </Col>
           <Col sm={6}>
-            <img src='./images/quienesSomos/mision.png' className={style.img} />
+            <div className={style.contentImg}>
+              <img
+                src='./images/quienesSomos/mision2.jpg'
+                className={style.img}
+              />
+            </div>
           </Col>
         </Row>
         <Row className={style.row1}>
           <Col sm={6} className={style.imgHistory}>
-            <img
-              src='./images/quienesSomos/dondeTrabajamos1.png'
-              className={style.img}
-            />
+            <div className={style.contentImg}>
+              <img
+                src='./images/quienesSomos/dondeTrabajamos2.jpg'
+                className={style.img}
+              />
+            </div>
           </Col>
           <Col sm={6}>
             <p className={style.title}>¿Donde trabajamos?</p>
