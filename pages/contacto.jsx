@@ -1,6 +1,5 @@
 import Container from "react-bootstrap/Container";
-import MapaContacto from "../components/mapaContacto/MapaContacto";
-import InfoFundacion from "../components/infoFundacion/InfoFundacion";
+
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Hero from "../components/hero/Hero";
