@@ -13,8 +13,8 @@ const ListCard = () => {
             key={card.id}
             nombre={card.nombre}
             cargo={card.cargo}
-            btn2='Nuestro equipo'
-            btn1='Mas info...'
+            btn2='Equipo'
+            btn1='+ info'
           />
           </Col>
         );
