@@ -11,11 +11,11 @@ const Contacto = () => {
       <Container fluid>
         <Col className={style.formBk} fluid>
           <h3 className={style.formTitle}>
-            Dejanos tus datos y a la brevedad nos contactaremos con vos.
+            Dejanos tus datos y a la brevedad nos contactaremos contigo.
           </h3>
           <div className={style.more}>
             <a
-              href='https://forms.gle/ms5NtQkFJPhSnkrs9'
+              href='https://forms.gle/QsqRDuNcrqbmhvCd8'
               className={style.buttonMore}
               variant='primary'
               type='submit'

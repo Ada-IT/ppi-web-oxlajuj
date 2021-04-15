@@ -9,7 +9,7 @@ const FormularioHome = () => {
       </h1>
       <div className={style.buttonCont}>
         <a
-          href='https://forms.gle/HiayBQekhysoP7mL9'
+          href='https://forms.gle/HNe6ZpEPwSLLhhfWA'
           className={style.formButton}
           variant='primary'
           type='submit'
