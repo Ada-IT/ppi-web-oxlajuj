@@ -7,13 +7,14 @@ const ListCard = () => {
     <>
       {data.map((card) => {
         return (
-          <Col xs={12} sm={6} md={4} lg={3}>
+          <Col xs={12} sm={6} md={4} lg={4}>
           <CardComponent
             img={card.img}
             key={card.id}
             nombre={card.nombre}
             cargo={card.cargo}
-            btn='Nuestro equipo'
+            btn2='Nuestro equipo'
+            btn1='Mas info...'
           />
           </Col>
         );

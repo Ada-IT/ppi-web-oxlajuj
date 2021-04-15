@@ -11,13 +11,6 @@ const Footer = () => {
                 <Col xs="12" md="4">
                     <Row className="justify-content-md-center mt-3">
                         <Col>
-                            {/* <Row>
-                                <img style={{ width: "200px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' />
-                            </Row> */}
-                            <Row className="mt-3">
-                                <MapFill color='#FFFF' size={15} />
-                                <p className={style.textStyle}>Domicilio de la fundacion</p>
-                            </Row>
                             <Row>
                                 <EnvelopeFill color='#FFFF' size={15} />
                                 <p className={style.textStyle}>fundacionoxlajujnoj@FundacionOxlajujNoj.onmicrosoft.com</p>
@@ -34,13 +27,13 @@ const Footer = () => {
                         <h1 className={style.titleStyle}>Accesos rápidos </h1>
                     </Row>
                     <Row className="justify-content-md-center mt-3">
-                        <a href="https://www.google.com" className={style.access}>Google</a>
+                        <a href="https://www.paypal.com/paypalme/13noj" className={style.access}>Doná</a>
                     </Row>
                     <Row className="justify-content-md-center mt-3">
-                        <a href="https://www.google.com" className={style.access}>Google</a>
+                        <a href="./proyectos" className={style.access}>Proyectos</a>
                     </Row>
                     <Row className="justify-content-md-center mt-3">
-                        <a href="https://www.google.com" className={style.access}>Google</a>
+                        <a href="./cursos" className={style.access}>Cursos y webinar</a>
                     </Row>
                 </Col>
                 <Col xs="12" md="4" >
