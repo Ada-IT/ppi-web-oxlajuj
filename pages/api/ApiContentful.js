@@ -10,7 +10,7 @@ const client = createClient({
 const fetchBlogEntries = async () => {
   return await client
     .getEntries({
-      content_type: "blogPosts" // only fetch blog post entry
+      content_type: "pageBlogposts" // only fetch blog post entry
     })
     .then((posts) => {
       if (posts && posts.items && posts.items.length > 0) {
