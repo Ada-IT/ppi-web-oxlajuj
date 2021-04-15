@@ -1,0 +1,23 @@
+.jdbody{
+    display: flex;
+}
+.jddesc{
+    margin: 15px;
+}
+.jdtitle{
+    color: var(--color-primary);
+    font-size: var(--font-size-large);
+}
+@media (max-width:1000px){
+    .jdbody{
+        flex-direction: column;
+    }
+}
+.jdimgCont{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.jdimg{
+    width: 1500px;
+}

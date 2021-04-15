@@ -24,11 +24,7 @@
     text-decoration: none;
     color: var(--color-secundary);
 }
-@media(max-width:767px){
-    .textStyle{
-        font-size: 9px;
-    }
-}
+
 .infoFooterConten{
     margin: 0;
 }
@@ -63,4 +59,9 @@
 }
 .ContainerRedes:hover{
     color: var(--color-alternative);
+}
+@media(max-width:767px){
+    .textStyle{
+        font-size: 9px;
+    }
 }
