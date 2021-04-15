@@ -7,9 +7,9 @@ import Container from "react-bootstrap/Container";
 const Footer = () => {
     return (
         <Container className={style.backFooter} fluid>
-            <Row >
+            <Row className={style.accesos}>
                 <Col xs="12" md="4">
-                    <Row className="justify-content-md-center mt-3">
+                    <Row className="justify-content-md-center mt-3" >
                         <Col>
                             {/* <Row>
                                 <img style={{ width: "200px" }} src='.\images\LOGO_OXLAJU_BLANCO-1.png' />
