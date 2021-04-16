@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import topHeader from "./TopHeader.module.css";
 import ModalContent from "../ModalContent/ModalContent";
-import {Whatsapp, EnvelopeFill } from "react-bootstrap-icons";
+import { Whatsapp, EnvelopeFill } from "react-bootstrap-icons";
 import style from "./TopHeader.module.css";
 
 const TopHeader = () => {
@@ -19,8 +19,8 @@ const TopHeader = () => {
           <div className='col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0'>
             <div className={topHeader.headerBarEmail}>
               <EnvelopeFill color='#FFFF' size={17} />
-              <a href='#'className={style.iconHeader}>
-                <span 
+              <a href='#' className={style.iconHeader}>
+                <span
                   className='__cf_email__'
                   data-cfemail='a9cac6c7ddc8cadde9c6dcdbcac1c8dbc0ddd087cac6c4'
                 >
@@ -30,16 +30,17 @@ const TopHeader = () => {
             </div>
             <div className={topHeader.headerBarText}>
               <p>
-                <Whatsapp color='#FFFF' size={17}  />
-                <a href="https://wa.link/u7lbgt" className={style.iconHeader}>502 41285119</a>
-                {/* <span className={style.iconHeader}> 502 41285119</span> */}
+                <Whatsapp color='#FFFF' size={17} />
+                <a href='https://wa.link/u7lbgt' className={style.iconHeader}>
+                  502 41285119
+                </a>
               </p>
             </div>
           </div>
           <div className='col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center'>
             <div className={topHeader.donate}>
               <button onClick={handleShow} className={topHeader.carBtn}>
-                DONAR{" "}
+                DONAR
               </button>
             </div>
           </div>

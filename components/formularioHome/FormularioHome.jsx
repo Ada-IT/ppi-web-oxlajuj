@@ -5,7 +5,7 @@ const FormularioHome = () => {
   return (
     <Col className={style.formBk}>
       <h1 className={style.formTitle}>
-        Sumate a nuestro equipo de Voluntarios
+        Súmate a nuestro equipo de voluntarios
       </h1>
       <div className={style.buttonCont}>
         <a
@@ -14,7 +14,7 @@ const FormularioHome = () => {
           variant='primary'
           type='submit'
         >
-          Mas info...
+          Más info...
         </a>
       </div>
     </Col>

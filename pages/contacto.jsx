@@ -7,11 +7,10 @@ const Contacto = () => {
   return (
     <>
       <Hero />
-
       <Container fluid>
         <Col className={style.formBk} fluid>
           <h3 className={style.formTitle}>
-            Dejanos tus datos y a la brevedad nos contactaremos contigo.
+            Déjanos tus datos y a la brevedad nos contactaremos contigo.
           </h3>
           <div className={style.more}>
             <a
@@ -20,7 +19,7 @@ const Contacto = () => {
               variant='primary'
               type='submit'
             >
-              Mas info...
+              Más info...
             </a>
           </div>
         </Col>

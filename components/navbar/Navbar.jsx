@@ -13,7 +13,7 @@ const NavbarComponent = () => {
 
   return (
     <Navbar expand='lg'>
-      <div className="container-fluid">
+      <div className='container-fluid'>
         <Link href='/'>
           <a className='navbar-brand'>
             <img style={{ width: "250px" }} src='./images/logo.png' />
@@ -30,7 +30,7 @@ const NavbarComponent = () => {
             </Link>
             <Link href='/quienes-somos'>
               <a className={(isActive("/quienes-somos"), "nav-link")}>
-                Quienes Somos?
+                Quiénes Somos?
               </a>
             </Link>
             <Link href='/equipo'>
@@ -41,7 +41,7 @@ const NavbarComponent = () => {
             </Link>
             <Link href='/cursos'>
               <a className={(isActive("/cursos"), "nav-link")}>
-                Cursos y webinar
+                Cursos y webinars
               </a>
             </Link>
             <Link href='/blog'>
