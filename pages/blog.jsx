@@ -4,6 +4,7 @@ import { fetchBlogEntries } from "./api/ApiContentful";
 import { Col, Row, Container } from "react-bootstrap";
 import CardBlog from "../components/card-blog/CardBlog";
 import ModalBlog from "../components/modalBlog/ModalBlog";
+import { CardColumns } from "react-bootstrap";
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -30,21 +31,19 @@ const Blog = () => {
     <>
       <Hero />
       <Container fluid style={{ marginTop: "30px" }}>
-        <Row>
+        <CardColumns style={{ orphans: "inherit" }}>
           {posts.map((post) => {
             return (
-              <Col xs={12} sm={6} md={4} lg={4} key={post.id}>
-                <CardBlog
-                  title={post.title}
-                  text={post.description}
-                  img={post.image.imageUrl}
-                  date={post.publishedDate}
-                  button={handleShow(post)}
-                />
-              </Col>
+              <CardBlog
+                title={post.title}
+                text={post.description}
+                img={post.image.imageUrl}
+                date={post.publishedDate}
+                button={handleShow(post)}
+              />
             );
           })}
-        </Row>
+        </CardColumns>
       </Container>
       {show && (
         <ModalBlog show={show} handleClose={handleClose} post={postSelected} />
