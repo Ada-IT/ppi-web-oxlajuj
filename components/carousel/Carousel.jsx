@@ -5,7 +5,6 @@ import ModalContent from "../ModalContent/ModalContent";
 
 const CarouselComponent = () => {
   const [index, setIndex] = useState(0);
-  /*   const [showModal, setShowModal] = useState(false); */
 
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
@@ -24,10 +23,9 @@ const CarouselComponent = () => {
         />
 
         <Carousel.Caption className={style.carBtnCont}>
-          {/* <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
-          <button /* variant="primary" */ onClick={handleShow} className={style.carBtn}>
+          <button onClick={handleShow} className={style.carBtn}>
             DONAR
-      </button>
+          </button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,11 +36,13 @@ const CarouselComponent = () => {
         />
 
         <Carousel.Caption className={style.carBtnCont}>
-          {/*           <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a>
- */}
-          <button variant="primary" onClick={handleShow} className={style.carBtn}>
+          <button
+            variant='primary'
+            onClick={handleShow}
+            className={style.carBtn}
+          >
             DONAR
-      </button>
+          </button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -55,12 +55,12 @@ const CarouselComponent = () => {
         <Carousel.Caption className={style.carBtnCont}>
           {/*   <a className={style.carBtn} href="https://www.paypal.com/ar/webapps/mpp/home">DONAR</a> */}
           <button onClick={handleShow} className={style.carBtn}>
-            DONAR      </button>
+            DONAR
+          </button>
         </Carousel.Caption>
       </Carousel.Item>
       {show ? <ModalContent show={show} handleClose={handleClose} /> : null}
     </Carousel>
-
   );
 };
 

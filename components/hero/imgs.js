@@ -2,7 +2,7 @@ const imgs = [
   {
     type: "/quienes-somos",
     img: "./images/about-bg.jpg",
-    title: "Quienes somos"
+    title: "Quiénes somos"
   },
   {
     type: "/proyectos",
@@ -17,7 +17,7 @@ const imgs = [
   {
     type: "/cursos",
     img: "./images/about-bg.jpg",
-    title: "Cursos y webinar"
+    title: "Cursos y webinars"
   },
   {
     type: "/equipo",

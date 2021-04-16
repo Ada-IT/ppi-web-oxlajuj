@@ -7,15 +7,9 @@ const Partners = () => {
     <>
       <div className={style.contentPartners}>
         <div className={style.contentImage}>
-          <h1 className={style.textImage}>Estas son nuestras Alianzas</h1>
+          <h1 className={style.textImage}>Éstas son nuestras Alianzas</h1>
           {imgs.map((item) => {
-            return (
-              <Image
-                key={item.id}
-                src={item.img}
-                className={style.img}
-              />
-            );
+            return <Image key={item.id} src={item.img} className={style.img} />;
           })}
         </div>
       </div>
