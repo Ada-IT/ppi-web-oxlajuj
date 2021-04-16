@@ -14,7 +14,7 @@ const Contacto = () => {
           </h3>
           <div className={style.more}>
             <a
-              href='https://forms.gle/wxZracyjtPvZUKHU6'
+              href='https://forms.gle/i6TuuGKLsCTe8SVSA'
               className={style.buttonMore}
               variant='primary'
               type='submit'

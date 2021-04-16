@@ -93,7 +93,7 @@ const data = [
     id: "115",
     nombre: "Andrea Gonzalez",
     img: "./images/equipo/1AndreaGonzalez.png",
-    cargo: "Equipo de cominucacion"
+    cargo: "Equipo de cominucación"
   },
   {
     id: "116",

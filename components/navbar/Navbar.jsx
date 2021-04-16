@@ -30,7 +30,7 @@ const NavbarComponent = () => {
             </Link>
             <Link href='/quienes-somos'>
               <a className={(isActive("/quienes-somos"), "nav-link")}>
-                Quiénes Somos?
+                ¿Quiénes Somos?
               </a>
             </Link>
             <Link href='/equipo'>

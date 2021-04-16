@@ -25,7 +25,7 @@ const proyectos = [
   },
   {
     id: "203",
-    titulo: "Fortalecimiento democracias",
+    titulo: "Fortalecimiento de democracias",
     img: "./images/proyecto/1FortyDemo.png",
     texto:
       "Hemos creado espacios de participación cívica, festivales, foros de candidatos presidenciales y vicepresidenciales, así mismo hemos desarrollado escuelas formativas en democracias y participación.",
@@ -45,7 +45,7 @@ const proyectos = [
     titulo2: "Agenda 2030 y objetivos de desarrollo sostenible",
     img2: "./images/proyecto/1Agenda2030.png",
     texto2:
-      "En 2019 nos capacitamos como embajadadores ciudadanos por el programa de The Millenial Movement y CEPAL, hemos desarrollado Escuelas en ODS,  infografías y foros mensuales. Prinicpalemente priorizamos los siguientes ODS 3,4,5,13,16 y 17."
+    "En 2019 nos capacitamos como embajadadores ciudadanos por el programa de The Millenial Movement y CEPAL, desarrollamos escuelas en ODS, infografías y foros mensuales. Principalemente priorizamos los siguientes ODS: 3, 4, 5, 13, 16 y 17."      
   },
   {
     id: "205",

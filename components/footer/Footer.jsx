@@ -23,7 +23,7 @@ const Footer = () => {
               <Row>
                 <EnvelopeFill color='#FFFF' size={15} />
                 <p className={style.textStyle}>
-                  fundacionoxlajujnoj@FundacionOxlajujNoj.onmicrosoft.com
+                fundacionoxlajujnoj@fundacionoxlajujnoj.onmicrosoft.com
                 </p>
               </Row>
               <Row>
