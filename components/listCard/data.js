@@ -1,17 +1,17 @@
 const data = [
-  {  
+  {
     id: "1",
     nombre: "Andrea Lourdes Lopez",
     img: "./images/equipo/1ALourdesLopez.png",
-    cargo: "Junta directiva - Directora ejecutiva -Equipo de formación"
-  },  
+    cargo: "Junta directiva - Directora ejecutiva - Equipo de formación"
+  },
   {
     id: "3",
     nombre: "Luis López",
     img: "./images/equipo/1LuisLópez.png",
     cargo: "Junta directiva"
   },
-  
+
   {
     id: "5",
     nombre: "Marco Sagastume",
@@ -23,7 +23,7 @@ const data = [
     nombre: "Rodrigo Vargas",
     img: "./images/equipo/1RodriVargas.png",
     cargo: "Junta directiva"
-  }, 
+  },
   {
     id: "11",
     nombre: "Marlen Judith Garnica Vanegas",
@@ -35,18 +35,6 @@ const data = [
     nombre: "Patricia Véliz",
     img: "./images/equipo/1PatriciaVéliz.png",
     cargo: "Junta directiva"
-},
-// {
-//   id: "108",
-//   nombre: "Gabriela Gaytán",
-//   img: "./images/equipo/1GabyGay.png",
-//   cargo: "Dirección de comunicaión - Equipo de comunicación"
-// },
-// {
-//   id: "9",
-//   nombre: "Nahomy Hernandez",
-//   img: "./images/equipo/1NahomyHernandez.png",
-//   cargo: "Dirección de alianzas"
-// },
+  }
 ];
 export default data;
