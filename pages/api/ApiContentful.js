@@ -3,18 +3,19 @@ import days from "dayjs";
 import "dayjs/locale/es";
 
 const client = createClient({
-  space: "15y4brz43wkn", // ID of a Compose-compatible space to be used \
-  accessToken: "s4trNPPVCYDmlJK6xIwIyAhUE8x_YqEOh5z_ZXOObJM" // delivery API key for the space \
+  space: "ngkrw3zanxya", // ID of a Compose-compatible space to be used \
+  accessToken: "tK5Zad5j7ACMiGTP40RVilKENEMsWJHKP_eM1r2b4sA" // delivery API key for the space \
 });
 
 const fetchBlogEntries = async () => {
   return await client
     .getEntries({
-      content_type: "blogPosts" // only fetch blog post entry
+      content_type: "pageBlogposts" // only fetch blog post entry
     })
     .then((posts) => {
       if (posts && posts.items && posts.items.length > 0) {
         const blogPosts = posts.items.map((entry, i) => convertPost(entry));
+        console.log('ver que trae la api', blogPosts)
         return blogPosts;
       }
       return [];

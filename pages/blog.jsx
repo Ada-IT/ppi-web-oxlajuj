@@ -33,9 +33,8 @@ const Blog = () => {
         <Row>
           {posts.map((post) => {
             return (
-              <Col xs={12} sm={6} md={4} lg={4}>
+              <Col xs={12} sm={6} md={4} lg={4} key={post.id}>
                 <CardBlog
-                  key={post.id}
                   title={post.title}
                   text={post.description}
                   img={post.image.imageUrl}
