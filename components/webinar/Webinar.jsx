@@ -15,7 +15,7 @@ const Webinar = () => {
       </div>
       <div className={style.donate}>
         <a href='https://www.facebook.com/FundacionOxlajujnoj'>
-          <button className={style.carBtn}>PARTICIPAR DEL WEBINAR</button>{" "}
+          <button className={style.carBtn }>PARTICIPAR DEL WEBINAR</button>{" "}
         </a>
       </div>
     </div>
