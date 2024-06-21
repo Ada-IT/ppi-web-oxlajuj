@@ -17,12 +17,12 @@ const CardComponent = ({ nombre, cargo, btn1, btn2, img }) => {
         </div>
       </div>
       <Row className={style.formButtonCont}>
-            <Link href='/junta-directiva'>
+            <Link href='/junta-directiva' legacyBehavior>
               <a className={style.formButton} variant='primary'>
                 {btn1}
               </a>
             </Link>
-            <Link href='/equipo'>
+            <Link href='/equipo' legacyBehavior>
               <a className={style.formButton} variant='primary'>
                 {btn2}
               </a>

@@ -14,7 +14,7 @@ const NavbarComponent = () => {
   return (
     <Navbar expand='lg'>
       <div className='container-fluid'>
-        <Link href='/'>
+        <Link href='/' legacyBehavior>
           <a className='navbar-brand'>
             <img style={{ width: "250px" }} src='./images/logo.png' />
           </a>
@@ -23,31 +23,31 @@ const NavbarComponent = () => {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'></Nav>
           <Nav>
-            <Link href='/'>
+            <Link href='/' legacyBehavior>
               <a className={(isActive("/"), "nav-link")} aria-current='page'>
                 Home
               </a>
             </Link>
-            <Link href='/quienes-somos'>
+            <Link href='/quienes-somos' legacyBehavior>
               <a className={(isActive("/quienes-somos"), "nav-link")}>
                 ¿Quiénes Somos?
               </a>
             </Link>
-            <Link href='/equipo'>
+            <Link href='/equipo' legacyBehavior>
               <a className={(isActive("/equipo"), "nav-link")}>Equipo</a>
             </Link>
-            <Link href='/proyectos'>
+            <Link href='/proyectos' legacyBehavior>
               <a className={(isActive("/proyectos"), "nav-link")}>Proyectos</a>
             </Link>
-            <Link href='/cursos'>
+            <Link href='/cursos' legacyBehavior>
               <a className={(isActive("/cursos"), "nav-link")}>
                 Cursos y webinars
               </a>
             </Link>
-            <Link href='/blog'>
+            <Link href='/blog' legacyBehavior>
               <a className={(isActive("/blog"), "nav-link")}>Blog</a>
             </Link>
-            <Link href='/contacto'>
+            <Link href='/contacto' legacyBehavior>
               <a className={(isActive("/contacto"), "nav-link")}>Contacto</a>
             </Link>
           </Nav>

@@ -19,7 +19,7 @@ const HomeProyectos = () => {
           <div className={style.cardBody}>
             <div className='card-body' className={style.infoCard}>
               <p>ENFOQUE DE GÉNERO</p>
-              <Link href='/proyectos'>
+              <Link href='/proyectos' legacyBehavior>
                 <a className={style.formButton} variant='primary'>
                   VER MÁS
                 </a>
@@ -41,7 +41,7 @@ const HomeProyectos = () => {
           <div className={style.cardBody}>
             <div className='card-body' className={style.infoCard}>
               <p>EMPODERAMIENTO JUVENTUDES Y MUJERES</p>
-              <Link href='/proyectos'>
+              <Link href='/proyectos' legacyBehavior>
                 <a className={style.formButton} variant='primary'>
                   VER MÁS
                 </a>
@@ -63,7 +63,7 @@ const HomeProyectos = () => {
           <div className={style.cardBody}>
             <div className='card-body' className={style.infoCard}>
               <p>DEMOCRACIA Y CULTURA CÍVICA</p>
-              <Link href='/proyectos'>
+              <Link href='/proyectos' legacyBehavior>
                 <a className={style.formButton} variant='primary'>
                   VER MÁS
                 </a>
@@ -85,7 +85,7 @@ const HomeProyectos = () => {
           <div className={style.cardBody}>
             <div className='card-body' className={style.infoCard}>
               <p>PREVENCIÓN DE VIOLENCIA DE GÉNERO</p>
-              <Link href='/proyectos'>
+              <Link href='/proyectos' legacyBehavior>
                 <a className={style.formButton} variant='primary'>
                   VER MÁS
                 </a>

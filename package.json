@@ -1,6 +1,6 @@
 {
-  "name": "proyecto-prueba",
-  "version": "0.1.0",
+  "name": "oxlajuj-webpage",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,13 +9,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "contentful": "^8.2.1",
+    "contentful": "^10.12.2",
     "dayjs": "^1.10.4",
-    "next": "10.0.8",
-    "react": "17.0.1",
+    "next": "^14.2.4",
+    "postcss": "^8.4.38",
+    "react": "^18",
     "react-bootstrap": "^1.5.2",
     "react-bootstrap-icons": "^1.4.0",
-    "react-contentful": "^2.0.31",
-    "react-dom": "17.0.1"
+    "react-contentful": "^1.0.3",
+    "react-dom": "^18"
   }
 }

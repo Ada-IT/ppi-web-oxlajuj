@@ -10,7 +10,7 @@ const Webinar = () => {
         DE NUESTROS WEBINARS POR FACEBOOK LIVE
         <br />
         <span className={style.bannerTextStrong}>
-          HORARIO: MIERCOLES 18 HS - Guatemala
+          HORARIO: JUEVES 18 HS - Guatemala
         </span>
       </div>
       <div className={style.donate}>
